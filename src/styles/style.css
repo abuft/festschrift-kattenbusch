@@ -1,0 +1,303 @@
+/*START:type_style */
+
+body {
+    width: 1050px;
+    margin: 15px auto;
+    background-color: #fefefe;
+    color: #1f1f1f;
+    text-align: left;
+}
+
+
+/* headings */
+h1,
+h2,
+h3 {
+    /* margin: top right bottom left */
+    margin: 40px 0px 5px 0px;
+    font-family: "MS Trebuchet", "Trebuchet MS", Arial, sans-serif;
+    color: #008000;
+}
+
+h1 {
+    font-size: 16pt;
+}
+
+h2 {
+    font-size: 15pt;
+}
+
+h3 {
+    font-size: 14pt;
+}
+
+h1#main_title {
+    font-size: 20pt;
+    margin: 40px 20% 100px 20%;
+    text-align: center;
+}
+
+h1.header {
+    margin: 10px 0 10px 10px;
+}
+
+h2.header {
+    font-size: 15pt;
+    margin: 10px 0 10px 20px;
+}
+
+hr {
+    width: 75%;
+    margin: 50px 0 50px 50px;
+    color: #1f1f1f;
+}
+
+/* START: paragraph */
+p#abstract {
+    /* margin: top right bottom left */
+    margin: 20px 40px 20px 40px;
+    font-size: 12pt;
+    font-style: italic;
+}
+
+p.question {
+    font-style: italic;
+}
+
+p.longcitation,
+p.longcitation-italic {
+    margin: 20px 100px 20px 100px;
+    font-size: 12pt;
+    line-height: 18px;
+}
+
+p.longcitation-italic {
+    font-style: italic;
+}
+
+p.quote {
+    font-style: italic;
+    margin: 20px 100px 20px 100px;
+}
+
+p,
+li {
+    line-height: 26px;
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: 14pt;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+p#author {
+    margin-bottom: 50px;
+    font-style: italic;
+}
+
+/*END:paragraph */
+
+
+
+/* START: link color, style ... */
+a:link,
+a:active,
+a:visited,
+a:hover,
+a:focus {
+    color: #BB0000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* END: link color, style ... */
+
+
+/* START: lists, bibliography, rubrik, ... */
+ul#rubrik,
+ul#bibl {
+    display: none;
+    list-style-type: none;
+}
+
+ul#rubrik li {
+    display: inline;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    font-size: 12pt;
+}
+
+ul li {
+    display: list-item;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    font-size: 12pt;
+}
+
+p.bibl {
+    text-indent: -30px;
+    margin-left: 30px;
+    text-align: left;
+}
+
+p.annotation {
+    text-align: left;
+}
+
+
+
+/*START:header_style */
+header#page_header {
+    width: 100%;
+}
+
+/*END:header_style */
+
+/*START:nav_style */
+header#page_header nav ul,
+#page_footer nav ul {
+    list-style: none;
+    /* margin: top right bottom left */
+    margin: 0 0 0 0;
+    padding: 0;
+}
+
+#page_header nav ul li,
+footer#page_footer nav ul li {
+    padding: 0;
+    margin: 0 20px 0 0;
+    display: inline;
+}
+
+/*END:nav_style */
+
+
+/*START:posts_style */
+section#posts {
+    float: left;
+    width: 74%;
+}
+
+/*END:posts_style */
+
+
+/*START:footer_style */
+footer#page_footer {
+    clear: both;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+/*END:footer_style */
+
+
+/* Images */
+.imageright {
+    float: right;
+    /* border: thin silver solid; */
+    margin: 1.5em;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.imageleft {
+    float: left;
+    /* border: thin silver solid; */
+    margin: 1.5em;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.imagecenter {
+    float: center;
+    border: thin silver solid;
+    margin: 1.5em;
+    padding: 0.5em;
+    text-align: center;
+}
+
+figure p {
+    text-align: left;
+    font-size: 12pt;
+    font-style: italic;
+    line-height: 20px;
+}
+
+img {
+    border-style: none;
+}
+
+/*
+ About the author Portlet
+ */
+.abouttheauthor {
+    margin-left: 50px;
+}
+
+
+div.abouttheauthor img {
+    float: left;
+    /* padding: top right bottom left */
+    padding: 40px 10px 0 0;
+}
+
+div.abouttheauthorfont {
+    font-style: italic;
+    font-size: 12pt;
+    text-align: left;
+}
+
+.clearfloat {
+    clear: both;
+    height: 0px;
+}
+
+
+/* Table */
+table {
+    border: 0px;
+    width: 90%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Georgia", "Times New Roman", serif;
+}
+
+th,
+td {
+    border: none;
+    padding: 10px 10px 10px 10px;
+}
+
+tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #ddd;
+}
+
+th {
+    background-color: #008000;
+    color: #fff;
+}
+
+table caption {
+    font-size: 10pt;
+    margin: 20px 0 20px 20px;
+}
+
+
+/* IPA */
+.ipa {
+    font-size: 12pt;
+    font-family: "Arial Unicode MS"
+}
+
+li.ipa {
+    list-style: none;
+}

@@ -1,0 +1,59 @@
+body{
+    font:11pt/120% Georgia, serif;
+    background-color: white !important;
+    background-image: none !important;
+    color:black;
+    text-align: justify;
+}
+h1,h2,h3,h4 {
+    font-family: "MS Trebuchet", "Trebuchet MS", Arial, sans-serif; 
+    line-height:110%;
+    margin: 40px 0 5px 0;
+    padding:0;
+    color: #008000;}
+h1 { font-size: 16pt; }
+h2 { font-size: 14pt; }
+h3 { font-size: 13pt; }
+h4 { font-size: 12pt; }
+img,
+img a:link,
+img a:visited{border-bottom:1px solid #C30099;margin-right:12px;}
+blockquote {margin-right:12px;width:80%;font-size:10pt;font-weight:bold;}
+
+/* START: link color, style ... */
+a:link, a:active, a:visited, a:hover, a:focus, a.hover {
+    color: #BB0000;
+    text-decoration: none;
+    background: white;;
+}
+/* END: link color, style ... */
+
+
+ul, ol, dl, dt, dd {float:none !important;border:none;}
+
+/* Table */
+table {
+    float: none;
+    width: 600px;
+    border: 1px;
+    border-style: solid;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px 10px 10px 10px;
+    border: 1px;
+    border-style: solid;
+    border-collapse: collapse;
+}
+
+
+/* IPA */
+.ipa {
+    font-family: "Arial Unicode MS"
+}
+
+li.ipa {
+    list-style: none;
+}
