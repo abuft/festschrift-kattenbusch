@@ -53,7 +53,7 @@ function Autoren() {
 
                     <h2><a href="#k4" name="kat4">E</a></h2>
 
-                    <p className="bibl">Ernst, Gerhard: <a href="ernst-cartolina.html">Una cartolina dalla Val Maira</a></p>
+                    <p className="bibl">Ernst, Gerhard: <a href="/ernst">Una cartolina dalla Val Maira</a></p>
 
 
                     <h2><a href="#k5" name="kat5">F</a></h2>

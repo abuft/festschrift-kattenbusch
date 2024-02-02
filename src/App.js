@@ -11,6 +11,7 @@ import Inhalt from './compoments/Inhalt';
 import Autoren from './compoments/Autoren';
 import Urbano from './compoments/articles/Urbano';
 import AngelisVoelker from './compoments/articles/AngelisVoelker';
+import Ernst from './compoments/articles/Ernst';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/autoren" element={<Autoren />} />
           <Route path="urbano" element={<Urbano />} />
           <Route path="/angelisVoelker" element={<AngelisVoelker />} />
+          <Route path="/ernst" element={<Ernst />} />
         </Routes>
       </BrowserRouter>
     </div>
