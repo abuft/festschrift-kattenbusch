@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import titlePic from "../images/titel/titelbild.jpg";
 import titleAudio from "../videos/titel/titelfilm_silent.mp4"
+import Footer from "./Footer";
 
 function Start() {
 
@@ -23,7 +24,6 @@ function Start() {
                 </div>
 
                 <div id="Header">
-
                     <div className="grid_5">
                         <br /> <br /> <br />
                         <nav>
@@ -53,7 +53,7 @@ function Start() {
                         </nav>
                     </div>
                 </div>
-
+                <Footer />
             </div>
         </div>
     );

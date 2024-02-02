@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./Footer";
 
 function Inhalt() {
     return (
@@ -112,10 +113,8 @@ function Inhalt() {
                         comparatives à propos de la codification du ladin des Dolomites et du
                         créole mauricien“ – und was sich in 20 Jahren geändert hat</a></p>
                     <p className="bibl">Fabio Tosques: <a href="tosques-wikipedia.html">Die frankoprovenzalischen Sprachinseln Faeto und Celle di San Vito in der deutschen Wikipedia – eine Bestandsaufnahme</a></p>
-
-
-
                 </div>
+                <Footer />
             </div>
         </div>
     );

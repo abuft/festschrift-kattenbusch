@@ -1,11 +1,7 @@
-import React, {useState} from "react";
+import Footer from "./Footer";
+import Rubrik from "./Rubrik";
 
 function Geleitwort() {
-    const [showContent, setShowContent] = useState(false);
-
-    function toggleContentHandler() {
-        setShowContent((isShowing) => !isShowing);
-    }
     return (
         <div>
             <header id="page_header">
@@ -19,30 +15,7 @@ function Geleitwort() {
                     <div className="grid_9">
                         <h1 id="main_title">Zum Geleit</h1>
                     </div>
-
-                    <div className="grid_5">
-                        <nav>
-                            <h2 className="header"><a href="/">Startseite</a></h2>
-                            <h2 className="header"><a href="/inhalt">Inhalt</a></h2>
-                            <h2 className="header"><a href="autorenverzeichnis.html">Autorinnen/Autoren</a></h2>
-                            <h2 className="header">Rubriken<button onClick={toggleContentHandler}>...</button></h2>
-                            {showContent && (
-                                <ul>
-                                    <li><a href="/inhalt#kat1">Dialekte/Varietäten</a></li>
-                                    <li><a href="/inhalt#kat2">Kulturgeschichte</a></li>
-                                    <li><a href="/inhalt#kat3">Ladinisch/Rätoromanisch</a></li>
-                                    <li><a href="/inhalt#kat4">Literaturwissenschaft</a></li>
-                                    <li><a href="/inhalt#kat5">Mehrsprachigkeit</a></li>
-                                    <li><a href="/inhalt#kat6">Reisen</a></li>
-                                    <li><a href="/inhalt#kat7">Rumänisch</a></li>
-                                    <li><a href="/inhalt#kat8">Sport</a></li>
-                                    <li><a href="/inhalt#kat9">VIVALDI</a></li>
-                                    <li><a href="/inhalt#kat10">Varia</a></li>
-                                </ul>
-                            )}
-                            <h2 className="header"><a href="/impressum">Impressum</a></h2>
-                        </nav>
-                    </div>
+                    <Rubrik />
                 </div>
                 <div id="Teasers" className="clearfix">
                     <div className="grid_9">
@@ -140,13 +113,7 @@ function Geleitwort() {
                         </section>
                     </div>
                 </div>
-
-                <div className="grid_2 prefix_6">
-                    <footer id="page_footer">
-                        {/* <!-- Copyright information --> */}
-                        <p>&copy; 2012 Institut f&uuml;r Romanistik, HU</p>
-                    </footer>
-                </div>
+                <Footer />
             </div>
         </div>
     );

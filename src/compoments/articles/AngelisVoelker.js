@@ -8,6 +8,7 @@ import parabolaImage from '../../images/angelisvoelker/parabola-avezzanese.jpg';
 import angelisVoelkerMp4 from '../../videos/hvoelker/parabola_avezzano.mp4';
 import angelisVoelkerWebm from '../../videos/hvoelker/parabola_avezzano.webm';
 import angelisVoelkerOgv from '../../videos/hvoelker/parabola_avezzano.ogv';
+import Footer from '../Footer';
 
 function AngelisVoelker() {
 
@@ -259,16 +260,7 @@ function AngelisVoelker() {
                 <div align="right">
                     <a href="#index"><img src={upArrow} alt="Up Arrow" /></a>
                 </div>
-
-                <div className="grid_5 prefix_5">
-                    <footer id="page_footer">
-                        <p>&copy; 2012 Institut f&uuml;r Romanistik, HU</p>
-                        <p>
-                            <script type="text/javascript" src="js/statistics.js">
-                            </script>
-                        </p>
-                    </footer>
-                </div>
+                <Footer />
             </div>
         </div>
     );
