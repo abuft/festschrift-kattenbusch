@@ -26,6 +26,10 @@ beschlossen, die Beiträge nicht in der herkömmlichen Form
 eines Buches, sondern auf einer CD-ROM zu bündeln, was die
 formalen Möglichkeiten beträchtlich erweiterte.
 
+URL: [https://festschrift-kattenbusch.de][ref1]
+
+[ref1]: https://festschrift-kattenbusch.de
+
 ## Rechte
 
 Die Rechte der Beiträge verbleiben bei den Autorinnen und Autoren. Die
@@ -34,10 +38,14 @@ gekennzeichnet, bei den Autorinnen und Autoren.
 Bibliographische Information der Deutschen Nationalbibliothek Die
 Deutsche Nationalbibliothek verzeichnet diese Publikation in der
 Deutschen Nationalbibliographie; detaillierte bibliographische Angaben
-sind im Internet unter [https://dnb.d-nb.de](https://dnb.d-nb.de)
-abrufbar.
+sind im Internet abrufbar unter:
+
+[https://dnb.d-nb.de][ref2] 
+
+[ref2]: https://dnb.d-nb.de
+
 
 ## Über React
-[Getting started with React][def]
+[Getting started with React][ref3]
 
-[def]: https://create-react-app.dev/docs/getting-started/
+[ref3]: https://create-react-app.dev/docs/getting-started/
