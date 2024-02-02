@@ -1,5 +1,3 @@
-import { useState } from 'react';
-
 import upArrow from '../../images/layout/up-arrow.png';
 import urbanoPortrait from '../../images/aurbano/aurbano-portrait.jpg';
 import plurilinguistici from '../../images/aurbano/auguri-plurilinguistici.jpg';
@@ -7,14 +5,9 @@ import plurilinguistici from '../../images/aurbano/auguri-plurilinguistici.jpg';
 import urbanoWebm from '../../videos/aurbano/urbano-beitrag-video.webm';
 import urbanoOgv from '../../videos/aurbano/urbano-beitrag-video.ogv';
 import urbanoMp4 from '../../videos/aurbano/urbano-beitrag-video.mp4';
+import Rubrik from '../Rubrik';
 
 function Urbano() {
-
-  const [showContent, setShowContent] = useState(false);
-
-  function toggleContentHandler() {
-    setShowContent((isShowing) => !isShowing);
-  }
 
   return (
     <div>
@@ -31,30 +24,7 @@ function Urbano() {
             <h1 id="main_title"><i>Lu Destine</i> di Modesto Della Porta</h1>
             <p id="author">Amalia Urbano, Berlin</p>
           </div>
-
-          <div className="grid_5">
-            <nav>
-              <h2 className="header"><a href="/" name="index">Startseite</a></h2>
-              <h2 className="header"><a href="/inhalt">Inhalt</a></h2>
-              <h2 className="header"><a href="/autoren">Autorinnen/Autoren</a></h2>
-              <h2 className="header">Rubriken<button onClick={toggleContentHandler}>...</button></h2>
-              {showContent && (
-                <ul>
-                  <li><a href="/inhalt#kat1">Dialekte/Varietäten</a></li>
-                  <li><a href="/inhalt#kat2">Kulturgeschichte</a></li>
-                  <li><a href="/inhalt#kat3">Ladinisch/Rätoromanisch</a></li>
-                  <li><a href="/inhalt#kat4">Literaturwissenschaft</a></li>
-                  <li><a href="/inhalt#kat5">Mehrsprachigkeit</a></li>
-                  <li><a href="/inhalt#kat6">Reisen</a></li>
-                  <li><a href="/inhalt#kat7">Rumänisch</a></li>
-                  <li><a href="/inhalt#kat8">Sport</a></li>
-                  <li><a href="/inhalt#kat9">VIVALDI</a></li>
-                  <li><a href="/inhalt#kat10">Varia</a></li>
-                </ul>
-              )}
-              <h2 className="header"><a href="/impressum">Impressum</a></h2>
-            </nav>
-          </div>
+          <Rubrik />
         </div>
 
         <div id="Teasers" className="clearfix">

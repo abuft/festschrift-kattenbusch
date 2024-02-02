@@ -17,7 +17,7 @@ function Ernst() {
     return (
         <div>
             <header id="page_header">
-                <h1 id="header"><a href="inhaltsverzeichnis.html">(Das) diskrete Tatenbuch</a> {">"} Mehrsprachigkeit
+                <h1 id="header"><a href="/">(Das) diskrete Tatenbuch</a> {">"} Mehrsprachigkeit
                     {">"} Gerhard Ernst </h1>
                 <hr />
             </header>

@@ -11,7 +11,7 @@ function Rubrik() {
     return (
         <div className="grid_5">
             <nav>
-                <h2 className="header"><a href="/">Startseite</a></h2>
+                <h2 className="header"><a href="/" name="index">Startseite</a></h2>
                 <h2 className="header"><a href="/inhalt">Inhalt</a></h2>
                 <h2 className="header"><a href="/autoren">Autorinnen/Autoren</a></h2>
                 <h2 className="header">Rubriken<button onClick={toggleContentHandler}>...</button></h2>

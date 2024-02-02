@@ -1,5 +1,3 @@
-import { useState } from 'react';
-
 import upArrow from '../../images/layout/up-arrow.png';
 import angelisPortrait from '../../images/angelisvoelker/de-angelis-portrait.jpg';
 import voelkerPortrait from '../../images/angelisvoelker/voelker-portrait.jpg';
@@ -9,14 +7,10 @@ import angelisVoelkerMp4 from '../../videos/hvoelker/parabola_avezzano.mp4';
 import angelisVoelkerWebm from '../../videos/hvoelker/parabola_avezzano.webm';
 import angelisVoelkerOgv from '../../videos/hvoelker/parabola_avezzano.ogv';
 import Footer from '../Footer';
+import Rubrik from '../Rubrik';
 
 function AngelisVoelker() {
 
-    const [showContent, setShowContent] = useState(false);
-
-    function toggleContentHandler() {
-        setShowContent((isShowing) => !isShowing);
-    }
     return (
         <div>
             <header id="page_header">
@@ -32,30 +26,7 @@ function AngelisVoelker() {
                         <h1 id="main_title">VIVALDI zu Besuch in der Familie</h1>
                         <p id="author">Barbara De Angelis und Harald Völker, Zürich</p>
                     </div>
-
-                    <div className="grid_5">
-                        <nav>
-                            <h2 className="header"><a href="/" name="index">Startseite</a></h2>
-                            <h2 className="header"><a href="/inhalt">Inhalt</a></h2>
-                            <h2 className="header"><a href="/autoren">Autorinnen/Autoren</a></h2>
-                            <h2 className="header">Rubriken<button onClick={toggleContentHandler}>...</button></h2>
-                            {showContent && (
-                                <ul>
-                                    <li><a href="/inhalt#kat1">Dialekte/Varietäten</a></li>
-                                    <li><a href="/inhalt#kat2">Kulturgeschichte</a></li>
-                                    <li><a href="/inhalt#kat3">Ladinisch/Rätoromanisch</a></li>
-                                    <li><a href="/inhalt#kat4">Literaturwissenschaft</a></li>
-                                    <li><a href="/inhalt#kat5">Mehrsprachigkeit</a></li>
-                                    <li><a href="/inhalt#kat6">Reisen</a></li>
-                                    <li><a href="/inhalt#kat7">Rumänisch</a></li>
-                                    <li><a href="/inhalt#kat8">Sport</a></li>
-                                    <li><a href="/inhalt#kat9">VIVALDI</a></li>
-                                    <li><a href="/inhalt#kat10">Varia</a></li>
-                                </ul>
-                            )}
-                            <h2 className="header"><a href="/impressum">Impressum</a></h2>
-                        </nav>
-                    </div>
+                    <Rubrik />
                 </div>
 
                 <div id="Teasers" className="clearfix">
