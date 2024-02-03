@@ -12,19 +12,14 @@ import Garzino from '../../images/gernst/garzino.jpg';
 import Garzino_small from '../../images/gernst/garzino_small.jpg';
 import Soleglio from '../../images/gernst/soleglio.jpg';
 import Soleglio_small from '../../images/gernst/soleglio_small.jpg';
+import Header from "../Header";
 
-function Ernst() {
+function Ernst(props) {
     return (
         <div>
-            <header id="page_header">
-                <h1 id="header"><a href="/">(Das) diskrete Tatenbuch</a> {">"} Mehrsprachigkeit
-                    {">"} Gerhard Ernst </h1>
-                <hr />
-            </header>
             <div id="Wrapper" className="container_14">
-
                 <div id="Header">
-
+                    <Header id={props.author} />
                     <div className="grid_9">
                         <h1 id="main_title">Una cartolina dalla Val Maira</h1>
                         <p id="author">Gerhard Ernst, Neutraubing/Regensburg</p>

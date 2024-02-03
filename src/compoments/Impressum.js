@@ -1,19 +1,16 @@
 import Footer from "./Footer";
+import Header from "./Header";
 import Rubrik from "./Rubrik";
 
-export default function Impressum() {
+export default function Impressum(props) {
 
     return (
         <div>
             <div id="Wrapper" className="container_14">
-                <header id="page_header">
-                    <h1 id="header"><a href="/">(Das) diskrete Tatenbuch</a> {">"} Impressum</h1>
-                    <hr />
-                </header>
                 <div id="Header">
-
+                    <Header id={props.id} />
                     <div className="grid_9">
-                        <h1 id="main_title">Impressum</h1>
+                        <h1 id="main_title">{props.id}</h1>
                     </div>
 
                     <Rubrik />

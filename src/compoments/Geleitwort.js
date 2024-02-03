@@ -1,17 +1,13 @@
 import Footer from "./Footer";
 import Rubrik from "./Rubrik";
+import Header from "./Header";
 
-function Geleitwort() {
+function Geleitwort(props) {
     return (
         <div>
-            <header id="page_header">
-                <h1 id="header"><a href="/">(Das) diskrete Tatenbuch</a> {">"} Geleitwort</h1>
-                <hr />
-            </header>
             <div id="Wrapper" className="container_14">
-
                 <div id="Header">
-
+                    <Header id={props.id} />
                     <div className="grid_9">
                         <h1 id="main_title">Zum Geleit</h1>
                     </div>

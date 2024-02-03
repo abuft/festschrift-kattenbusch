@@ -132,8 +132,10 @@ ul#rubrik li {
 
 ul li {
     display: list-item;
+    list-style: none;
     font-family: "Trebuchet MS", Arial, sans-serif;
     font-size: 12pt;
+    line-height: 1rem;
 }
 
 p.bibl {

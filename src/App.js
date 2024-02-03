@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './styles/style.css';
 import './styles/grid.css';
-import './styles/grid-and-style.css';
 import './styles/lightbox.css';
 import Impressum from './compoments/Impressum';
 import Geleitwort from './compoments/Geleitwort';
@@ -19,13 +18,13 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Start />} />
-          <Route path="/impressum" element={<Impressum />} />
-          <Route path="/geleitwort" element={<Geleitwort />} />
-          <Route path="/inhalt" element={<Inhalt />} />
-          <Route path="/autoren" element={<Autoren />} />
-          <Route path="urbano" element={<Urbano />} />
-          <Route path="/angelisVoelker" element={<AngelisVoelker />} />
-          <Route path="/ernst" element={<Ernst />} />
+          <Route path="/impressum" element={<Impressum id="Impressum" />} />
+          <Route path="/geleitwort" element={<Geleitwort id="Geleitwort" />} />
+          <Route path="/inhalt" element={<Inhalt id="Inhaltsverzeichnis" />} />
+          <Route path="/autoren" element={<Autoren id="Autorinnen/Autoren" />} />
+          <Route path="urbano" element={<Urbano id="urbano" author="Amalia Urbano" />} />
+          <Route path="/angelisVoelker" element={<AngelisVoelker id="angelis_voelker" author="Barbara De Angelis und Harald Völker" />} />
+          <Route path="/ernst" element={<Ernst id="Ernst" author="Gerhard Ernst" />} />
         </Routes>
       </BrowserRouter>
     </div>

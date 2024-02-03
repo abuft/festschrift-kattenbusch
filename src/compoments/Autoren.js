@@ -1,15 +1,12 @@
 import React from "react";
+import Header from "./Header";
 
-function Autoren() {
+function Autoren(props) {
     return (
         <div className="grid_10">
-            <header id="page_header">
-                <h1 id="header"><a href="/">(Das) diskrete Tatenbuch</a> {">"} Autorinnen/Autoren</h1>
-                <hr />
-            </header>
             <div id="Wrapper" className="container_10">
                 <div id="Header">
-
+                    <Header id={props.id} />
                     <div align="center">
                         <h1 id="main_title">Autorinnen/Autoren</h1>
                     </div>

@@ -1,16 +1,13 @@
 import React from "react";
 import Footer from "./Footer";
+import Header from "./Header";
 
-function Inhalt() {
+function Inhalt(props) {
     return (
         <div className="grid_10">
-            <header id="page_header">
-                <h1 id="header"><a href="/">(Das) diskrete Tatenbuch</a> {">"} Inhaltsverzeichnis</h1>
-                <hr />
-            </header>
             <div id="Wrapper" className="container_10">
                 <div id="Header">
-
+                    <Header id={props.id} />
                     <div align="center">
                         <h1 id="main_title">Inhaltsverzeichnis</h1>
                     </div>

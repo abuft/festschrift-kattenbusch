@@ -8,20 +8,15 @@ import angelisVoelkerWebm from '../../videos/hvoelker/parabola_avezzano.webm';
 import angelisVoelkerOgv from '../../videos/hvoelker/parabola_avezzano.ogv';
 import Footer from '../Footer';
 import Rubrik from '../Rubrik';
+import Header from '../Header';
 
-function AngelisVoelker() {
+function AngelisVoelker(props) {
 
     return (
         <div>
-            <header id="page_header">
-                <h1 id="header"><a href="/">(Das) diskrete Tatenbuch</a> {">"} VIVALDI {">"} Barbara De
-                    Angelis und Harald Völker</h1>
-                <hr />
-            </header>
             <div id="Wrapper" className="container_14">
-
                 <div id="Header">
-
+                    <Header id={props.author} />
                     <div className="grid_9">
                         <h1 id="main_title">VIVALDI zu Besuch in der Familie</h1>
                         <p id="author">Barbara De Angelis und Harald Völker, Zürich</p>

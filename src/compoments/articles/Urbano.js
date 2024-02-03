@@ -6,20 +6,15 @@ import urbanoWebm from '../../videos/aurbano/urbano-beitrag-video.webm';
 import urbanoOgv from '../../videos/aurbano/urbano-beitrag-video.ogv';
 import urbanoMp4 from '../../videos/aurbano/urbano-beitrag-video.mp4';
 import Rubrik from '../Rubrik';
+import Header from '../Header';
 
-function Urbano() {
+function Urbano(props) {
 
   return (
     <div>
-      <header id="page_header">
-        <h1 id="header"><a href="/inhalt">(Das) diskrete Tatenbuch</a> {">"} Dialekte/Varietäten {">"}
-          Amalia Urbano</h1>
-        <hr />
-      </header>
       <div id="Wrapper" className="container_14">
-
         <div id="Header">
-
+          <Header id={props.author} />
           <div className="grid_9">
             <h1 id="main_title"><i>Lu Destine</i> di Modesto Della Porta</h1>
             <p id="author">Amalia Urbano, Berlin</p>
