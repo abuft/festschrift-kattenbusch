@@ -32,7 +32,7 @@ function Rubrik() {
                 <h2 className="header"><a href="/impressum">Impressum</a></h2>
             </nav>
         </div>
-    )
+    );
 }
 
 export default Rubrik;

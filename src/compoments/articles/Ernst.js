@@ -1,20 +1,29 @@
 import Rubrik from "../Rubrik";
+import React, { useState } from "react";
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
 import upArrow from '../../images/layout/up-arrow.png';
 import Footer from "../Footer";
 import ErnstPortrait from '../../images/gernst/gernst-portrait.jpg';
-import Morinesio from '../../images/gernst/morinesio.jpg';
 import Morinesio_small from '../../images/gernst/morinesio_small.jpg';
-import Obacco from '../../images/gernst/obacco.jpg';
 import Obacco_small from '../../images/gernst/obacco_small.jpg';
-import Paias from '../../images/gernst/paias.jpg';
 import Paias_small from '../../images/gernst/paias_small.jpg';
-import Garzino from '../../images/gernst/garzino.jpg';
 import Garzino_small from '../../images/gernst/garzino_small.jpg';
-import Soleglio from '../../images/gernst/soleglio.jpg';
 import Soleglio_small from '../../images/gernst/soleglio_small.jpg';
 import Header from "../Header";
 
 function Ernst(props) {
+
+    const images = [
+        { src: 'https://festschrift-kattenbusch.de/images/gernst/morinesio.jpg', caption: 'Morinesio/Mourines (CN)' },
+        { src: 'https://festschrift-kattenbusch.de/images/gernst/obacco.jpg', caption: 'Obacco/L’Ubac (CN)' },
+        { src: 'https://festschrift-kattenbusch.de/images/gernst/paias.jpg', caption: 'Paiàs/Palhás (CN)' },
+        { src: 'https://festschrift-kattenbusch.de/images/gernst/garzino.jpg', caption: 'Garzino' },
+        { src: 'https://festschrift-kattenbusch.de/images/gernst/soleglio.jpg', caption: 'Soleglio Bue/Solelha Buou (CN)' }
+    ];
+
+    const [open, setOpen] = useState(false);
+
     return (
         <div>
             <div id="Wrapper" className="container_14">
@@ -26,6 +35,12 @@ function Ernst(props) {
                     </div>
                     <Rubrik />
                 </div>
+
+                <Lightbox
+                    open={open}
+                    close={() => setOpen(false)}
+                    slides={images.slice(0)}
+                />
 
                 <div id="Teasers" className="clearfix">
                     <div className="grid_9">
@@ -95,15 +110,15 @@ function Ernst(props) {
                             <article className="post">
                                 {/* <!-- Content of the article --> */}
                                 <figure className="imageleft">
-                                    <p style={{ width: "150px" }}><a href="#b1"
-                                        name="abb1">Fig. 1</a>:
-                                        Morinesio/Mourines (CN)</p>
-                                    <a href={Morinesio} rel="lightbox"
-                                        title="Fig. 1: Cartello di località in due lingue:
-		          Morinesio/Mourines (CN)">
+                                    <p style={{ width: "150px" }}>
+                                        <a href="#b1"
+                                            name="abb1">Fig. 1</a>:
+                                        Morinesio/Mourines (CN)
+                                    </p>
+                                    <button type="button" onClick={() => setOpen(true)}>
                                         <img src={Morinesio_small} width="150"
                                             height="100" alt="Morinesio" />
-                                    </a>
+                                    </button>
                                 </figure>
 
                                 <p>
@@ -170,12 +185,10 @@ function Ernst(props) {
                                     <p style={{ width: "197px" }}><a href="#b2"
                                         name="abb2">Fig. 2</a>:
                                         Obacco/L’Ubac (CN)</p>
-                                    <a href={Obacco} rel="lightbox"
-                                        title="Fig. 2: Cartello di località in due lingue:
-		          Obacco/L’Ubac (CN)">
+                                    <button type="button" onClick={() => setOpen(true)}>
                                         <img src={Obacco_small} width="197"
                                             height="276" alt="Obacco" />
-                                    </a>
+                                    </button>
                                 </figure>
 
                                 <p>
@@ -222,12 +235,10 @@ function Ernst(props) {
                                         name="abb3">Fig. 3</a>:
                                         Paiàs/Palhás (CN)
                                     </p>
-                                    <a href={Paias} rel="lightbox"
-                                        title="Fig. 3: Cartello di località in due lingue:
-		          Paiàs/Palhás (CN)">
+                                    <button type="button" onClick={() => setOpen(true)}>
                                         <img src={Paias_small} width="197"
                                             height="276" alt="Paiàs" />
-                                    </a>
+                                    </button>
                                 </figure>
 
 
@@ -252,9 +263,6 @@ function Ernst(props) {
                                     soleggiato e dove ancora oggi i margari
                                     portano le vacche ad alpeggiare” (informazione R. Colombero).
                                 </p>
-
-
-
 
                                 <p>
                                     Eccezionalmente una borgata ha due nomi completamente diversi in
@@ -283,13 +291,12 @@ function Ernst(props) {
                                     <p style={{ width: "197px" }}><a href="#b4"
                                         name="abb4">Fig. 4</a>:
                                         Garzino Inferiore/Lou (Lo)
-                                        Guercin Sotan (CN)</p>
-                                    <a href={Garzino} rel="lightbox"
-                                        title="Fig. 4: Cartello di località in due lingue:
-		          Garzino Inferiore/Lou (Lo) Guercin Sotan (CN)">
+                                        Guercin Sotan (CN)
+                                    </p>
+                                    <button type="button" onClick={() => setOpen(true)}>
                                         <img src={Garzino_small} width="197"
                                             height="276" alt="Garzino Inferiore" />
-                                    </a>
+                                    </button>
                                 </figure>
 
                                 <p>
@@ -344,13 +351,12 @@ function Ernst(props) {
                                 <figure className="imageleft">
                                     <p style={{ width: "197px" }}><a href="#b5"
                                         name="abb5">Fig. 5</a>:
-                                        Soleglio Bue/Solelha Buou (CN)</p>
-                                    <a href={Soleglio} rel="lightbox"
-                                        title="Fig. 5: Cartello di località in due lingue:
-		          Soleglio Bue/Solelha Buou (CN)">
+                                        Soleglio Bue/Solelha Buou (CN)
+                                    </p>
+                                    <button type="button" onClick={() => setOpen(true)}>
                                         <img src={Soleglio_small} width="197"
                                             height="276" alt="Soleglio Bue" />
-                                    </a>
+                                    </button>
                                 </figure>
 
                                 <p>
