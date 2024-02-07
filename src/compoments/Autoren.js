@@ -75,7 +75,7 @@ function Autoren(props) {
                     <h2><a href="#k8" name="kat8">K</a></h2>
 
                     <p className="bibl">Klare, Johannes: <a href="klare-esperanto.html">Esperanto – eine Minderheitensprache?</a></p>
-                    <p className="bibl">Köhler, Carola: <a href="koehler-vivaldi.html">VIVALDI und ich. Ein persönlicher Rückblick</a>
+                    <p className="bibl">Köhler, Carola: <a href="/koehler">VIVALDI und ich. Ein persönlicher Rückblick</a>
                     </p>
                     <p className="bibl">Kremnitz, Georg: <a href="kremnitz-exkursionen.html">Über Exkursionen. Erinnerungen und
                         Überlegungen</a></p>

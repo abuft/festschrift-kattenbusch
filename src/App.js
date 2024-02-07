@@ -12,6 +12,7 @@ import Urbano from './compoments/articles/Urbano';
 import AngelisVoelker from './compoments/articles/AngelisVoelker';
 import Ernst from './compoments/articles/Ernst';
 import Schmidt from './compoments/articles/Schmidt';
+import Koehler from './compoments/articles/Koehler';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/inhalt" element={<Inhalt id="Inhaltsverzeichnis" />} />
           <Route path="/angelisVoelker" element={<AngelisVoelker id="angelis_voelker" author="Barbara De Angelis und Harald Völker" />} />
           <Route path="/ernst" element={<Ernst id="Ernst" author="Gerhard Ernst" />} />
+          <Route path="/koehler" element={<Koehler id="Koehler" author="Carola Koehler" />} />
           <Route path="/schmidt" element={<Schmidt id="Schmidt" author="Jochen Schmidt" />} />
           <Route path="/urbano" element={<Urbano id="urbano" author="Amalia Urbano" />} />
         </Routes>
