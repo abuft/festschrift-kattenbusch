@@ -38,7 +38,7 @@ function Autoren(props) {
 
                     <h2><a href="#k2" name="kat2">C</a></h2>
 
-                    <p className="bibl">Chiocchetti, Fabio: <a href="chiocchetti-icaro.html">Ícaro non vola</a></p>
+                    <p className="bibl">Chiocchetti, Fabio: <a href="/chiocchetti">Ícaro non vola</a></p>
                     <p className="bibl">Cocco, Giuseppe: <a href="cocco-faeto.html">Il Francoprovenzale di Faeto</a></p>
 
 
@@ -74,7 +74,7 @@ function Autoren(props) {
 
                     <h2><a href="#k8" name="kat8">K</a></h2>
 
-                    <p className="bibl">Klare, Johannes: <a href="klare-esperanto.html">Esperanto – eine Minderheitensprache?</a></p>
+                    <p className="bibl">Klare, Johannes: <a href="/klare">Esperanto – eine Minderheitensprache?</a></p>
                     <p className="bibl">Köhler, Carola: <a href="/koehler">VIVALDI und ich. Ein persönlicher Rückblick</a>
                     </p>
                     <p className="bibl">Kremnitz, Georg: <a href="kremnitz-exkursionen.html">Über Exkursionen. Erinnerungen und

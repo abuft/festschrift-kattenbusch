@@ -13,6 +13,8 @@ import AngelisVoelker from './compoments/articles/AngelisVoelker';
 import Ernst from './compoments/articles/Ernst';
 import Schmidt from './compoments/articles/Schmidt';
 import Koehler from './compoments/articles/Koehler';
+import Klare from './compoments/articles/Klare';
+import Chiocchetti from './compoments/articles/Chiocchetti';
 
 function App() {
   return (
@@ -25,7 +27,9 @@ function App() {
           <Route path="/impressum" element={<Impressum id="Impressum" />} />
           <Route path="/inhalt" element={<Inhalt id="Inhaltsverzeichnis" />} />
           <Route path="/angelisVoelker" element={<AngelisVoelker id="angelis_voelker" author="Barbara De Angelis und Harald Völker" />} />
+          <Route path="/chiocchetti" element={<Chiocchetti id="chiocchetti" author="Fabio Chiocchetti" />} />
           <Route path="/ernst" element={<Ernst id="Ernst" author="Gerhard Ernst" />} />
+          <Route path="/klare" element={<Klare id="Klare" author="Johannes Klare" />} />
           <Route path="/koehler" element={<Koehler id="Koehler" author="Carola Koehler" />} />
           <Route path="/schmidt" element={<Schmidt id="Schmidt" author="Jochen Schmidt" />} />
           <Route path="/urbano" element={<Urbano id="urbano" author="Amalia Urbano" />} />

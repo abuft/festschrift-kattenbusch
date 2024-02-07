@@ -68,7 +68,7 @@ function Inhalt(props) {
 
                     <h2><a href="#k6" name="kat6">6</a> Reisen</h2>
 
-                    <p className="bibl">Fabio Chiocchetti: <a href="chiocchetti-icaro.html">Ícaro non vola</a></p>
+                    <p className="bibl">Fabio Chiocchetti: <a href="/chiocchetti">Ícaro non vola</a></p>
                     <p className="bibl">Georg Kremnitz: <a href="kremnitz-exkursionen.html">Über Exkursionen. Erinnerungen und Überlegungen</a></p>
 
 
@@ -91,7 +91,7 @@ function Inhalt(props) {
 
                     <p className="bibl">Barbara De Angelis/Harald Völker: <a href="angelis-voelker-avezzano.html">VIVALDI zu Besuch in der Familie</a></p>
                     <p className="bibl">Doreen Großmann: <a href="grossmann-vivaldi.html">Hinter den Kulissen von VIVALDI</a></p>
-                    <p className="bibl">Carola Köhler: <a href="koehler-vivaldi.html">VIVALDI und ich. Ein persönlicher Rückblick</a></p>
+                    <p className="bibl">Carola Köhler: <a href="/koehler">VIVALDI und ich. Ein persönlicher Rückblick</a></p>
                     <p className="bibl">Guido Mensching: <a href="mensching-sardisch-syntax.html">Anmerkungen zur sardischen Syntax anhand des
                         Vivaio Acustico delle Lingue e dei Dialetti d’Italia (VIVALDI)</a></p>
                     <p className="bibl">Ugo Perone: <a href="perone-stile-vivaldi.html">Stile VIVALDI</a></p>
@@ -102,7 +102,7 @@ function Inhalt(props) {
 
                     <h2><a href="#k10" name="kat10">10</a> Varia</h2>
 
-                    <p className="bibl">Johannes Klare: <a href="klare-esperanto.html">Esperanto – eine Minderheitensprache?</a></p>
+                    <p className="bibl">Johannes Klare: <a href="/klare">Esperanto – eine Minderheitensprache?</a></p>
                     <p className="bibl">Trudel Meisenburg: <a href="meisenburg-optimale-kattenbusch.html">Der optimale Kattenbusch: The ultimate OT account of and for my dear old friend (but never
                         fiancé!) Dieter K.</a></p>
                     <p className="bibl">Peter Stein: <a href="stein-zwanzig-jahre.html">„Pourquoi et comment élaborer une orthographe
