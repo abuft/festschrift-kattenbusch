@@ -2,6 +2,8 @@ import Header from "../Header";
 import Rubrik from "../Rubrik";
 import BernardiPortrait from "../../images/rbernardi/rbernardi-portrait.jpg";
 import VidesottPortrait from "../../images/pvidesott/pvidesott-portrait.jpg";
+import UpArrow from "../UpArrow";
+import Footer from "../Footer";
 
 function VidesottBernardi(props) {
     return (
@@ -14,7 +16,7 @@ function VidesottBernardi(props) {
                             Dolomitenladinische aus dem Jahr 1811</h1>
                         <p id="author">Paul Videsott/Rut Bernardi, Brixen</p>
                     </div>
-                <Rubrik />
+                    <Rubrik />
                 </div>
 
                 <div id="Teasers" class="clearfix">
@@ -1009,20 +1011,9 @@ function VidesottBernardi(props) {
                         </section>
                     </div>
                 </div>
-
-
-                <div align="right">
-                    <a href="#index"><img src="images/layout/up-arrow.png" alt="Up Arrow" /></a>
-                </div>
-
-                <div class="grid_5 prefix_5">
-                    <footer id="page_footer">
-                        <p>&copy; 2012 Institut f&uuml;r Romanistik, HU</p>
-                    </footer>
-                </div>
             </div>
-
-
+            <UpArrow />
+            <Footer />
         </div >
     )
 }

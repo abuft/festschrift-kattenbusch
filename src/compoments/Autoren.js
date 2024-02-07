@@ -151,7 +151,6 @@ function Autoren(props) {
                             eine reiche Fundgrube für Lehramtsstudierende?
                             Fremdsprachen- und hochschuldidaktische
                             Überlegungen</a></p>
-
                 </div>
             </div>
         </div>

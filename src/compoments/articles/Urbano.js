@@ -1,12 +1,12 @@
-import upArrow from '../../images/layout/up-arrow.png';
 import urbanoPortrait from '../../images/aurbano/aurbano-portrait.jpg';
 import plurilinguistici from '../../images/aurbano/auguri-plurilinguistici.jpg';
-
 import urbanoWebm from '../../videos/aurbano/urbano-beitrag-video.webm';
 import urbanoOgv from '../../videos/aurbano/urbano-beitrag-video.ogv';
 import urbanoMp4 from '../../videos/aurbano/urbano-beitrag-video.mp4';
 import Rubrik from '../Rubrik';
 import Header from '../Header';
+import UpArrow from '../UpArrow';
+import Footer from '../Footer';
 
 function Urbano(props) {
 
@@ -73,21 +73,8 @@ function Urbano(props) {
             </section>
           </div>
         </div>
-
-
-        <div align="right">
-          <a href="#index"><img src={upArrow} alt="Up Array" /></a>
-        </div>
-
-        <div className="grid_5 prefix_5">
-          <footer id="page_footer">
-            <p>&copy; 2012 Institut f&uuml;r Romanistik, HU</p>
-            <p>
-              <script type="text/javascript" src="js/statistics.js">
-              </script>
-            </p>
-          </footer>
-        </div>
+        <UpArrow />
+        <Footer />
       </div>
     </div>
   );

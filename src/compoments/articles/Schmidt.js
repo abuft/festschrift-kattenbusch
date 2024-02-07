@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 import Footer from "../Footer";
-import upArrow from '../../images/layout/up-arrow.png';
 import Header from "../Header";
 import Rubrik from "../Rubrik";
 import RumaenischOgg from "../../audios/jschmidt/schmidt-rumaenisch.ogg";
@@ -14,6 +13,7 @@ import HeuSmall from "../../images/jschmidt/heu_small.jpg";
 import ProzessionSmall from "../../images/jschmidt/prozession_small.jpg";
 import MaedchenSmall from "../../images/jschmidt/maedchen_small.jpg";
 import SchmidtDkWanderungSmall from "../../images/jschmidt/schmidt_dk_wanderung_small.jpg";
+import UpArrow from "../UpArrow";
 
 function Schmidt(props) {
 
@@ -563,13 +563,8 @@ function Schmidt(props) {
                         </section>
                     </div>
                 </div>
-
-                <div align="right">
-                    <a href="#index"><img src={upArrow} alt="Up Arrow" /></a>
-                </div>
-
+                <UpArrow />
                 <Footer />
-
             </div>
         </div>
     )

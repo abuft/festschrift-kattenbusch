@@ -1,7 +1,7 @@
 import Header from "../Header";
-import upArrow from "../../images/layout/up-arrow.png";
 import Rubrik from "../Rubrik";
 import Footer from "../Footer";
+import UpArrow from "../UpArrow";
 
 function Chiocchetti(props) {
     return (
@@ -532,9 +532,7 @@ function Chiocchetti(props) {
                         </section>
                     </div>
                 </div>
-                <div align="right">
-                    <a href="#index"><img src={upArrow} alt="Up Arrow" /></a>
-                </div>
+                <UpArrow />
                 <Footer />
             </div>
         </div>

@@ -1,8 +1,8 @@
 import Header from "../Header";
 import Rubrik from "../Rubrik";
 import PeronePortrait from "../../images/uperone/uperone-portrait.jpg";
-import upArrow from "../../images/layout/up-arrow.png";
 import Footer from "../Footer";
+import UpArrow from "../UpArrow";
 
 function Perone(props) {
     return (
@@ -127,10 +127,7 @@ function Perone(props) {
                     </div>
                 </div>
             </div>
-
-            <div align="right">
-                <a href="#index"><img src={upArrow} alt="Up Arrow" /></a>
-            </div>
+            <UpArrow />
             <Footer />
         </div>
     )

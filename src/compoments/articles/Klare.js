@@ -1,8 +1,8 @@
 import Footer from "../Footer";
 import Header from "../Header";
 import Rubrik from "../Rubrik";
-import upArrow from "../../images/layout/up-arrow.png";
 import KlarePortrait from "../../images/jklare/jklare-portrait.jpg";
+import UpArrow from "../UpArrow";
 
 function Klare(props) {
   return (
@@ -800,11 +800,7 @@ function Klare(props) {
             </section>
           </div>
         </div>
-
-
-        <div align="right">
-          <a href="#index"><img src={upArrow} alt="Up Arrow" /></a>
-        </div>
+        <UpArrow />
         <Footer />
       </div>
     </div>

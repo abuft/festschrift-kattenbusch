@@ -2,7 +2,6 @@ import Rubrik from "../Rubrik";
 import React, { useState } from "react";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
-import upArrow from '../../images/layout/up-arrow.png';
 import Footer from "../Footer";
 import ErnstPortrait from '../../images/gernst/gernst-portrait.jpg';
 import Morinesio_small from '../../images/gernst/morinesio_small.jpg';
@@ -11,6 +10,7 @@ import Paias_small from '../../images/gernst/paias_small.jpg';
 import Garzino_small from '../../images/gernst/garzino_small.jpg';
 import Soleglio_small from '../../images/gernst/soleglio_small.jpg';
 import Header from "../Header";
+import UpArrow from "../UpArrow";
 
 function Ernst(props) {
 
@@ -548,10 +548,7 @@ function Ernst(props) {
                         </section>
                     </div>
                 </div>
-
-                <div align="right">
-                    <a href="#index"><img src={upArrow} alt="Up Arrow" /></a>
-                </div>
+                <UpArrow />   
                 <Footer />
             </div>
         </div>

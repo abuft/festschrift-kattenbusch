@@ -1,8 +1,8 @@
 import Header from "../Header";
-import upArrow from '../../images/layout/up-arrow.png';
 import Rubrik from "../Rubrik";
 import KoehlerPortrait from '../../images/ckoehler/ckoehler-portrait.jpg';
 import Footer from "../Footer";
+import UpArrow from "../UpArrow";
 
 function Koehler(props) {
     return (
@@ -97,11 +97,8 @@ function Koehler(props) {
                         </section>
                     </div>
                 </div>
-
-                <div align="right">
-                    <a href="#index"><img src={upArrow} alt="Up Arrow" /></a>
-                </div>
-            <Footer />
+                <UpArrow />
+                <Footer />
             </div>
         </div>
     );

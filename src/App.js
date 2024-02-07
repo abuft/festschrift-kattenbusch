@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './styles/style.css';
 import './styles/grid.css';
-import './styles/lightbox.css';
 import Impressum from './compoments/Impressum';
 import Geleitwort from './compoments/Geleitwort';
 import Start from './compoments/Start';
@@ -24,19 +23,19 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Start />} />
+          <Route path="/angelisVoelker" element={<AngelisVoelker id="angelis_voelker" author="Barbara De Angelis und Harald Völker" />} />
           <Route path="/autoren" element={<Autoren id="Autorinnen/Autoren" />} />
+          <Route path="/chiocchetti" element={<Chiocchetti id="chiocchetti" author="Fabio Chiocchetti" />} />
+          <Route path="/ernst" element={<Ernst id="Ernst" author="Gerhard Ernst" />} />
           <Route path="/geleitwort" element={<Geleitwort id="Geleitwort" />} />
           <Route path="/impressum" element={<Impressum id="Impressum" />} />
           <Route path="/inhalt" element={<Inhalt id="Inhaltsverzeichnis" />} />
-          <Route path="/angelisVoelker" element={<AngelisVoelker id="angelis_voelker" author="Barbara De Angelis und Harald Völker" />} />
-          <Route path="/chiocchetti" element={<Chiocchetti id="chiocchetti" author="Fabio Chiocchetti" />} />
-          <Route path="/ernst" element={<Ernst id="Ernst" author="Gerhard Ernst" />} />
           <Route path="/klare" element={<Klare id="Klare" author="Johannes Klare" />} />
           <Route path="/koehler" element={<Koehler id="Koehler" author="Carola Koehler" />} />
+          <Route path="/perone" element={<Perone id="perone" author="Ugo Perone" />} />
           <Route path="/schmidt" element={<Schmidt id="Schmidt" author="Jochen Schmidt" />} />
           <Route path="/urbano" element={<Urbano id="urbano" author="Amalia Urbano" />} />
           <Route path="/videsottBernardi" element={<VidesottBernardi id="videsott_bernardi" author="Paul Videsott/Rut Bernardi" />} />
-          <Route path="/perone" element={<Perone id="perone" author="Ugo Perone" />} />
         </Routes>
       </BrowserRouter>
     </div>

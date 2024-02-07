@@ -1,14 +1,13 @@
-import upArrow from '../../images/layout/up-arrow.png';
 import angelisPortrait from '../../images/angelisvoelker/de-angelis-portrait.jpg';
 import voelkerPortrait from '../../images/angelisvoelker/voelker-portrait.jpg';
 import parabolaImage from '../../images/angelisvoelker/parabola-avezzanese.jpg';
-
 import angelisVoelkerMp4 from '../../videos/hvoelker/parabola_avezzano.mp4';
 import angelisVoelkerWebm from '../../videos/hvoelker/parabola_avezzano.webm';
 import angelisVoelkerOgv from '../../videos/hvoelker/parabola_avezzano.ogv';
 import Footer from '../Footer';
 import Rubrik from '../Rubrik';
 import Header from '../Header';
+import UpArrow from '../UpArrow';
 
 function AngelisVoelker(props) {
 
@@ -222,10 +221,7 @@ function AngelisVoelker(props) {
                         </div>
                     </div>
                 </div>
-
-                <div align="right">
-                    <a href="#index"><img src={upArrow} alt="Up Arrow" /></a>
-                </div>
+                <UpArrow />
                 <Footer />
             </div>
         </div>
