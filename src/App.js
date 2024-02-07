@@ -15,6 +15,7 @@ import Schmidt from './compoments/articles/Schmidt';
 import Koehler from './compoments/articles/Koehler';
 import Klare from './compoments/articles/Klare';
 import Chiocchetti from './compoments/articles/Chiocchetti';
+import VidesottBernardi from './compoments/articles/VidesottBernardi';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <Route path="/koehler" element={<Koehler id="Koehler" author="Carola Koehler" />} />
           <Route path="/schmidt" element={<Schmidt id="Schmidt" author="Jochen Schmidt" />} />
           <Route path="/urbano" element={<Urbano id="urbano" author="Amalia Urbano" />} />
+          <Route path="/videsottBernardi" element={<VidesottBernardi id="videsott_bernardi" author="Paul Videsott/Rut Bernardi" />} />
         </Routes>
       </BrowserRouter>
     </div>

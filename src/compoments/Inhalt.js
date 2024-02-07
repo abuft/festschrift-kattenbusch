@@ -20,7 +20,6 @@ function Inhalt(props) {
                 <div id="Main">
                     <h2><a href="/geleitwort">Zum Geleit</a> | <a href="/impressum">Impressum</a></h2>
 
-
                     <h2><a href="#k1" name="kat1">1</a> Dialekte/Varietäten</h2>
 
                     <p className="bibl">Roland Bauer: <a href="bauer-arealgliederung-trentino.html">Zur inneren Arealgliederung des Trentino.
@@ -48,7 +47,7 @@ function Inhalt(props) {
                     <p className="bibl">Jean-Jacques Furer: <a href="furer-dictionnaire-francais-romanche.html">
                         Un dictionnaire français-romanche
                         (sursilvan+): Pourquoi – Comment – Par qui</a></p>
-                    <p className="bibl">Paul Videsott/Rut Bernardi: <a href="videsott-bernardi-uebersetzung.html">Eine administrative Übersetzung ins Dolomitenladinische aus
+                    <p className="bibl">Paul Videsott/Rut Bernardi: <a href="/videsottBernardi">Eine administrative Übersetzung ins Dolomitenladinische aus
                         dem Jahr 1811</a></p>
 
                     <h2><a href="#k4" name="kat4">4</a> Literaturwissenschaft</h2>

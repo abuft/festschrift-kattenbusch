@@ -28,7 +28,7 @@ function Autoren(props) {
                     <p className="bibl">Bauer, Roland: <a href="bauer-arealgliederung-trentino.html">Zur inneren Arealgliederung des
                         Trentino.
                         Eine dialektometrische Nachschau</a></p>
-                    <p className="bibl">Bernardi, Rut: <a href="videsott-bernardi-uebersetzung.html">Eine administrative Übersetzung ins
+                    <p className="bibl">Bernardi, Rut: <a href="/videsottBernardi">Eine administrative Übersetzung ins
                         Dolomitenladinische aus
                         dem Jahr 1811</a></p>
                     <p className="bibl">Bernhard, Gerald: <a href="bernhard-akzent-arzneien.html">Akzent, Arzneien und andere
@@ -140,7 +140,7 @@ function Autoren(props) {
                     </p>
 
                     <h2><a href="#k15" name="kat15">V</a></h2>
-                    <p className="bibl">Videsott, Paul: <a href="videsott-bernardi-uebersetzung.html">Eine administrative Übersetzung
+                    <p className="bibl">Videsott, Paul: <a href="/videsottBernardi">Eine administrative Übersetzung
                         ins Dolomitenladinische aus
                         dem Jahr 1811</a></p>
                     <p className="bibl">Völker, Harald: <a href="/angelisVoelker">VIVALDI zu Besuch in der Familie</a></p>

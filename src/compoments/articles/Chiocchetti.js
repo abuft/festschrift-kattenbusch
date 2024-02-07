@@ -528,13 +528,10 @@ function Chiocchetti(props) {
                                 <p class="quote">
                                     Moena, 17 ottobre 2010.
                                 </p>
-
-
                             </article>
                         </section>
                     </div>
                 </div>
-
                 <div align="right">
                     <a href="#index"><img src={upArrow} alt="Up Arrow" /></a>
                 </div>
