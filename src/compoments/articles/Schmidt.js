@@ -8,19 +8,26 @@ import Rubrik from "../Rubrik";
 import RumaenischOgg from "../../audios/jschmidt/schmidt-rumaenisch.ogg";
 import RumaenischMp3 from "../../audios/jschmidt/schmidt-rumaenisch.mp3";
 import SchmidtPortrait from "../../images/jschmidt/jschmidt-portrait.jpg";
+import BergeSmall from "../../images/jschmidt/berge_small.jpg";
+import BogenSmall from "../../images/jschmidt/bogen_small.jpg";
+import HeuSmall from "../../images/jschmidt/heu_small.jpg";
+import ProzessionSmall from "../../images/jschmidt/prozession_small.jpg";
+import MaedchenSmall from "../../images/jschmidt/maedchen_small.jpg";
+import SchmidtDkWanderungSmall from "../../images/jschmidt/schmidt_dk_wanderung_small.jpg";
 
 function Schmidt(props) {
 
     const images = [
-        { src: 'https://festschrift-kattenbusch.de/images/jschmidt/berge.jpg', caption: 'Berge' },
-        { src: 'https://festschrift-kattenbusch.de/images/jschmidt/loewe.jpg', caption: 'Löwe' },
-        { src: 'https://festschrift-kattenbusch.de/images/jschmidt/heu.jpg', caption: 'Heuträger' },
-        { src: 'https://festschrift-kattenbusch.de/images/jschmidt/prozession.jpg', caption: 'Prozession' },
-        { src: 'https://festschrift-kattenbusch.de/images/jschmidt/bogen.jpg', caption: 'Bogen' },
-        { src: 'https://festschrift-kattenbusch.de/images/jschmidt/maedchen.jpg', caption: 'Mädchen' }
+        { src: 'https://festschrift-kattenbusch.de/images/jschmidt/berge.jpg', alt: 'Berge' },
+        { src: 'https://festschrift-kattenbusch.de/images/jschmidt/bogen.jpg', alt: 'Bogen' },
+        { src: 'https://festschrift-kattenbusch.de/images/jschmidt/heu.jpg', alt: 'Heuträger' },
+        { src: 'https://festschrift-kattenbusch.de/images/jschmidt/prozession.jpg', alt: 'Prozession' },
+        { src: 'https://festschrift-kattenbusch.de/images/jschmidt/maedchen.jpg', alt: 'Mädchen' },
+        { src: 'https://festschrift-kattenbusch.de/images/jschmidt/schmidt_dk_wanderung.jpg', alt: 'Wanderung' }
     ];
 
     const [open, setOpen] = useState(false);
+    const [index, setIndex] = useState(0);
 
     return (
         <div>
@@ -37,7 +44,9 @@ function Schmidt(props) {
                 <Lightbox
                     open={open}
                     close={() => setOpen(false)}
+                    index={index}
                     slides={images.slice(0)}
+                    controller={{ closeOnBackdropClick: true }}
                 />
 
                 <div id="Teasers" className="clearfix">
@@ -174,8 +183,11 @@ function Schmidt(props) {
                                 {/* <!-- Bild: Berge --> */}
                                 <figure className="imageleft">
                                     <p>Abb. 1: Berge in Ladinien</p>
-                                    <button type="button" onClick={() => setOpen(true)}>
-                                        <img src="images/jschmidt/berge_small.jpg" width="206"
+                                    <button type="button" onClick={() => {
+                                        setIndex(0);  // 0 is just default
+                                        setOpen(true);
+                                    }} >
+                                        <img src={BergeSmall} width="206"
                                             height="135" alt="Berge in Ladinien" />
                                     </button>
                                 </figure>
@@ -208,17 +220,17 @@ function Schmidt(props) {
                                     auch Zeit, denn die Digitalfotografie stand kurz vor ihrem
                                     Durchbruch.
                                 </p>
-                                {/* <!-- Bild: Loewe --> */}
+                                {/* <!-- Bild: Triumphbogen --> */}
                                 <figure className="imageright">
                                     <p style={{ width: "115px" }}>Abb. 2: Triumphbogen auf der Piazza della
                                         Vittoria, Bozen</p>
-                                    <a href="images/jschmidt/bogen.jpg" rel="lightbox"
-                                        title="Abb. 2: Triumphbogen auf der Piazza della
-			  Vittoria, Bozen">
-                                        <img src="images/jschmidt/bogen_small.jpg" width="203"
-                                            height="139" alt="Triumphbogen auf der Piazza della
-				         Vittoria, Bozen" />
-                                    </a>
+                                    <button type="button" onClick={() => {
+                                        setIndex(1);
+                                        setOpen(true);
+                                    }}>
+                                        <img src={BogenSmall} width="203"
+                                            height="139" alt="Triumphbogen auf der Piazza della Vittoria, Bozen" />
+                                    </button>
                                 </figure>
                                 <p>
                                     Ich hatte noch nie so saubere Dörfer wie in Südtirol
@@ -235,11 +247,13 @@ function Schmidt(props) {
                                 {/* <!-- Bild: Heu --> */}
                                 <figure className="imageleft">
                                     <p>Abb 3: Heuträger</p>
-                                    <a href="images/jschmidt/heu.jpg" rel="lightbox"
-                                        title="Abb. 3: Heuträger">
-                                        <img src="images/jschmidt/heu_small.jpg" width="131"
+                                    <button type="button" onClick={() => {
+                                        setIndex(2);
+                                        setOpen(true);
+                                    }}>
+                                        <img src={HeuSmall}
                                             height="193" alt="Heuträger" />
-                                    </a>
+                                    </button>
                                 </figure>
 
                                 <p>
@@ -265,11 +279,13 @@ function Schmidt(props) {
                                 {/* <!-- Bild: Prozession --> */}
                                 <figure className="imageright">
                                     <p>Abb 4: Prozession</p>
-                                    <a href="images/jschmidt/prozession.jpg" rel="lightbox"
-                                        title="Abb. 4: Prozession">
-                                        <img src="images/jschmidt/prozession_small.jpg" width="211"
+                                    <button type="button" onClick={() => {
+                                        setIndex(3);
+                                        setOpen(true);
+                                    }}>
+                                        <img src={ProzessionSmall}
                                             height="146" alt="Prozession" />
-                                    </a>
+                                    </button>
                                 </figure>
                                 <p>
                                     Auf einer Alm trugen alte Frauen riesige Heubündel auf dem
@@ -306,11 +322,13 @@ function Schmidt(props) {
                                 {/* <!-- Bild: Mädchen --> */}
                                 <figure className="imageleft">
                                     <p>Abb 5: Mädchen im weißen Kleid</p>
-                                    <a href="images/jschmidt/maedchen.jpg" rel="lightbox"
-                                        title="Abb. 5: Mädchen im weißen Kleid">
-                                        <img src="images/jschmidt/maedchen_small.jpg" width="152"
+                                    <button type="button" onClick={() => {
+                                        setIndex(4);
+                                        setOpen(true);
+                                    }}>
+                                        <img src={MaedchenSmall}
                                             height="212" alt="Mädchen im weißen Kleid" />
-                                    </a>
+                                    </button>
                                 </figure>
                                 <p>
                                     Ich machte einen Russischkurs in Moskau und lernte dort eine
@@ -399,13 +417,14 @@ function Schmidt(props) {
                                 {/* <!-- Bild: Wanderung --> */}
                                 <figure className="imageleft">
                                     <p>Abb 6: Auf Wanderschaft</p>
-                                    <a href="images/jschmidt/schmidt_dk_wanderung.jpg" rel="lightbox"
-                                        title="Abb. 6: Dieter Kattenbusch und Jochen
-			  Schmidt auf Wanderschaft in Ladinien 1999">
-                                        <img src="images/jschmidt/schmidt_dk_wanderung_small.jpg"
+                                    <button type="button" onClick={() => {
+                                        setIndex(5);
+                                        setOpen(true);
+                                    }}>
+                                        <img src={SchmidtDkWanderungSmall}
                                             width="255" height="163" alt="Auf Wanderschaft"
                                         />
-                                    </a>
+                                    </button>
                                 </figure>
 
                                 <p>
@@ -548,6 +567,7 @@ function Schmidt(props) {
                 <div align="right">
                     <a href="#index"><img src={upArrow} alt="Up Arrow" /></a>
                 </div>
+
                 <Footer />
 
             </div>

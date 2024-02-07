@@ -19,14 +19,14 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Start />} />
-          <Route path="/impressum" element={<Impressum id="Impressum" />} />
-          <Route path="/geleitwort" element={<Geleitwort id="Geleitwort" />} />
-          <Route path="/inhalt" element={<Inhalt id="Inhaltsverzeichnis" />} />
           <Route path="/autoren" element={<Autoren id="Autorinnen/Autoren" />} />
-          <Route path="urbano" element={<Urbano id="urbano" author="Amalia Urbano" />} />
+          <Route path="/geleitwort" element={<Geleitwort id="Geleitwort" />} />
+          <Route path="/impressum" element={<Impressum id="Impressum" />} />
+          <Route path="/inhalt" element={<Inhalt id="Inhaltsverzeichnis" />} />
           <Route path="/angelisVoelker" element={<AngelisVoelker id="angelis_voelker" author="Barbara De Angelis und Harald Völker" />} />
           <Route path="/ernst" element={<Ernst id="Ernst" author="Gerhard Ernst" />} />
           <Route path="/schmidt" element={<Schmidt id="Schmidt" author="Jochen Schmidt" />} />
+          <Route path="/urbano" element={<Urbano id="urbano" author="Amalia Urbano" />} />
         </Routes>
       </BrowserRouter>
     </div>

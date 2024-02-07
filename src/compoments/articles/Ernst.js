@@ -23,6 +23,7 @@ function Ernst(props) {
     ];
 
     const [open, setOpen] = useState(false);
+    const [index, setIndex] = useState(0);
 
     return (
         <div>
@@ -37,8 +38,10 @@ function Ernst(props) {
                 </div>
 
                 <Lightbox
+                    index={index}
                     open={open}
                     close={() => setOpen(false)}
+                    controller={{ closeOnBackdropClick: true }}
                     slides={images.slice(0)}
                 />
 
@@ -115,7 +118,10 @@ function Ernst(props) {
                                             name="abb1">Fig. 1</a>:
                                         Morinesio/Mourines (CN)
                                     </p>
-                                    <button type="button" onClick={() => setOpen(true)}>
+                                    <button type="button" onClick={() => {
+                                        setIndex(0)
+                                        setOpen(true)
+                                    }}>
                                         <img src={Morinesio_small} width="150"
                                             height="100" alt="Morinesio" />
                                     </button>
@@ -185,7 +191,10 @@ function Ernst(props) {
                                     <p style={{ width: "197px" }}><a href="#b2"
                                         name="abb2">Fig. 2</a>:
                                         Obacco/L’Ubac (CN)</p>
-                                    <button type="button" onClick={() => setOpen(true)}>
+                                    <button type="button" onClick={() => {
+                                        setIndex(1);
+                                        setOpen(true)
+                                    }}>
                                         <img src={Obacco_small} width="197"
                                             height="276" alt="Obacco" />
                                     </button>
@@ -235,7 +244,10 @@ function Ernst(props) {
                                         name="abb3">Fig. 3</a>:
                                         Paiàs/Palhás (CN)
                                     </p>
-                                    <button type="button" onClick={() => setOpen(true)}>
+                                    <button type="button" onClick={() => {
+                                        setIndex(2);
+                                        setOpen(true)
+                                    }}>
                                         <img src={Paias_small} width="197"
                                             height="276" alt="Paiàs" />
                                     </button>
@@ -293,7 +305,10 @@ function Ernst(props) {
                                         Garzino Inferiore/Lou (Lo)
                                         Guercin Sotan (CN)
                                     </p>
-                                    <button type="button" onClick={() => setOpen(true)}>
+                                    <button type="button" onClick={() => {
+                                        setIndex(3);
+                                        setOpen(true)
+                                    }}>
                                         <img src={Garzino_small} width="197"
                                             height="276" alt="Garzino Inferiore" />
                                     </button>
@@ -353,7 +368,10 @@ function Ernst(props) {
                                         name="abb5">Fig. 5</a>:
                                         Soleglio Bue/Solelha Buou (CN)
                                     </p>
-                                    <button type="button" onClick={() => setOpen(true)}>
+                                    <button type="button" onClick={() => {
+                                        setIndex(4);
+                                        setOpen(true)
+                                    }}>
                                         <img src={Soleglio_small} width="197"
                                             height="276" alt="Soleglio Bue" />
                                     </button>
