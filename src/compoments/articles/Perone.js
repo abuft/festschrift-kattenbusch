@@ -7,18 +7,18 @@ import UpArrow from "../UpArrow";
 function Perone(props) {
     return (
         <div>
-            <div id="Wrapper" class="container_14">
+            <div id="Wrapper" className="container_14">
                 <div id="Header">
                     <Header id={props.author} />
-                    <div class="grid_9">
+                    <div className="grid_9">
                         <h1 id="main_title">Stile VIVALDI</h1>
                         <p id="author">Ugo Perone, Torino/Vercelli</p>
                     </div>
                     <Rubrik />
                 </div>
 
-                <div id="Teasers" class="clearfix">
-                    <div class="grid_9">
+                <div id="Teasers" className="clearfix">
+                    <div className="grid_9">
                         <p>
                             Era difficile intrattenersi con Dieter Kattenbusch senza finire prima o
                             poi a parlare di Vivaldi. No, non il grande musicista italiano, ma
@@ -38,11 +38,11 @@ function Perone(props) {
                         </p>
                     </div>
 
-                    <div class="grid_5">
-                        <div class="abouttheauthor">
+                    <div className="grid_5">
+                        <div className="abouttheauthor">
                             <img src={PeronePortrait} width="150"
                                 height="100" alt=" - Portrait" />
-                            <div class="abouttheauthorfont"><br /><br />
+                            <div className="abouttheauthorfont"><br /><br />
                                 <b>Ugo Perone</b>, Professore ordinario di Filosofia morale presso
                                 l’Università del Piemonte orientale (Italia), dove dirige altresì
                                 l’Istituto di Studi umanistici. Ha conosciuto Dieter Kattenbusch durante
@@ -50,15 +50,15 @@ function Perone(props) {
                                 italiano di cultura (2001–2003). Nel 2004 ha fruito di una borsa di
                                 ricerca Humboldt presso la cattedra di italianistica.
                             </div>
-                            <div class="clearfloat"></div>
+                            <div className="clearfloat"></div>
                         </div>
                     </div>
                 </div>
 
                 <div id="Main">
-                    <div id="Articles" class="grid_14">
+                    <div id="Articles" className="grid_14">
                         <section id="posts">
-                            <article class="post">
+                            <article className="post">
                                 <p>
                                     E allora, proprio in quel momento, i pezzi mancanti del puzzle
                                     cominciavano ad apparirti per quello che sono: luoghi di un inesplorato

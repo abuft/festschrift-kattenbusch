@@ -7,18 +7,18 @@ import UpArrow from "../UpArrow";
 function Klare(props) {
   return (
     <div>
-      <div id="Wrapper" class="container_14">
+      <div id="Wrapper" className="container_14">
         <div id="Header">
           <Header id={props.author} />
-          <div class="grid_9">
+          <div className="grid_9">
             <h1 id="main_title">Esperanto – eine Minderheitensprache?</h1>
             <p id="author">Johannes Klare, Berlin</p>
           </div>
           <Rubrik />
         </div>
 
-        <div id="Teasers" class="clearfix">
-          <div class="grid_9">
+        <div id="Teasers" className="clearfix">
+          <div className="grid_9">
             {/* <!-- erster Abschnitt hier einfuegen --> */}
             <p>
               DIETER KATTENBUSCH zum 60. Geburtstag am 13. Januar 2012
@@ -61,13 +61,13 @@ function Klare(props) {
             </p>
 
           </div>
-          <div class="grid_5">
+          <div className="grid_5">
 
-            <div class="abouttheauthor">
+            <div className="abouttheauthor">
               {/* <!-- Authorbild --> */}
               <img src={KlarePortrait} width="120"
                 height="150" alt=" - Portrait" />
-              <div class="abouttheauthorfont"><br /><br />
+              <div className="abouttheauthorfont"><br /><br />
                 <b>Johannes Klare</b>,
                 Prof. em. Dr., Jahrgang 1930. Abitur 1948 in
                 Freiberg/Sachsen; Studium der Romanistik, Anglistik und Allgemeinen
@@ -82,15 +82,15 @@ function Klare(props) {
                 {/* <!-- Authorbeschreibung (Text) --> */}
 
               </div>
-              <div class="clearfloat"></div>
+              <div className="clearfloat"></div>
             </div>
           </div>
         </div>
 
         <div id="Main">
-          <div id="Articles" class="grid_14">
+          <div id="Articles" className="grid_14">
             <section id="posts">
-              <article class="post">
+              <article className="post">
                 {/* <!-- Content of the article --> */}
 
                 <h1>Bedeutende Romanisten am Romanischen Institut in Berlin</h1>
@@ -577,221 +577,221 @@ function Klare(props) {
 
                 <h1>Literatur</h1>
 
-                <p class="bibl">
+                <p className="bibl">
                   Bausch, Karl-Richard/Gauger, Hans-Martin (Hg.) (1971):
                   <i>INTERLINGUISTICA. Sprachvergleich und Übersetzung. Festschrift zum 60.
                     Geburtstag von Mario Wandruszka</i>, Tübingen.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   Becker, Ulrich (2001): Interlinguistik und Internet, in: Sabine Fiedler/Haitao Liu (Hg.): 254–277.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   – (Hrsg.) (2011): <i>Interlingvistiko kaj Esperantologio. Bibliografio de
                     la publikaĵoj de Detlev Blanke …/Interlinguistik und Esperantologie.
                     Bibliographie der Veröffentlichungen von Detlev Blanke</i>, New York.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   Blanke, Detlev (1981): Plansprachen und Nationalsprachen. Einige
                   Probleme der Wortbildung des Esperanto und des Deutschen in
                   Konfrontation, in: <i>Linguistische Studien</i>, Reihe A, 85. Berlin.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   – (1985): <i>Internationale Plansprachen. Eine Einführung</i>, Berlin.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   – (1995): Esperanto in soziolinguistischer Sicht, in: Jürgen Scharnhorst (Hg.): 69–81.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   – (2006): <i>Interlinguistische Beiträge. Zum Wesen und zur Funktion
                     internationaler Plansprachen</i>, Frankfurt a.M. et al.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   –/Scharnhorst, Jürgen (Hg.) (2007): <i>Sprachenpolitik und
                     Sprachkultur</i>, Frankfurt a.M. et al.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   Brosch, Cyril/Fiedler, Sabine (Hg.) (2011): <i>Florilegium
                     interlinguisticum. Festschrift für Detlev Blanke zum 70. Geburtstag</i>,
                   Frankfurt/Main et al.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   Couturat, Louis/Leau, Léopold (1903): <i>Histoire de la langue
                     universelle,</i> Paris.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   – (1907): <i>Les nouvelles langues internationales</i>, Paris.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   Eco, Umberto (1997): <i>Die Suche nach der vollkommenen Sprache</i>. Aus dem
                   Italienischen von Burkhart Kroeber, München.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   Ertler, Klaus-Dieter (Hg.) (2011): <i>Romanistik als Passion.
                     Sternstunden der neuen Fachgeschichte II</i>, Wien/Berlin.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   Fetter, Mark (1996): The Esperanto Community: A Quasi-ethnic Linguistic
                   Minority?, in: <i>Language Problems and Language Planning</i> 20(1): 53–59.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   – (2003): The geostrategies of interlingualisme, in: Maurais,
                   Jacques/Morris, Michael A. (Hg.): 37–45.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   Fiedler, Sabine (1999): <i>Plansprache und Phraseologie. Empirische
                     Untersuchungen zu reproduziertem Sprachmaterial im Esperanto</i>,
                   Frankfurt a.M. et al.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   – (Hg.) (2009): <i>Esperanto und andere Sprachen im Vergleich.
                     Interlinguistische Informationen</i>, Beiheft 16. Berlin (GIL).
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   – (2010): The English-as-a-lingua-franca-approach: Linguistic fair
                   play?, in: <i>Language Problems and Language Planning</i> 34(3): 201–221.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   – (2011): Das Thema Plansprachen (Esperanto) in der aktuellen
                   sprachpolitischen Fachliteratur, in: Cyril Brosch/Sabine Fiedler
                   (Hg.): 79–105.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   –/Liu, Haitao (Hg.) (2001): <i>Studoj pri
                     interlingvistiko/Studien zur Interlinguistik. Festschrift für Detlev
                     Blanke zum 60. Geburtstag</i>, Dobrichovice-Praha.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   Haupenthal, Reinhard (Hg.) (1976): <i>Plansprachen. Beiträge zur
                     Interlinguistik</i>, Darmstadt.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   Jespersen, Otto (1928): <i>An international language</i>, London
                   (Eine internationale Sprache. Heidelberg 1928).
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   – (1930/31): A new science: Interlinguistics, in: <i>Psyche</i> (London) 11:
                   57–67.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   – (1976): Interlinguistik – eine neue Wissenschaft. Aus dem
                   Englischen, in: Reinhard Haupenthal (Hg.): 148–162.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   Kattenbusch, Dieter (1995): Die Lage der Minderheiten in Italien, in:
                   ders. (Hg.): 95–116.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   – (Hg.) (1995): <i>Minderheiten in der Romania.</i> Wilhelmsfeld.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   Kimura, Goro Christoph (2009): Esperanto als Minderheitensprache: Eine
                   sprachsoziologische Studie, in: Sabine Fiedler (Hg.): 11–24.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   Klare, Johannes (2010): André Martinet (1908–1999) – Ein
                   bedeutender französischer Linguist und Interlinguist des 20.
                   Jahrhunderts, in: <i>Interlinguistische Informationen</i>, Beiheft 17, Berlin
                   (GIL): 9–37.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   – (2011): „Ein Niedergang“ – oder doch eine weltoffene, wenn
                   auch etwas andere Romanistik?, in: Klaus-Dieter Ertler (Hg.):
                   161–179.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   – (2012): <i>Max Leopold Wagner (1880–1962) und die Romanistik an der
                     Berliner Friedrich-Wilhelms-Universität</i>, im Druck.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   Lins, Ulrich (1988): <i>Die gefährliche Sprache. Die Verfolgung des
                     Esperanto unter Hitler und Stalin</i>, Gerlingen.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   Martinet, André (1987): Intervention d’André Martinet, linguiste.
                   Inauguration de l’année du centenaire de l’Esperanto 16 décembre
                   1986 au siège de l’UNESCO, in: <i>Revue française d’Esperanto</i> 5(379):
                   62–64.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   – (1991): Sur quelques questions d’interlinguistique. Une interview
                   de François Lo Jacomo et Detlev Blanke, in: <i>Zeitschrift für Phonetik,
                     Sprachwissenschaft und Kommunikationsforschung</i> 44: 675–687.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   – (1993): <i>Mémoires d’un linguiste. Vivre les langues. Entretiens
                     avec Georges Kassai et avec la collaboration de Jeanne Martinet</i>, Paris.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   Maurais, Jacques/Morris, Michael A. (Hg.) (2003): <i>Languages in a
                     Globalising World</i>, Cambridge.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   Meysmans, Jules (1911–1912): Une science nouvelle, in: <i>Lingua
                     internationale</i> 1(8): 14–16. Auch (in deutscher Sprache) in:
                   Reinhard Haupenthal (Hg.) (1976): 11–12.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   Phillipson, Robert (1996): <i>Linguistic imperialism</i>, Oxford.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   – (2003): English-Only Europe? Challenging Language Policy,
                   London/New York.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   – (2009): <i>Linguistic Imperialism Continued</i>, London/New York.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   Piron, Claude (1989): Who are the speakers of Esperanto?, in: Klaus Schubert (Hg.): 157–172.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   Sagaguchi, Alicja (1998): <i>Interlinguistik. Gegenstand, Ziele, Aufgaben,
                     Methoden</i>, Frankfurt a.M. et al.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   Scharnhorst, Jürgen (Hg.) (1995): <i>Sprachsituation und Sprachkultur im
                     internationalen Vergleich</i>, Frankfurt a.M. et al.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   Schubert, Klaus (Hg.) (1989): <i>Interlinguistics. Aspects of the Science
                     of Planned Languages</i>, Berlin/New York.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   Tonkin, Humphrey (Hg.) (1997): <i>Esperanto, Interlinguistics & Planned
                     Languages</i>, Lanham/New York/London.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   Wandruszka, Mario (1969): <i>Sprachen, vergleichbar und unvergleichlich</i>,
                   München.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   – (1971): <i>Interlinguistik. Umrisse einer neuen Sprachwissenschaft</i>,
                   München.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   – (1973): Interlinguistik, in: Goethe-Institut (Hg.): <i>Beiträge zu
                     den Fortbildungskursen des Goethe-Instituts für Deutschlehrer und
                     Hochschulgermanisten aus dem Ausland</i>, München: 39–52.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   – (1979): <i>Die Mehrsprachigkeit des Menschen</i>, München.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   – (1984): <i>Das Leben der Sprachen. Vom menschlichen Sprechen und
                     Gespräch</i>, Stuttgart.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   Wollenberg, Fritz (2001): Erfahrungen bei der Erforschung und
                   Darstellung der Berliner Esperanto-Geschichte, in: Sabine Fiedler/Haitao Liu (Hg.): 487–503.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   Wüster, Eugen (1970 [1931]): <i>Internationale Sprachnormung in der
                     Technik,</i> Berlin/Bonn.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   – (1976): Die Benennungen ‚Esperantologie‘ und
                   ‚Interlinguistik‘, in: Reinhard Haupenthal (Hg.): 271–277.
                 </p>
-                <p class="bibl">
+                <p className="bibl">
                   <h1>Internetquellen:</h1>
                   <a href="http://www.interlinguistik-gil.de/">http://www.interlinguistik-gil.de/</a>
                   (Zugriff: 21. Juli 2011)

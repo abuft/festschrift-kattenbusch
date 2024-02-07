@@ -16,6 +16,7 @@ import Klare from './compoments/articles/Klare';
 import Chiocchetti from './compoments/articles/Chiocchetti';
 import VidesottBernardi from './compoments/articles/VidesottBernardi';
 import Perone from './compoments/articles/Perone';
+import Tosques from './compoments/articles/Tosques';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
           <Route path="/koehler" element={<Koehler id="Koehler" author="Carola Koehler" />} />
           <Route path="/perone" element={<Perone id="perone" author="Ugo Perone" />} />
           <Route path="/schmidt" element={<Schmidt id="Schmidt" author="Jochen Schmidt" />} />
+          <Route path="/tosques" element={<Tosques id="Tosques" author="Fabio Tosques" />} />
           <Route path="/urbano" element={<Urbano id="urbano" author="Amalia Urbano" />} />
           <Route path="/videsottBernardi" element={<VidesottBernardi id="videsott_bernardi" author="Paul Videsott/Rut Bernardi" />} />
         </Routes>

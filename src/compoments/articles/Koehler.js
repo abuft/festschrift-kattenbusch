@@ -7,42 +7,41 @@ import UpArrow from "../UpArrow";
 function Koehler(props) {
     return (
         <div>
-            <hr />
-            <div id="Wrapper" class="container_14">
+            <div id="Wrapper" className="container_14">
                 <div id="Header">
                     <Header id={props.author} />
-                    <div class="grid_9">
+                    <div className="grid_9">
                         <h1 id="main_title">VIVALDI und ich. Ein persönlicher Rückblick</h1>
                         <p id="author">Carola Köhler, Berlin</p>
                     </div>
                     <Rubrik />
                 </div>
 
-                <div id="Teasers" class="clearfix">
-                    <div class="grid_9">
+                <div id="Teasers" className="clearfix">
+                    <div className="grid_9">
                         {/* <!-- erster Abschnitt hier einfuegen --> */}
                         <p>Zum Sommersemester 1996 wechselte ich von Heidelberg an die Humboldt-Universität zu Berlin, nicht ahnend, dass es in meinem Leben schon bald einen treuen Begleiter geben sollte, dessen Name dem eines italienischen Barockkomponisten zum Verwechseln ähnlich sah. In Heidelberg hatte ich Germanistik, Romanistik und Kunstgeschichte studiert, in Berlin war man differenzierter, so dass ich nun für Neuere deutsche Literatur, Italianistik und ebenfalls Kunstgeschichte eingeschrieben war. Der Namenswechsel brachte das entsprechende Scheinchaos mit sich, ich hatte jetzt an einigen Stellen zu viel, an anderen dafür zu wenig. Unter anderem fehlte mir ein Hauptseminarschein in italienischer Sprachwissenschaft. Sprachwissenschaft war damals nichts, was mich zu Begeisterungsstürmen hingerissen hätte, war ich doch viel zu sehr von meiner  intrinsischen literaturwissenschaftlichen Begabung überzeugt. Auch hatten es die bislang von mir besuchten Einführungen und Proseminare nicht vermocht, in mir einen Funken zu entzünden.
                         </p>
                     </div>
-                    <div class="grid_5">
+                    <div className="grid_5">
 
-                        <div class="abouttheauthor">
+                        <div className="abouttheauthor">
                             {/* <!-- Authorbild --> */}
                             <img src={KoehlerPortrait} width="100"
                                 height="150" alt="Carola Köhler - Portrait" />
-                            <div class="abouttheauthorfont"><br /><br />
+                            <div className="abouttheauthorfont"><br /><br />
                                 {/* <!-- Authorbeschreibung (Text) --> */}
                                 <b>Carola Köhler</b>, M.A., freie Lektorin. Studium der Neueren deutschen Literatur, Italianistik und Kunstgeschichte in Heidelberg, Bari und Berlin. 1996–2000 studentische Hilfskraft, 2001–2007 wissenschaftliche Mitarbeiterin in der italienischen Sprachwissenschaft am Lehrstuhl von Dieter Kattenbusch. Während der gesamten Zeit 1996–2007 kontinuierliche Mitarbeit im Projekt VIVALDI, seither sporadisch.
                             </div>
-                            <div class="clearfloat"></div>
+                            <div className="clearfloat"></div>
                         </div>
                     </div>
                 </div>
 
                 <div id="Main">
-                    <div id="Articles" class="grid_14">
+                    <div id="Articles" className="grid_14">
                         <section id="posts">
-                            <article class="post">
+                            <article className="post">
                                 {/* <!-- Content of the article --> */}
                                 <p>
                                     Am Institut für Romanistik, das damals noch im geschichtsträchtigen Gebäude Dorotheenstr. 1 residierte, welches ebenso wie viele andere Gebäude in der Umgebung die Narben der Einschusslöcher trug, die es im Kampf um Berlin davongetragen hatte, war die Auswahl an Hauptseminaren in italienischer Sprachwissenschaft recht übersichtlich. Im Vorlesungsverzeichnis  entdeckte ich ein Hauptseminar zur italienischen Dialektologie eines Professor Kattenbusch, dessen Name mir allerdings nichts sagte. Da ich aber sowieso keinen der Lehrenden am Institut für Romanistik kannte, nahm ich als Auswahlkriterien Thema und Uhrzeit. Das Seminar begann um zehn, zum Glück. Hätte Dieter Kattenbusch nämlich schon damals die Angewohnheit gehabt, auf die Randzeiten auszuweichen und um acht begonnen, wären wir uns mit Sicherheit nie begegnet. So aber radelte ich jeden Mittwochmorgen von Steglitz über die Großbaustelle Potsdamer Platz nach Mitte und schaffte es meistens sogar, halbwegs pünktlich zu sein.
@@ -87,12 +86,10 @@ function Koehler(props) {
                                 <p>
                                     Und heute? Nun, ich wohne schon lange nicht mehr in Steglitz und meine Beziehung zu VIVALDI ist lockerer geworden, wir haben uns voneinander abgenabelt. Ich verfolge weiterhin mit Interesse den Fortgang des Projekts, bin aber nicht mehr über jeden seiner Schritte informiert. Ich freue mich darüber, dass es voran geht und die Italienkarte auf der Einstiegsseite sich immer mehr füllt. Ab und an trage ich gern noch mein Scherflein dazu bei, vielleicht ergibt sich auch mal wieder eine engere Zusammenarbeit. Das ist nicht zuletzt auch eine Frage des Geldes. Als Freiberuflerin sind längere Italienreisen problematischer als damals als wissenschaftliche Mitarbeiterin, als pünktlich jeden Monat das Gehalt auf dem Konto eintraf. Jochen Schmidt ist inzwischen Schriftsteller und betreibt seit vielen Jahren mit einigen anderen die Berliner Lesebühne <i>Chaussee der Enthusiasten</i>. Marcel Lucas Müller hat nach seiner Habilitation in Medizinischer Informatik nun doch auch noch einen Facharzt gemacht, allerdings nicht in Augenheilkunde, sondern in Dermatologie. Unsere Anwendungen laufen noch immer, das Durchhalten hat sich ausgezahlt. Die VivTKA ist weiterhin in Gebrauch und hat trotz der gestiegenen Datenmenge ihre Grenzen noch nicht erreicht. Während im Internet jederzeit der aktuelle Stand des Projekts dokumentiert ist, lassen sich über die CDs bzw. inzwischen DVDs bestimmte Zwischenzustände fixieren. Die Zahl der explorierten Regionen ist kräftig angestiegen, so dass sich virtuell immer länger durch die Dialekte und Minderheitensprachen Italiens reisen lässt, wobei die Unterschiede zwischen den norditalienischen auf der einen und den mittel- und süditalienischen Dialekten auf der anderen Seite sehr „ohrenfällig“ werden. Von der Idee über die ersten mageren Anfänge bis zu dem Punkt, an dem das Ganze eine Form gewonnen hat, war es ein langer Weg. Wer heute die <a href="https://www2.hu-berlin.de/vivaldi" target="blank">Vivaldi-Homepage</a> aufruft, dem fallen nicht zuerst die Lücken auf, die noch gefüllt werden müssen, sondern der kann auf eine tragfähige Datensammlung zugreifen, die ihresgleichen sucht.
                                 </p>
-                                <p>
-                                    <p class="quote">
+                                    <p className="quote">
                                         <span style={{ color: "#666666" }}><b>
                                             Lieber Dieter, danke für den langen Atem und viel Energie für die weitere Wegstrecke!</b></span>
                                     </p>
-                                </p>
                             </article>
                         </section>
                     </div>

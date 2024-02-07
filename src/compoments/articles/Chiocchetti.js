@@ -6,19 +6,19 @@ import UpArrow from "../UpArrow";
 function Chiocchetti(props) {
     return (
         <div>
-            <div id="Wrapper" class="container_14">
+            <div id="Wrapper" className="container_14">
                 <div id="Header">
                     <Header id={props.author} />
-                    <div class="grid_9">
+                    <div className="grid_9">
                         <h1 id="main_title">Ícaro non vola</h1>
                         <p id="author">Fabio Chiocchetti, Vich/Vigo di Fassa</p>
                     </div>
                     <Rubrik />
                 </div>
 
-                <div id="Teasers" class="clearfix">
-                    <div class="grid_9">
-                        <p class="quote">
+                <div id="Teasers" className="clearfix">
+                    <div className="grid_9">
+                        <p className="quote">
 
                             Tem que viver a vida<br />
                             um dia após o outro,<br />
@@ -67,11 +67,11 @@ function Chiocchetti(props) {
                             millantato recupero dell’oggetto, l’estorsione...
                         </p>
                     </div>
-                    <div class="grid_5">
-                        <div class="abouttheauthor">
+                    <div className="grid_5">
+                        <div className="abouttheauthor">
                             <img src="images/" width="100"
                                 height="150" alt=" - Portrait" />
-                            <div class="abouttheauthorfont"><br /><br />
+                            <div className="abouttheauthorfont"><br /><br />
                                 <b>Fabio Chiocchetti</b>,
                                 Direttore dell’Istitut Cultural
                                 Ladin “Majon di Fascegn” a Vich/Vigo di Fassa.<br />
@@ -80,15 +80,15 @@ function Chiocchetti(props) {
                                     Questa dedica va dunque al di là dei rispettivi interessi (professionali e non) per il ladino e per le minoranze linguistiche, e si proietta oltre i confini della nostra vecchia e cara Europa sull’onda di una comune fascinazione per l’America Latina e per la sua gente, che ci ha portati entrambi, per vie e destinazioni diverse, a fare l’esperienza indimenticabile di “un’altra vacanza” (cf. Dieter Kattenbusch, “CALI  – Tagebuch eines anderen Urlaubs”, Berlin 1997).</span>
 
                             </div>
-                            <div class="clearfloat"></div>
+                            <div className="clearfloat"></div>
                         </div>
                     </div>
                 </div>
 
                 <div id="Main">
-                    <div id="Articles" class="grid_14">
+                    <div id="Articles" className="grid_14">
                         <section id="posts">
-                            <article class="post">
+                            <article className="post">
                                 <p>
                                     Ora ricordava tutto benissimo. Naturalmente spergiurò che i “ladri”
                                     avevano già venduto la macchina fotografica, e lui era tornato per
@@ -525,7 +525,7 @@ function Chiocchetti(props) {
                                     come potevo sapere che ti avrei incontrata di nuovo?... Magari la
                                     prossima volta, <i>a próxima vez, né, menina</i>?
                                 </p>
-                                <p class="quote">
+                                <p className="quote">
                                     Moena, 17 ottobre 2010.
                                 </p>
                             </article>

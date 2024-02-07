@@ -128,7 +128,7 @@ function Autoren(props) {
 
                     <h2><a href="#k13" name="kat13">T</a></h2>
                     <p className="bibl">Tosques, Fabio: <a href="cocco-faeto.html">Il Francoprovenzale di Faeto</a></p>
-                    <p className="bibl">Tosques, Fabio: <a href="tosques-wikipedia.html">Die frankoprovenzalischen Sprachinseln Faeto
+                    <p className="bibl">Tosques, Fabio: <a href="/tosques">Die frankoprovenzalischen Sprachinseln Faeto
                         und Celle di San Vito in der deutschen Wikipedia – eine Bestandsaufnahme</a></p>
 
                     <h2><a href="#k14" name="kat14">U</a></h2>

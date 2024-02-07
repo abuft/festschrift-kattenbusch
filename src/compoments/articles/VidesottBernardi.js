@@ -8,10 +8,10 @@ import Footer from "../Footer";
 function VidesottBernardi(props) {
     return (
         <div>
-            <div id="Wrapper" class="container_14">
+            <div id="Wrapper" className="container_14">
                 <div id="Header">
                     <Header id={props.author} />
-                    <div class="grid_9">
+                    <div className="grid_9">
                         <h1 id="main_title">Eine administrative Übersetzung ins
                             Dolomitenladinische aus dem Jahr 1811</h1>
                         <p id="author">Paul Videsott/Rut Bernardi, Brixen</p>
@@ -19,8 +19,8 @@ function VidesottBernardi(props) {
                     <Rubrik />
                 </div>
 
-                <div id="Teasers" class="clearfix">
-                    <div class="grid_9">
+                <div id="Teasers" className="clearfix">
+                    <div className="grid_9">
                         <h1>1 Übersetzungen ins Rätoromanische: ein Vergleich</h1>
                         <p>
                             Diese Dieter Kattenbusch, einem der profiliertesten deutschen
@@ -71,37 +71,37 @@ function VidesottBernardi(props) {
 
                         </p>
                     </div>
-                    <div class="grid_5">
+                    <div className="grid_5">
 
-                        <div class="abouttheauthor">
+                        <div className="abouttheauthor">
                             <img src={VidesottPortrait} width="85"
                                 height="116" alt=" - Portrait" />
-                            <div class="abouttheauthorfont"><br /><br />
+                            <div className="abouttheauthorfont"><br /><br />
                                 <b>Paul Videsott</b>, Prof. Dr., Professor für romanische Sprachwissenschaft an
                                 der Freien Universität Bozen (Brixen).
                             </div>
-                            <div class="clearfloat"></div>
+                            <div className="clearfloat"></div>
                         </div>
 
-                        <div class="abouttheauthor">
+                        <div className="abouttheauthor">
                             <img src={BernardiPortrait} width="85"
                                 height="116" alt=" - Portrait" />
-                            <div class="abouttheauthorfont"><br /><br />
+                            <div className="abouttheauthorfont"><br /><br />
                                 <b>Rut Bernardi</b>, Dr. phil., Wissenschaftliche Mitarbeiterin an der
                                 Ladinischen Abteilung der Freien Universität Bozen (Brixen).<br /><br />
                                 Die Autoren, beide Ladiner, haben Dieter Kattenbusch im Zusammenhang mit seinen rätoromanistischen Tätigkeiten kennen und schätzen gelernt.<br />
                                 <span style={{ color: "#666666" }}><b>Rut Bernardi:</b> Ich besuchte im Sommer 1989 gerade meinen ersten Surselvisch-Intensivkurs in Lags/Laax, als Dieter Kattenbusch dort den von ihm herausgegebenen Band mit Aufsätzen von Robert von Planta vorstellte. Ich erhielt danach ein Exemplar des Buches, das ich genauestens studierte, da ich damals an der Erstellung des „Handwörterbuch des Rätoromanischen“ an der Universität Zürich mitarbeitete.<br />
                                     <b>Paul Videsott:</b> Ich traf Dieter Kattenbusch zum ersten Mal in meiner Studienzeit, im Frühjahr 1994 in Eichstätt, als der Jubilar dort einen Vortrag zur Verschriftung des Dolomitenladinischen hielt. In den 15 Jahren danach folgten weitere Treffen in Vigo di Fassa (im Rahmen des SPELL-Projektes, das Dieter Kattenbusch aktiv unterstützte) und in Innsbruck, und zuletzt im Rahmen der Sitzungen des wissenschaftlichen Komitees der Zeitschrift „Ladinia“. Der größte Berührungspunkt zum Jubilar ist aber indirekter Natur als sein „Nachfolger“ im Projekt ALD (Teil 2) bei den Enquêten in der Dolomitenladinia (2001–2004). Den Informanten, die Dieter Kattenbusch 15 Jahre vorher mit dem Fragebuch des ALD-I aufgesucht hatte, war er in bester Erinnerung geblieben.</span>
                             </div>
-                            <div class="clearfloat"></div>
+                            <div className="clearfloat"></div>
                         </div>
                     </div>
                 </div>
 
                 <div id="Main">
-                    <div id="Articles" class="grid_14">
+                    <div id="Articles" className="grid_14">
                         <section id="posts">
-                            <article class="post">
+                            <article className="post">
                                 <p>
                                     An die Übersetzung von Weltliteratur ins Ladinische hat sich unseres
                                     Wissens erstmals Jan Batista Alton (1845–1900) in seinem 1885
@@ -195,11 +195,11 @@ function VidesottBernardi(props) {
                                     und in gedruckter Form verbreitet wurde:
                                 </p>
 
-                                <p class="quote">
+                                <p className="quote">
                                     <span style={{ marginLeft: "100px" }}>Im Namen Seiner Majestät des
                                         Königs.</span>
                                 </p>
-                                <p class="quote">
+                                <p className="quote">
                                     Seine königliche Majestät haben mit Allerhöchstem Reskripte vom 9ten
                                     dieses allergnädigste anzuordnen geruhet: daß nachstehender Auszug der
                                     Allerhöchsten Verordnung de dato München den 9ten Junius laufenden
@@ -575,7 +575,7 @@ function VidesottBernardi(props) {
 
 
                                 <h1>Anmerkungen</h1>
-                                <p class="annotation"><sup><a href="#fz1" name="fn1">1</a></sup>
+                                <p className="annotation"><sup><a href="#fz1" name="fn1">1</a></sup>
                                     Im Gegensatz dazu gibt es z.B. von <i>Asterix</i> nicht nur einzelne Hefte auf
                                     Bündnerromanisch (vgl. <i>Asterix ed ils Helvets</i>, Cuira 1984; <i>Asterix en
                                         l’America</i>, Cuira 1994; 2005 DVD), sondern auch eines im deutschen
@@ -585,13 +585,13 @@ function VidesottBernardi(props) {
                                         Moritz</i> von Wilhelm Busch: gad. <i>Pire y Paul</i>, trad. Giuvani Pescollderungg
                                     1977, grd. <i>Max y Moriz</i>, trad. Erica Senoner 1984.
                                 </p>
-                                <p class="annotation"><sup><a href="#fz2" name="fn2">2</a></sup>
+                                <p className="annotation"><sup><a href="#fz2" name="fn2">2</a></sup>
                                     Bei den „<i>6 kleinen Erzählungen</i>“ (Volksanekdoten auf Grödnerisch
                                     mit italienischer und deutscher Übersetzung), die in Steiner (1807:
                                     45–49) abgedruckt sind, könnte es sich ebenfalls um Übersetzungen
                                     bzw. Adaptationen von Matthäus Ploner (1770–1845) handeln.
                                 </p>
-                                <p class="annotation"><sup><a href="#fz3" name="fn3">3</a></sup>
+                                <p className="annotation"><sup><a href="#fz3" name="fn3">3</a></sup>
                                     Die Geschichte der Hl. Genoveva des schwäbischen Kanonikus Christoph
                                     Schmid (1768–1854) wurde in zahlreiche andere Sprachen übersetzt,
                                     u.a. auch ins Bündnerromanische (Surselvisch): <i>Veta de st. Gienoveva: ina dellas
@@ -612,7 +612,7 @@ function VidesottBernardi(props) {
                                         Passiun de nosc Signur in 5 actc</i>, schöpferische Nachdichtung von
                                     Alexius Baldissera 1960.
                                 </p>
-                                <p class="annotation"><sup><a href="#fz4" name="fn4">4</a></sup>
+                                <p className="annotation"><sup><a href="#fz4" name="fn4">4</a></sup>
                                     Aus den Angaben Altons (1885: 88–94) lassen sich aber die
                                     Ausgangsversionen ermitteln: das Gedicht <i>Oh bona vérgin, r’gína
                                         imacoláta</i> aus Mätzner (1853: 66: <i>Douce vierge, roine, nete et pure</i>);
@@ -622,7 +622,7 @@ function VidesottBernardi(props) {
                                                 l’ombre du vieux chêne</i>; 276: <i>«Dors-tu…?» Réveille-toi, mère de
                                                     notre mère</i>).
                                 </p>
-                                <p class="annotation"><sup><a href="#fz5" name="fn5">5</a></sup>
+                                <p className="annotation"><sup><a href="#fz5" name="fn5">5</a></sup>
                                     Diese wurden in der Serie „Teater“ veröffentlicht: Georg Stöger-Ostin:
                                     <i>Das letzte Spiel</i>, gad. <i>L’ultimo jüch</i>, trad. Maria Tolpeit, grd. <i>L
                                         ultimo juech</i>, trad. Franz Moroder 1993; Alois Gfall: <i>’s Hexenstückl</i>,
@@ -637,7 +637,7 @@ function VidesottBernardi(props) {
                                     Strawinsky: <i>Histoire du Soldat</i>, grd. <i>Storia dl Saudé</i>, trad. Ulrike
                                     Kostner 1995.
                                 </p>
-                                <p class="annotation"><sup><a href="#fz6" name="fn6">6</a></sup>
+                                <p className="annotation"><sup><a href="#fz6" name="fn6">6</a></sup>
                                     Maria Veronika Rubatscher: <i>Altgrödner Geschichten</i>, grd. <i>Vedla stories
                                         de Gherdëina</i>; <i>Der Lusenberger. Ein Künstlerleben</i>, grd.
                                     <i>Bera Śepl da Jumbierch</i>, trad. Elsa Runggaldier 1981; 1992; Maria Luise
@@ -646,13 +646,13 @@ function VidesottBernardi(props) {
                                     und 1990 die beiden Bücher <i>Dolasila</i> und <i>Dolomites</i> mit Gedichten, die
                                     sie in mehrere ladinische Idiome übersetzen ließ.
                                 </p>
-                                <p class="annotation"><sup><a href="#fz7" name="fn7">7</a></sup>
+                                <p className="annotation"><sup><a href="#fz7" name="fn7">7</a></sup>
                                     In das Ladinische des Fassatals übersetzte Theaterstücke sind Anton
                                     Tschechow: <i>Der Heiratsantrag</i>, fass. <i>Veste me maridèr?</i>, trad. Stefen
                                     Dell’Antonio Monech 1993; Ernst Raupach: <i>Der Müller und sein Kind</i>,
                                     fass. <i>El Moliné e sia fia</i>, trad. Giovanni Battista Costa 2006 u.a.m.
                                 </p>
-                                <p class="annotation"><sup><a href="#fz8" name="fn8">8</a></sup>
+                                <p className="annotation"><sup><a href="#fz8" name="fn8">8</a></sup>
                                     Den Beginn machte die Übersetzung des <i>Petit Prince</i> von Antoine
                                     Saint-Exupery (gad. <i>Le Pice Prinz</i>, trad. Giovanni Mischì 1993, grd. <i>L
                                         Pitl Prinz</i>, trad. Prinoth Beatrix 1993, fass. <i>L Pìcol Prinz</i>,
@@ -675,7 +675,7 @@ function VidesottBernardi(props) {
                                     Piazza mit Übersetzungen ins Grödnerische von 149 international
                                     bekannten Autoren.
                                 </p>
-                                <p class="annotation"><sup><a href="#fz9"
+                                <p className="annotation"><sup><a href="#fz9"
                                     name="fn9">9</a></sup>
                                     Dies ersieht man insbesondere an Parallelübersetzungen des
                                     gleichen Werkes in mehrere Idiome, die sprachlich teilweise stark
@@ -703,7 +703,7 @@ function VidesottBernardi(props) {
                                         n’êl nia de miù/y perchël nia de miëur</i>) und Temporalsyntax (<i>â
                                             anunzié/anunziova</i> [Plusquamperfekt/Imperfekt]).
                                 </p>
-                                <p class="annotation"><sup><a href="#fz10" name="fn10">10</a></sup>
+                                <p className="annotation"><sup><a href="#fz10" name="fn10">10</a></sup>
                                     Zur Sprache Frida Piazzas vgl. Belardi (1988: 5–14); zur Würdigung
                                     von Craffonaras Übersetzungen vgl. Valentini (2003). Craffonara ist
                                     nicht der erste Übersetzer bündnerromanischer Literatur ins
@@ -718,54 +718,54 @@ function VidesottBernardi(props) {
                                     sowie Cla Biert: <i>Il descendent</i>, gad. <i>Le descendënt</i>, trad. Erna Flöss
                                     1995; 2002.
                                 </p>
-                                <p class="annotation"><sup><a href="#fz11" name="fn11">11</a></sup>
+                                <p className="annotation"><sup><a href="#fz11" name="fn11">11</a></sup>
                                     Wir zählen die administrativen Übersetzungen zu den fachsprachlichen
                                     Übersetzungen ins Dolomitenladinische, als deren frühestes
                                     einschlägiges Beispiel, d.h. außerhalb des religiösen Schrifttums,
                                     die <i>Instruziung d’agricultura de J. Samek, straportada nel Lading da
                                         C. Tammers</i> 1895 gilt.
                                 </p>
-                                <p class="annotation"><sup><a href="#fz12" name="fn12">12</a></sup>
+                                <p className="annotation"><sup><a href="#fz12" name="fn12">12</a></sup>
                                     Dieses „Proclama“ wird in der Fachliteratur üblicherweise mit
                                     „1703“ datiert (vgl. Ghetta/Plangg 1987 passim), obwohl im Text
                                     selbst eine Datumsangabe fehlt. Aufgrund der genannten Personen kann
                                     jedoch ein Entstehungszeitraum zwischen 1703 und 1710 ermittelt werden.
                                 </p>
-                                <p class="annotation"><sup><a href="#fz13" name="fn13">13</a></sup>
+                                <p className="annotation"><sup><a href="#fz13" name="fn13">13</a></sup>
                                     Gemeinsame deutsche Vorlagen, die ihrerseits in den Kanzleien tradiert
                                     wurden, erklären wohl auch die Ähnlichkeit gewisser Formulierungen in
                                     den beiden ladinischen Texten, die mehr als sieben Jahrzehnte
                                     auseinanderliegen, insbesondere der Einleitungs- und der Schlussformeln
                                     (vgl. Belardi 1991: 156f., 166f.; Ghetta/Plangg 1987: 289).
                                 </p>
-                                <p class="annotation"><sup><a href="#fz14" name="fn14">14</a></sup>
+                                <p className="annotation"><sup><a href="#fz14" name="fn14">14</a></sup>
                                     Das Schriftstück wurde im Rahmen eines Projekts zur Inventarisierung
                                     der Pfarrarchive des Gadertals (Leitung: Dr. Bruno Klammer) von Dr.
                                     Gerda Videsott und Dr. Philipp Tolloi ausfindig gemacht, die uns
                                     freundlicherweise darauf hingewiesen haben, wofür ihnen herzlich
                                     gedankt sei.
                                 </p>
-                                <p class="annotation"><sup><a href="#fz15" name="fn15">15</a></sup>
+                                <p className="annotation"><sup><a href="#fz15" name="fn15">15</a></sup>
                                     Wie in anderen unserer Arbeiten (vgl. Bernardi/Videsott 2010; 2011)
                                     beschränkt sich die moderne Umschrift auf die Ersetzung heute nicht
                                     mehr üblicher Graphien sowie auf die Anpassung der Interpunktion;
                                     Phonetik, Morphologie und Syntax bleiben aber unverändert.
                                 </p>
-                                <p class="annotation"><sup><a href="#fz16" name="fn16">16</a></sup>
+                                <p className="annotation"><sup><a href="#fz16" name="fn16">16</a></sup>
                                     Die Orthographie mit &lt;s&gt; ist insofern kohärent, als das Wort in
                                     Calfosch/Kolfuschg effektiv mit [z] ausgesprochen wird, vgl. ALD-I, 197.
                                 </p>
-                                <p class="annotation"><sup><a href="#fz17" name="fn17">17</a></sup>
+                                <p className="annotation"><sup><a href="#fz17" name="fn17">17</a></sup>
                                     Die Verwendung der Kirchenkanzel für die Verlautbarung staatlicher
                                     Verordnungen ist in der Aufklärung üblich.
                                 </p>
-                                <p class="annotation"><sup><a href="#fz18" name="fn18">18</a></sup>
+                                <p className="annotation"><sup><a href="#fz18" name="fn18">18</a></sup>
                                     Dabei ist jedoch in der dritten Bestimmung ein ganzer Satz unübersetzt
                                     geblieben: <i>Denn jeder Beamte ist, bey eigener Verantwortlichkeit und
                                         Strafe schuldig, jeden, der ihm solche Vortheile anbietet, bey Gericht
                                         anzuzeigen.</i>
                                 </p>
-                                <p class="annotation"><sup><a href="#fz19" name="fn19">19</a></sup>
+                                <p className="annotation"><sup><a href="#fz19" name="fn19">19</a></sup>
                                     Vgl. Wolfsgruber (1971: 51). Zu seiner Biographie vgl.
                                     Palla/Canins/Dapunt (2010: 116): Jan Matteo Costadedoi wurde am 4.
                                     Jänner 1763 zu Costadedoi in S. Ćiascian/St. Kassian geboren. Er
@@ -775,59 +775,59 @@ function VidesottBernardi(props) {
                                     Buchenstein und war vom 02.06.1803 bis 1818 Kurat in Calfosch/Kolfuschg,
                                     wo er am 10. Februar 1818 starb.
                                 </p>
-                                <p class="annotation"><sup><a href="#fz20" name="fn20">20</a></sup>
+                                <p className="annotation"><sup><a href="#fz20" name="fn20">20</a></sup>
                                     Mischì (2000: 702) bringt für ‚Untertan‘ <i>sotmetü</i>, Forni (2002:
                                     458) <i>sotmetù</i>; den anderen ladinischen Wörterbüchern fehlt das Wort.
                                 </p>
-                                <p class="annotation"><sup><a href="#fz21" name="fn21">21</a></sup>
+                                <p className="annotation"><sup><a href="#fz21" name="fn21">21</a></sup>
                                     Mischì (2000: 279) und Forni (2002: 145) bringen für erlauben v.a.
                                     <i>conzede(r)</i> und <i>pormëte(r)</i>; DILF (1999: 167), Comitato (1997: 275) und
                                     Masarei (2005: 599) haben aber <i>lèzit(o)</i>.
                                 </p>
-                                <p class="annotation"><sup><a href="#fz22" name="fn22">22</a></sup>
+                                <p className="annotation"><sup><a href="#fz22" name="fn22">22</a></sup>
                                     Das Manuskript der Insam-Grammatik von 1806 (vgl. Videsott 2009) hat
                                     auf Seite 34 <i>La Baviera</i>. Mischì (2000: 139): <i>Paiern, Poar</i>; Forni (2002:
                                     59) <i>Paiern</i>; in DILF (1999), Masarei (2005) und Comitato (1997) fehlt das
                                     Wort.
                                 </p>
-                                <p class="annotation"><sup><a href="#fz23" name="fn23">23</a></sup>
+                                <p className="annotation"><sup><a href="#fz23" name="fn23">23</a></sup>
                                     Heute in den nördlichen Tälern durch <i>pité</i> ersetzt.
                                 </p>
-                                <p class="annotation"><sup><a href="#fz24" name="fn24">24</a></sup>
+                                <p className="annotation"><sup><a href="#fz24" name="fn24">24</a></sup>
 
                                     Mischì (2000: 140): <i>impiegat, funzionar, ofizial publich</i>; Forni (2002:
                                     59): <i>mpiegà, mpiegat, peomter, funziuner</i>; DILF (1999: 142): <i>impiegat</i>;
                                     Masarei (2005: 587) <i>impiegat, mpiegat, scrivàn</i>; Comitato (1997: 235):
                                     <i>scrivan, scritural, jaibar, diornista</i>.
                                 </p>
-                                <p class="annotation"><sup><a href="#fz25" name="fn25">25</a></sup>
+                                <p className="annotation"><sup><a href="#fz25" name="fn25">25</a></sup>
                                     Mischì (2000: 221): <i>chestiun de laûr, materia d’ofize</i>; das Wort
                                     fehlt in Forni (2002).
                                 </p>
-                                <p class="annotation"><sup><a href="#fz26" name="fn26">26</a></sup>
+                                <p className="annotation"><sup><a href="#fz26" name="fn26">26</a></sup>
                                     Mischì (2000: 341): <i>valüta di scioldi, valur monetar</i>; Forni (2002:
                                     188): <i>valuta di scioldi, valor di scioldi</i>.
                                 </p>
-                                <p class="annotation"><sup><a href="#fz27" name="fn27">27</a></sup>
+                                <p className="annotation"><sup><a href="#fz27" name="fn27">27</a></sup>
                                     Mischì (2000: 70): <i>dovëi d’ofize</i>; in Forni (2002) fehlt das Wort.
                                 </p>
-                                <p class="annotation"><sup><a href="#fz28" name="fn28">28</a></sup>
+                                <p className="annotation"><sup><a href="#fz28" name="fn28">28</a></sup>
                                     Mischì (2000: 689): <i>zircostanza</i>; Forni (2002: 447): <i>cundizion</i>.
                                 </p>
-                                <p class="annotation"><sup><a href="#fz29" name="fn29">29</a></sup>
+                                <p className="annotation"><sup><a href="#fz29" name="fn29">29</a></sup>
                                     Das Wort fehlt sowohl in Mischì (2000) als auch in Forni (2002).
                                 </p>
-                                <p class="annotation"><sup><a href="#fz30" name="fn30">30</a></sup>
+                                <p className="annotation"><sup><a href="#fz30" name="fn30">30</a></sup>
                                     Mischì (2000: 89) bringt das Wort; Forni (2002: 29) hat nur <i>plura</i>.
                                 </p>
-                                <p class="annotation"><sup><a href="#fz31" name="fn31">31</a></sup>
+                                <p className="annotation"><sup><a href="#fz31" name="fn31">31</a></sup>
                                     Mischì (2000: 721) <i>suposizion, ipotesa, sospet</i>; Forni (2002: 474):
                                     <i>mineda, suspet, suposizion</i>.
                                 </p>
-                                <p class="annotation"><sup><a href="#fz32" name="fn32">32</a></sup>
+                                <p className="annotation"><sup><a href="#fz32" name="fn32">32</a></sup>
                                     Mischì (2000: 710): <i>malfat, delit</i>; Forni (2002: 464): <i>delit</i>.
                                 </p>
-                                <p class="annotation"><sup><a href="#fz33" name="fn33">33</a></sup>
+                                <p className="annotation"><sup><a href="#fz33" name="fn33">33</a></sup>
                                     Gelungen, da mit ladinischen Formen und gut verständlich, erscheint
                                     uns die Übersetzung von Angehörige mit <i>i sü</i> (Mischì 2000: 75 <i>parënć</i>;
                                     Forni 2002: 21 <i>parënc</i>).
@@ -835,7 +835,7 @@ function VidesottBernardi(props) {
 
 
                                 <h1>Literatur</h1>
-                                <p class="bibl">
+                                <p className="bibl">
                                     ALD-I = Goebl, Hans; Bauer, Roland; Haimerl, Edgar (1998): <i>ALD-I: Atlant
                                         linguistich dl ladin dolomitich y di dialec vejins, 1ª pert/Atlante
                                         linguistico del ladino dolomitico e dei dialetti limitrofi, 1ª
@@ -843,68 +843,68 @@ function VidesottBernardi(props) {
                                         Teil</i>, Wiesbaden.
                                 </p>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     Alton, Johann B. (1879): <i>Die ladinischen Idiome in Ladinien, Gröden,
                                         Fassa, Buchenstein, Ampezzo</i>, Innsbruck.
                                 </p>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     Bacher, Nikolaus (Micurà de Rü) (1995): Versuch einer
                                     deütsch-ladinischen Sprachlehre. Herausgegeben und mit Anmerkungen
                                     versehen von Lois Craffonara, in: <i>Ladinia</i> 19, 1–304.
                                 </p>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     Belardi, Walter (1988): <i>Narrativa Gardenese</i>. Roma/Ortisei.
                                 </p>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     – (1991): <i>Storia sociolinguistica della lingua ladina</i>.
                                     Roma/Corvara/Sëlva.
                                 </p>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     Bernardi, Rut/Videsott, Paul (2010): Jan Francësch Pezzei
                                     (1765–1819). Ein Buchensteiner als Autor der ersten Gadertaler Verse?, in: <i>Ladinia</i> 34, 187–204.
                                 </p>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     –/– (2011): Frühe ladinische Texte aus
                                     Col/Colle Santa Lucia, in: <i>Ladinia</i> 35 (im Druck).
                                 </p>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     Böhmer, Eduard (1878): Grednerisches, in: <i>Romanische Studien</i> 3,
                                     85–92.
                                 </p>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     Burtin, E. (1870): <i>Choix de poésies des dix-septième, dix-huitième et
                                         dix-neuvième siècles avec notices biographiques et notes – à
                                         l’usage des établissements d’instruction</i>, Berlin.
                                 </p>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     Comitato del Vocabolario delle Regole d’Ampezzo (1997): <i>Vocabolario
                                         Italiano–Ampezzano</i>, Cortina d’Ampezzo.
                                 </p>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     Craffonara, Lois (1999): N valgönes flus leterares dal Piemunt al
                                     Grijun y al Friûl, in: <i>Ladinia</i> 23, 305–364.
                                 </p>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     – (2003): <i>Flus leterares dl Grijun y dl Friûl</i>, San
                                     Martin de Tor.
                                 </p>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     – (2008): <i>Flus leterares dl Grijun y dl Friûl. Injunta
                                         al’ediziun dl 2003</i>. Bornech.
                                 </p>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     Dahmen, Wolfgang (2006): Art. 119c: Übersetzen und Sprachgeschichte:
                                     Übersetzungen ins Bündnerromanische/Traduction et histoire des
                                     langues: traductions en romanche, in: Gerhard Ernst et al.(Hg.):
@@ -914,17 +914,17 @@ function VidesottBernardi(props) {
                                     2, Berlin/New York, 1367–1372.
                                 </p>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     Dapoz, Felix (1982): <i>In banun</i>, San Martin de Tor.
                                 </p>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     DILF = Istitut Cultural Ladin «Majon di Fascegn»; SPELL (1999): <i>DILF.
                                         Dizionario Italiano–Ladino fassano con indice ladino–italiano/Dizionèr
                                         talian–ladin fascian con indesc ladin–talian</i>, Vich/Vigo di Fassa.
                                 </p>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     Faggin, Giorgio (2006): Art. 119a: Traduzione e storia della lingua:
                                     traduzioni in friulano/Übersetzen und Sprachgeschichte: Übersetzungen
                                     ins Friaulische, in: Gerhard Ernst et al. (Hg.): <i>Romanische Sprachgeschichte. Ein
@@ -934,28 +934,28 @@ function VidesottBernardi(props) {
                                     York, 1362–1365.
                                 </p>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     Flugi, Alfons von (1873): <i>Die Volkslieder des Engadin, nebst einem
                                         Anhange engadinischer Volkslieder im Original und in deutscher
                                         Übersetzung</i>, Strassburg.
                                 </p>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     Forni, Marco (2002): <i>Wörterbuch Deutsch–Grödner-Ladinisch. Vocabuler
                                         Tudësch–Ladin de Gherdëina</i>, San Martin de Tor.
                                 </p>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     Ghetta, Frumenzio/Plangg, Guntram A. (1987): Un proclama ladino del
                                     1631 e testi vicini, in: <i>Mondo Ladino</i> 11, 287–293.
                                 </p>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     Kattenbusch, Dieter (1994): Die Verschriftung des Sellaladinischen. Von
                                     den ersten Schreibversuchen bis zur Einheitsgraphie. San Martin de Tor.
                                 </p>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     – (2006): Art. 119b: Übersetzen und Sprachgeschichte:
                                     Übersetzungen ins Dolomitenladinische/Traduction et histoire des
                                     langues: traductions en ladin, in: Gerhard Ernst et al. (Hg.): <i>Romanische Sprachgeschichte. Ein
@@ -965,44 +965,44 @@ function VidesottBernardi(props) {
                                     York, 1365-1367.
                                 </p>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     Masarei, Sergio (2005): <i>Dizionar Fodom–Talián–Todësch/Dizionario
                                         Ladino Fodom–Italiano–Tedesco/Wörterbuch Fodom
                                         (Buchensteiner-Ladinisch)–Italienisch–Deutsch</i>, Colle Santa Lucia.
                                 </p>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     Mätzner, Eduard (1853): <i>Altfranzösische Lieder. Berichtigt und
                                         erläutert mit Bezugnahme auf die provenzalische, altitalienische und
                                         mittelhochdeutsche Liederdichtung</i>, Berlin.
                                 </p>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     Mischì, Giovanni (2000): <i>Wörterbuch Deutsch–Gadertalisch/Vocabolar
                                         Todësch–Ladin (Val Badia)</i>, San Martin de Tor.
                                 </p>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     Palla, Santo/Canins, Franz/Dapunt, Angel (2010): <i>La cöra d’animes
                                         tla Val Badia y sü proi (dal 1100 al 2000) trascrit dal todësch tl
                                         ladin cun adatamënć y injuntes da Franz Vittur</i>, San Martin de Tor.
                                 </p>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     Suani, Carlo (2009): <i>L’opera poetica di Felix Dapoz</i>, Balsan.
                                 </p>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     Vittur, Franz (Hg.) (1967): <i>Flus de munt. Liber da lì pur les scoles dla
                                         Val Badia</i>, Porsenù.
                                 </p>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     Valentini, Erwin (2003): Rez. zu Craffonara 2003, in: <i>Mondo Ladino</i> 27,
                                     346–355.
                                 </p>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     Videsott, Paul (2009): Na (re)descorida emportanta per la storia dl
                                     ladin: la pruma gramatica ladina, in: <i>Usc di Ladins</i> 38 (3.10.09), 6f.
                                 </p>

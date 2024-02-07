@@ -16,7 +16,7 @@ function Rubrik() {
                 <h2 className="header"><a href="/autoren">Autorinnen/Autoren</a></h2>
                 <h2 className="header">Rubriken<button onClick={toggleContentHandler}>...</button></h2>
                 {showContent && (
-                    <ul>
+                    <ul className="rubrik">
                         <li><a href="/inhalt#kat1">Dialekte/Varietäten</a></li>
                         <li><a href="/inhalt#kat2">Kulturgeschichte</a></li>
                         <li><a href="/inhalt#kat3">Ladinisch/Rätoromanisch</a></li>

@@ -124,13 +124,7 @@ ul#bibl {
     list-style-type: none;
 }
 
-ul#rubrik li {
-    display: inline;
-    font-family: "Trebuchet MS", Arial, sans-serif;
-    font-size: 12pt;
-}
-
-ul li {
+ul.rubrik li {
     display: list-item;
     list-style: none;
     font-family: "Trebuchet MS", Arial, sans-serif;
