@@ -99,7 +99,7 @@ function Autoren(props) {
 
                     <h2><a href="#k10" name="kat10">P</a></h2>
 
-                    <p className="bibl">Perone, Ugo: <a href="perone-stile-vivaldi.html">Stile VIVALDI</a></p>
+                    <p className="bibl">Perone, Ugo: <a href="/perone">Stile VIVALDI</a></p>
                     <p className="bibl">Pichler, Edith: <a href="pichler-gastarbeiter.html">Vom Gastarbeiter zum <i>(Gast-)Bürger</i>?
                         Italiener in Deutschland – eine Zwischenbilanz</a></p>
                     <p className="bibl">Plikat, Jochen: <a href="kwp-vivaldi-didaktik.html">VIVALDI – eine reiche Fundgrube für
