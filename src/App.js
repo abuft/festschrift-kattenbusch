@@ -19,6 +19,7 @@ import Perone from './compoments/articles/Perone';
 import Tosques from './compoments/articles/Tosques';
 import Bauer from './compoments/articles/Bauer';
 import Bernhard from './compoments/articles/Bernhard';
+import Bock from './compoments/articles/Bock';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path="/autoren" element={<Autoren id="Autorinnen/Autoren" />} />
           <Route path="/bauer" element={<Bauer id="Bauer" author="Roland Bauer" />} />
           <Route path="/bernhard" element={<Bernhard id="Bauer" author="Gerald Bernhard" />} />
+          <Route path="/bock" element={<Bock id="Bock" author="Günter Bock" />} />
           <Route path="/chiocchetti" element={<Chiocchetti id="chiocchetti" author="Fabio Chiocchetti" />} />
           <Route path="/ernst" element={<Ernst id="Ernst" author="Gerhard Ernst" />} />
           <Route path="/geleitwort" element={<Geleitwort id="Geleitwort" />} />

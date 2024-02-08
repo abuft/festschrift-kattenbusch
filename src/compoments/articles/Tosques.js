@@ -40,10 +40,10 @@ function Tosques(props) {
                 open={open}
                 close={() => setOpen(false)}
                 index={index}
-                slides={images.slice(0)}
+                slides={images}
                 controller={{ closeOnBackdropClick: true }}
                 plugins={[Captions]}
-                captions={{ showToggle: true, descriptionMaxLines: 3, descriptionTextAlign: "center" }}
+                captions={{ showToggle: true, descriptionMaxLines: 5, descriptionTextAlign: "center" }}
             />
 
 

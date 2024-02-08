@@ -33,7 +33,7 @@ function Autoren(props) {
                         dem Jahr 1811</a></p>
                     <p className="bibl">Bernhard, Gerald: <a href="/bernhard">Akzent, Arzneien und andere
                         Schwierigkeiten</a></p>
-                    <p className="bibl">Bock, Günter: <a href="bock-triathlon.html">Der Neufahrner Triathlon</a></p>
+                    <p className="bibl">Bock, Günter: <a href="/bock">Der Neufahrner Triathlon</a></p>
 
 
                     <h2><a href="#k2" name="kat2">C</a></h2>
