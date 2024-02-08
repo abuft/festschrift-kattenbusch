@@ -2,6 +2,9 @@ import Rubrik from "../Rubrik";
 import React, { useState } from "react";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
+import Captions from "yet-another-react-lightbox/plugins/captions";
+import "yet-another-react-lightbox/styles.css";
+import "yet-another-react-lightbox/plugins/captions.css";
 import Footer from "../Footer";
 import ErnstPortrait from '../../images/gernst/gernst-portrait.jpg';
 import Morinesio_small from '../../images/gernst/morinesio_small.jpg';
@@ -15,11 +18,11 @@ import UpArrow from "../UpArrow";
 function Ernst(props) {
 
     const images = [
-        { src: 'https://festschrift-kattenbusch.de/images/gernst/morinesio.jpg', caption: 'Morinesio/Mourines (CN)' },
-        { src: 'https://festschrift-kattenbusch.de/images/gernst/obacco.jpg', caption: 'Obacco/L’Ubac (CN)' },
-        { src: 'https://festschrift-kattenbusch.de/images/gernst/paias.jpg', caption: 'Paiàs/Palhás (CN)' },
-        { src: 'https://festschrift-kattenbusch.de/images/gernst/garzino.jpg', caption: 'Garzino' },
-        { src: 'https://festschrift-kattenbusch.de/images/gernst/soleglio.jpg', caption: 'Soleglio Bue/Solelha Buou (CN)' }
+        { src: 'https://festschrift-kattenbusch.de/images/gernst/morinesio.jpg', title: "Abb. 1", description: 'Morinesio/Mourines (CN)' },
+        { src: 'https://festschrift-kattenbusch.de/images/gernst/obacco.jpg', title: "Abb. 2", description: 'Obacco/L’Ubac (CN)' },
+        { src: 'https://festschrift-kattenbusch.de/images/gernst/paias.jpg', title: "Abb. 3", description: 'Paiàs/Palhás (CN)' },
+        { src: 'https://festschrift-kattenbusch.de/images/gernst/garzino.jpg', title: "Abb. 4", description: 'Garzino' },
+        { src: 'https://festschrift-kattenbusch.de/images/gernst/soleglio.jpg', title: "Abb. 5", description: 'Soleglio Bue/Solelha Buou (CN)' }
     ];
 
     const [open, setOpen] = useState(false);
@@ -43,6 +46,8 @@ function Ernst(props) {
                     close={() => setOpen(false)}
                     controller={{ closeOnBackdropClick: true }}
                     slides={images.slice(0)}
+                    plugins={[Captions]}
+                    captions={{ showToggle:true, descriptionMaxLines: 3, descriptionTextAlign: "center" }}
                 />
 
                 <div id="Teasers" className="clearfix">

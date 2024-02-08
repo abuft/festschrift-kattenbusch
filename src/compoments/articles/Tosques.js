@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Lightbox from "yet-another-react-lightbox";
+import Captions from "yet-another-react-lightbox/plugins/captions";
 import "yet-another-react-lightbox/styles.css";
+import "yet-another-react-lightbox/plugins/captions.css";
 import Header from "../Header";
 import Rubrik from "../Rubrik";
 import TosquesPortrait from "../../images/ftosques/ftosques-portrait.jpg";
@@ -12,9 +14,9 @@ import WikiBearbeiten1Small from "../../images/ftosques/wikipedia-faeto-bearbeit
 
 function Tosques(props) {
     const images = [
-        { src: "https://festschrift-kattenbusch.de/images/ftosques/faeto-wikipedia-08.01.2012.png", alt: "Faeto Artikel in Wikipedia vom 08.01.2012" },
-        { src: "https://festschrift-kattenbusch.de/images/ftosques/wikipedia-faeto-bearbeiten-2.png", alt: "Bearbeitungsmodus Wikipedia" },
-        { src: "https://festschrift-kattenbusch.de/images/ftosques/wikipedia-faeto-bearbeiten-1.png", alt: "Bearbeitungsmodus Wikipedia" },
+        { src: "https://festschrift-kattenbusch.de/images/ftosques/faeto-wikipedia-08.01.2012.png", title: "Abb. 1", description: "Faeto Artikel in Wikipedia vom 08.01.2012" },
+        { src: "https://festschrift-kattenbusch.de/images/ftosques/wikipedia-faeto-bearbeiten-2.png", title: "Abb. 2", description: "Im Editormodus von Wikipedia. Gut zu erkennen sind die einzelnen Formatierungsanweisungen wie Überschriften (==), Kursivierung (''), fetter Text (''') sowie die Nutzung von Templates in doppelten geschweiften Klammern, z.B. das automatische Laden der Einwohnerzahl von ISTAT {{EWZ|IT|071023}}, des Einwohnerdatums {{EWD|IT|071023}}, der IPA Fonts usw. " },
+        { src: "https://festschrift-kattenbusch.de/images/ftosques/wikipedia-faeto-bearbeiten-1.png", title: "Abb. 3", description: "Aus dem Code für die Infobox generiert Wikipedia automatisch einen Kasten auf der rechten Seite, in dem die wichtigsten Geodaten und demographische Daten übersichtlich dargestellt werden. Der Autor eines Artikels muss nur die entsprechenden Daten recherchieren und eingeben. Um die Darstellung selbst kümmert sich dann das entsprechende Template." },
     ];
 
     const [open, setOpen] = useState(false);
@@ -40,6 +42,8 @@ function Tosques(props) {
                 index={index}
                 slides={images.slice(0)}
                 controller={{ closeOnBackdropClick: true }}
+                plugins={[Captions]}
+                captions={{ showToggle: true, descriptionMaxLines: 3, descriptionTextAlign: "center" }}
             />
 
 
