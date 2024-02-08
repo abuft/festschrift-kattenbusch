@@ -34,7 +34,7 @@ function Inhalt(props) {
 
                     <p className="bibl">Hans Goebl: <a href="goebl-tumulazione.html">Kulturwissenschaftliches aus der
                         ALD-Werkstatt: <i>tumulazione</i> versus <i>inumazione</i></a></p>
-                    <p className="bibl">Edith Pichler: <a href="pichler-gastarbeiter.html">Vom Gastarbeiter zum <i>(Gast-)Bürger</i>?
+                    <p className="bibl">Edith Pichler: <a href="/pichler">Vom Gastarbeiter zum <i>(Gast-)Bürger</i>?
                         Italiener in Deutschland – eine Zwischenbilanz</a></p>
                     <p className="bibl">Roberto Ubbidiente: <a href="ubbidiente-caffe.html">“Oro nero” – La cultura del caffè in
                         Italia: usi, costumi, teatro e letteratura</a></p>
@@ -43,7 +43,7 @@ function Inhalt(props) {
 
                     <h2><a href="#k3" name="kat3">3</a> Ladinisch/Rätoromanisch</h2>
 
-                    <p className="bibl">Jean-Jacques Furer: <a href="furer-dictionnaire-francais-romanche.html">
+                    <p className="bibl">Jean-Jacques Furer: <a href="/furerj">
                         Un dictionnaire français-romanche
                         (sursilvan+): Pourquoi – Comment – Par qui</a></p>
                     <p className="bibl">Paul Videsott/Rut Bernardi: <a href="/videsottBernardi">Eine administrative Übersetzung ins Dolomitenladinische aus
@@ -61,7 +61,7 @@ function Inhalt(props) {
 
                     <p className="bibl">Giuseppe Cocco/Fabio Tosques: <a href="cocco-faeto.html">Il Francoprovenzale di Faeto</a></p>
                     <p className="bibl">Gerhard Ernst: <a href="ernst-cartolina.html">Una cartolina dalla Val Maira</a></p>
-                    <p className="bibl">Gianmarco Furer: <a href="furer-plurilinguisme.html">Plurilinguisme programmé/volontaire/voulu</a></p>
+                    <p className="bibl">Gianmarco Furer: <a href="/furerg">Plurilinguisme programmé/volontaire/voulu</a></p>
 
 
                     <h2><a href="#k6" name="kat6">6</a> Reisen</h2>

@@ -55,9 +55,9 @@ function Autoren(props) {
 
                     <h2><a href="#k5" name="kat5">F</a></h2>
 
-                    <p className="bibl">Furer, Gianmarco: <a href="furer-plurilinguisme.html">Plurilinguisme
+                    <p className="bibl">Furer, Gianmarco: <a href="/furerg">Plurilinguisme
                         programmé/volontaire/voulu</a></p>
-                    <p className="bibl">Furer, Jean-Jacques: <a href="furer-dictionnaire-francais-romanche.html">
+                    <p className="bibl">Furer, Jean-Jacques: <a href="/furerj">
                         Un dictionnaire français-romanche
                         (sursilvan+): Pourquoi – Comment – Par qui</a></p>
 
@@ -100,7 +100,7 @@ function Autoren(props) {
                     <h2><a href="#k10" name="kat10">P</a></h2>
 
                     <p className="bibl">Perone, Ugo: <a href="/perone">Stile VIVALDI</a></p>
-                    <p className="bibl">Pichler, Edith: <a href="pichler-gastarbeiter.html">Vom Gastarbeiter zum <i>(Gast-)Bürger</i>?
+                    <p className="bibl">Pichler, Edith: <a href="/pichler">Vom Gastarbeiter zum <i>(Gast-)Bürger</i>?
                         Italiener in Deutschland – eine Zwischenbilanz</a></p>
                     <p className="bibl">Plikat, Jochen: <a href="kwp-vivaldi-didaktik.html">VIVALDI – eine reiche Fundgrube für
                         Lehramtsstudierende?

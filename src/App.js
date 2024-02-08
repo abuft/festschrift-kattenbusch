@@ -21,6 +21,9 @@ import Bauer from './compoments/articles/Bauer';
 import Bernhard from './compoments/articles/Bernhard';
 import Bock from './compoments/articles/Bock';
 import Schaumburg from './compoments/articles/Schaumburg';
+import Pichler from './compoments/articles/Pichler';
+import FurerJ from './compoments/articles/FurerJ';
+import FurerG from './compoments/articles/FurerG';
 
 function App() {
   return (
@@ -35,12 +38,15 @@ function App() {
           <Route path="/bock" element={<Bock id="Bock" author="Günter Bock" />} />
           <Route path="/chiocchetti" element={<Chiocchetti id="chiocchetti" author="Fabio Chiocchetti" />} />
           <Route path="/ernst" element={<Ernst id="Ernst" author="Gerhard Ernst" />} />
+          <Route path="/furerj" element={<FurerJ id="FurerJ" author="Jean-Jacques Furer" />} />
+          <Route path="/furerg" element={<FurerG id="FurerG" author="Gianmarco Furer" />} />
           <Route path="/geleitwort" element={<Geleitwort id="Geleitwort" />} />
           <Route path="/impressum" element={<Impressum id="Impressum" />} />
           <Route path="/inhalt" element={<Inhalt id="Inhaltsverzeichnis" />} />
           <Route path="/klare" element={<Klare id="Klare" author="Johannes Klare" />} />
           <Route path="/koehler" element={<Koehler id="Koehler" author="Carola Koehler" />} />
           <Route path="/perone" element={<Perone id="perone" author="Ugo Perone" />} />
+          <Route path="/pichler" element={<Pichler id="Pichler" author="Edith Pichler" />} />
           <Route path="/schaumburg" element={<Schaumburg id="Schaumburg" author="Christophe Schaumburg" />} />
           <Route path="/schmidt" element={<Schmidt id="Schmidt" author="Jochen Schmidt" />} />
           <Route path="/tosques" element={<Tosques id="Tosques" author="Fabio Tosques" />} />
