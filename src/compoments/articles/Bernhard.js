@@ -7,17 +7,17 @@ import BernhardPortrait from "../../images/gbernhard/gbernhard-portrait.jpg";
 function Bernhard(props) {
     return (
         <div>
-            <div id="Wrapper" class="container_14">
+            <div id="Wrapper" className="container_14">
 
                 <div id="Header">
                     <Header id={props.author} />
-                    <div class="grid_9">
+                    <div className="grid_9">
                         <h1 id="main_title">Akzent, Arzneien und andere Schwierigkeiten</h1>
                         <p id="author">Gerald Bernhard, Bochum</p>
                     </div>
                     <Rubrik />
-                    <div id="Teasers" class="clearfix">
-                        <div class="grid_9">
+                    <div id="Teasers" className="clearfix">
+                        <div className="grid_9">
                             <p>
                                 Wenn man zum 60. Geburtstag eine Festschrift erhält, kann dies durchaus
                                 mehrere Gründe haben: Erstens kann der Jubilar bereits mit der
@@ -45,12 +45,12 @@ function Bernhard(props) {
                                 Verdurstungserscheinungen und diverse Insektenstiche bereithalten.
                             </p>
                         </div>
-                        <div class="grid_5">
+                        <div className="grid_5">
 
-                            <div class="abouttheauthor">
+                            <div className="abouttheauthor">
                                 <img src={BernhardPortrait} width="150"
                                     height="100" alt=" - Portrait" />
-                                <div class="abouttheauthorfont"><br /><br />
+                                <div className="abouttheauthorfont"><br /><br />
                                     <b>Gerald Bernhard</b>, Prof. Dr., seit 2002 Professor für Romanische
                                     Sprach- wissenschaft an der Ruhr-Universität
                                     Bochum. Forschungsschwerpunkte: Variationslinguistik, Semantik und
@@ -61,15 +61,15 @@ function Bernhard(props) {
                                         als ich seine Nachfolge als Assistent von Gerhard Ernst antrat.
                                     </span>
                                 </div>
-                                <div class="clearfloat"></div>
+                                <div className="clearfloat"></div>
                             </div>
                         </div>
                     </div>
 
                     <div id="Main">
-                        <div id="Articles" class="grid_14">
+                        <div id="Articles" className="grid_14">
                             <section id="posts">
-                                <article class="post">
+                                <article className="post">
                                     <p>
                                         Jedem, der mit deutschen oder vergleichbaren germanischen Kenntnissen
                                         von Arzneimittelnamen einmal nach Italien gefahren ist, dürfte bekannt
@@ -401,7 +401,7 @@ function Bernhard(props) {
                                         Kontext als für den Nutzer vorteilhaft vermerkt.
                                     </p>
 
-                                    <p class="quote">
+                                    <p className="quote">
                                         <span style={{ color: "#666666" }}><b>Caro Dieter:</b></span>
                                         <br />
                                         After all the <span style={{ color: "#444444" }}>bygone</span>
@@ -412,13 +412,13 @@ function Bernhard(props) {
 
                                     <h1>Anmerkungen</h1>
 
-                                    <p class="annotation"><sup><a href="#fz1" name="fn1">1</a></sup>
+                                    <p className="annotation"><sup><a href="#fz1" name="fn1">1</a></sup>
                                         In der Tat erfordert das sprechende Dialektarchiv VIVALDI,
                                         das der Jubilar seit Jahren, anfangs zusammen mit Roland Bauer,
                                         erstellt, einiges Durchhaltevermögen.
                                     </p>
 
-                                    <p class="annotation"><sup><a href="#fz2" name="fn2">2</a></sup>
+                                    <p className="annotation"><sup><a href="#fz2" name="fn2">2</a></sup>
                                         Vgl. Dardano/Trifone, <i>Grammatica</i>
                                         (Kap. 17.9.1.). Serianni, <i>Grammatica</i>
                                         (I, 189f.) weist auf ein bereits bei Dante beobachtbares Auftreten von
@@ -435,84 +435,84 @@ function Bernhard(props) {
                                         geklärt werden.
                                     </p>
 
-                                    <p class="annotation"><sup><a href="#fz3" name="fn3">3</a></sup>
+                                    <p className="annotation"><sup><a href="#fz3" name="fn3">3</a></sup>
                                         Näheres zur Bildung von Produktnamen bei pharmazeutischen Erzeugnissen
                                         bei Patota 1985 und Serianni 1989, 381–384, Anm. 3.
                                     </p>
 
-                                    <p class="annotation"><sup><a href="#fz4" name="fn4">4</a></sup>
+                                    <p className="annotation"><sup><a href="#fz4" name="fn4">4</a></sup>
                                         Bisweilen ist jedoch eine dem Englischen widersprechende Ultima- oder
                                         Paenultima-Betonung zu beobachten, wie z.B. in <i>juke-bóx</i> oder
                                         <i>babysítter</i>.
                                     </p>
 
-                                    <p class="annotation"><sup><a href="#fz5" name="fn5">5</a></sup>
+                                    <p className="annotation"><sup><a href="#fz5" name="fn5">5</a></sup>
                                         Die Informantin lebt seit mehreren Jahren in Catania und spricht ein
                                         ‚near-native‘-Italienisch.
                                     </p>
 
-                                    <p class="annotation"><sup><a href="#fz6" name="fn6">6</a></sup>
+                                    <p className="annotation"><sup><a href="#fz6" name="fn6">6</a></sup>
                                         Zur Ausbreitung des medizinischen Fachwortschatzes im Italienischen
                                         siehe beispielsweise Serianni 2005, 99–112 und 113–127.
                                     </p>
 
-                                    <p class="annotation"><sup><a href="#fz7" name="fn7">7</a></sup>
+                                    <p className="annotation"><sup><a href="#fz7" name="fn7">7</a></sup>
                                         Auch aus der Sache ergibt sich hier freilich keine semantische
                                         Motivierbarkeit, denn es handelt sich ja augenscheinlich in beiden
                                         Fällen um alles andere als ‚pan‘ (Brot).
                                     </p>
 
 
-                                    <p class="annotation"><sup><a href="#fz8" name="fn8">8</a></sup>
+                                    <p className="annotation"><sup><a href="#fz8" name="fn8">8</a></sup>
                                         Hinzu treten hier bisweilen auch phonische oder auditiv verstärkende
                                         Gewohnheiten, wie die Aussprache der deutschen Variante <i>Peter</i> im
                                         Italienischen sehr oft <i>Piter</i> hervorbringt, und dies trotz eines
                                         impliziten Wissens um die Realisation des Graphems
-                                        &lt;e&gt; als <font class="ipa">[e]</font> oder
-                                        <font class="ipa">[ɛ]</font>. Ähnliche Verhältnisse
+                                        &lt;e&gt; als <font className="ipa">[e]</font> oder
+                                        <font className="ipa">[ɛ]</font>. Ähnliche Verhältnisse
                                         mögen gelten für die Wiedergabe des
                                         deutschen Ortsnamens <i>Ludwigshafen</i> als
-                                        frz. <font class="ipa">[ludvigˈʃafn]</font> oder der
+                                        frz. <font className="ipa">[ludvigˈʃafn]</font> oder der
                                         frz. Form des Ortsnamens <i>Mulhouse</i> (Elsaß) als <i>Mülhaus</i> im
                                         Deutschen. Sowohl bei
-                                        frz. <font class="ipa">[ʃ]</font> für &lt;sh&gt; als
-                                        auch bei dt. <font class="ipa">[aʊ]</font>
+                                        frz. <font className="ipa">[ʃ]</font> für &lt;sh&gt; als
+                                        auch bei dt. <font className="ipa">[aʊ]</font>
                                         für &lt;ou&gt; werden fremdsprachliche Grapheme nach englischen
                                         Mustern verlautlicht,  es wird also übergeneralisiert.
                                     </p>
 
-                                    <p class="annotation"><sup><a href="#fz9" name="fn9">9</a></sup>
+                                    <p className="annotation"><sup><a href="#fz9" name="fn9">9</a></sup>
                                         Hier könnte man von einer Suffixmotiviertheit sprechen, die sich
                                         reihenhaft auch in <i>austriaco</i>, <i>intonaco</i> usw. findet.
                                     </p>
 
 
                                     <h1>Literatur</h1>
-                                    <p class="bibl">
+                                    <p className="bibl">
                                         Dardano, Maurizio/Trifone, Pietro (<sup>3</sup>1995): <i>Grammatica
                                             italiana. Con nozioni di linguistica</i>, Bologna.
                                     </p>
 
-                                    <p class="bibl">
+                                    <p className="bibl">
                                         Patota, Giuseppe (1985): Sulla formazione dei nomi dei medicinali,
                                         in: <i>Studi linguistici Italiani</i>, XI, 273–283.
                                     </p>
 
-                                    <p class="bibl">
+                                    <p className="bibl">
                                         Riolo, Salvatore (2007): <i>Marchionimi e nomi commerciali nella
                                             lessicografia italiana del secondo novecento</i>, Catania.
                                     </p>
 
-                                    <p class="bibl">
+                                    <p className="bibl">
                                         Serianni, Luca (1989): <i>Saggi di storia linguistica italiana</i>, Napoli.
                                     </p>
 
-                                    <p class="bibl">
+                                    <p className="bibl">
                                         – (2005): <i>Un treno di sintomi: i medici e le parole: percorsi
                                             linguistici nel passato e nel presente</i>, Milano.
                                     </p>
 
-                                    <p class="bibl">
+                                    <p className="bibl">
                                         – (2006): <i>Grammatica italiana. Italiano comune e lingua
                                             letteraria</i>, Torino.
                                     </p>

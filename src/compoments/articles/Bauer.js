@@ -51,10 +51,10 @@ function Bauer(props) {
 
     return (
         <div>
-            <div id="Wrapper" class="container_14">
+            <div id="Wrapper" className="container_14">
                 <div id="Header">
                     <Header id={props.author} />
-                    <div class="grid_9">
+                    <div className="grid_9">
                         <h1 id="main_title">Zur inneren Arealgliederung des Trentino.
                             Eine dialektometrische Nachschau</h1>
                         <p id="author">Roland Bauer, Salzburg</p>
@@ -72,8 +72,8 @@ function Bauer(props) {
                     captions={{ showToggle:true, descriptionMaxLines: 3, descriptionTextAlign: "center" }}
                 />
 
-                <div id="Teasers" class="clearfix">
-                    <div class="grid_9">
+                <div id="Teasers" className="clearfix">
+                    <div className="grid_9">
                         <h1>1 Vorbemerkung und Widmung</h1>
                         <p>
                             Ideeller Ausgangspunkt für den vorliegenden Beitrag ist der im Oktober
@@ -96,29 +96,29 @@ function Bauer(props) {
                         </p>
                     </div>
 
-                    <div class="grid_5">
-                        <div class="abouttheauthor">
+                    <div className="grid_5">
+                        <div className="abouttheauthor">
                             <img src={BauerPortrait} width="100"
                                 height="150" alt="Roland Bauer - Portrait" />
-                            <div class="abouttheauthorfont"><br /><br />
+                            <div className="abouttheauthorfont"><br /><br />
                                 <b>Roland Bauer</b>, ao. Univ.-Prof. Dr., seit 2004 außerordentlicher
                                 Universitätsprofessor am Fachbereich Romanistik der Universität
                                 Salzburg. Romanistik- und Geographiestudium in Salzburg, 1997 Promotion,
                                 2004 Habilitation. Seit 1987 Mitarbeit am ALD-I. 1992 zusammen mit
                                 Dieter Kattenbusch Initiator des Projekts VIVALDI.
                             </div>
-                            <div class="clearfloat"></div>
+                            <div className="clearfloat"></div>
                         </div>
                     </div>
                 </div>
 
                 <div id="Main">
-                    <div id="Articles" class="grid_14">
+                    <div id="Articles" className="grid_14">
                         <section id="posts">
-                            <article class="post">
+                            <article className="post">
                                 <h1>2 Einleitung</h1>
 
-                                <figure class="imageleft">
+                                <figure className="imageleft">
                                     <p style={{ width: "250px" }}><a href="#b1"
                                         name="abb1">Karte 1</a>: Ähnlichkeitskarte zum Standarditalienischen (ALD - Trentino)
                                     </p>
@@ -157,7 +157,7 @@ function Bauer(props) {
                                 </p>
 
 
-                                <figure class="imageright">
+                                <figure className="imageright">
                                     <p style={{ width: "250px" }}><a href="#b2"
                                         name="abb2">Karte 2</a>: Ähnlichkeitskarte zum Standarditalienischen (AIS)
                                     </p>
@@ -202,7 +202,7 @@ function Bauer(props) {
                                         name="fz7">7</a></sup>
                                 </p>
 
-                                <figure class="imageleft">
+                                <figure className="imageleft">
                                     <p style={{ width: "250px" }}><a href="#b3"
                                         name="abb3">Karte 3</a>: Ähnlichkeitskarte zum Dolomitenladinischen (Oberfassanischen)
                                     </p>
@@ -243,7 +243,7 @@ function Bauer(props) {
                                     Oberfassanisch/<i>cazet</i>).
                                 </p>
 
-                                <figure class="imageleft">
+                                <figure className="imageleft">
                                     <p style={{ width: "250px" }}><a href="#b4"
                                         name="abb4">Karte 4</a>: Ähnlichkeitskarte zum Solandrischen (Sulzbergischen)
                                     </p>
@@ -287,7 +287,7 @@ function Bauer(props) {
                                     fällt.<sup><a href="#fn15" name="fz15">15</a></sup>
                                 </p>
 
-                                <figure class="imageright">
+                                <figure className="imageright">
                                     <p style={{ width: "250px" }}><a href="#b5"
                                         name="abb5">Karte 5</a>: Ähnlichkeitskarte zum Anaunischen (Nonsbergischen)
                                     </p>
@@ -325,7 +325,7 @@ function Bauer(props) {
                                     aus gesehen.
                                 </p>
 
-                                <figure class="imageleft">
+                                <figure className="imageleft">
                                     <p style={{ width: "250px" }}><a href="#b6"
                                         name="abb6">Karte 6</a>: Ähnlichkeitskarte zum Zentraltrentinischen (Bozner Unterland)
                                     </p>
@@ -369,7 +369,7 @@ function Bauer(props) {
                                     Ladinisch).
                                 </p>
 
-                                <figure class="imageright">
+                                <figure className="imageright">
                                     <p style={{ width: "250px" }}><a href="#b7"
                                         name="abb7">Karte 7</a>: Ähnlichkeitskarte zum Zentraltrentinischen (Stadt Trient)
                                     </p>
@@ -407,7 +407,7 @@ function Bauer(props) {
                                         name="fz25">25</a></sup>
                                 </p>
 
-                                <figure class="imageleft">
+                                <figure className="imageleft">
                                     <p style={{ width: "250px" }}><a href="#b8"
                                         name="abb8">Karte 8</a>: Ähnlichkeitskarte zum Zentraltrentinischen (Stadt Rovereto)
                                     </p>
@@ -450,7 +450,7 @@ function Bauer(props) {
                                     kommt.<sup><a href="#fn29" name="fz29">29</a></sup>
                                 </p>
 
-                                <figure class="imageright">
+                                <figure className="imageright">
                                     <p style={{ width: "250px" }}><a href="#b9"
                                         name="abb9">Karte 9</a>: Ähnlichkeitskarte zum Zentraltrentinischen (Val Lagarina)
                                     </p>
@@ -484,7 +484,7 @@ function Bauer(props) {
                                     Prozent verzeichnet.
                                 </p>
 
-                                <figure class="imageleft">
+                                <figure className="imageleft">
                                     <p style={{ width: "250px" }}><a href="#b10"
                                         name="abb10">Karte 10</a>: Schottenkarte (quantitative Isoglossensynthese)
                                     </p>
@@ -512,7 +512,7 @@ function Bauer(props) {
                                         name="fz31">31</a></sup>
                                 </p>
 
-                                <figure class="imageright">
+                                <figure className="imageright">
                                     <p style={{ width: "250px" }}><a href="#b11"
                                         name="abb11">Karte 11</a>: Dendrographische Analyse (zwei Cluster)
                                     </p>
@@ -549,7 +549,7 @@ function Bauer(props) {
                                     bzw. protoromanischen Ureinheit.
                                 </p>
 
-                                <figure class="imageleft">
+                                <figure className="imageleft">
                                     <p style={{ width: "250px" }}><a href="#b12"
                                         name="abb12">Karte 12</a>: Dendrographische Analyse (vier Cluster)
                                     </p>
@@ -573,7 +573,7 @@ function Bauer(props) {
                                     selbst umfasst.
                                 </p>
 
-                                <figure class="imageright">
+                                <figure className="imageright">
                                     <p style={{ width: "250px" }}><a href="#b13"
                                         name="abb13">Karte 13</a>: Dendrographische Analyse (sechs Cluster)
                                     </p>
@@ -601,7 +601,7 @@ function Bauer(props) {
                                     gegliedert erscheinen.
                                 </p>
 
-                                <figure class="imageright">
+                                <figure className="imageright">
                                     <p style={{ width: "250px" }}><a href="#b14"
                                         name="abb14">Karte 14</a>: Dendrographische Analyse (acht Cluster)
                                     </p>
@@ -620,7 +620,7 @@ function Bauer(props) {
                                     auch das Noce-Romanische in Solandrisch (7) und Anaunisch (8) auf.
                                 </p>
 
-                                <figure class="imageleft">
+                                <figure className="imageleft">
                                     <p style={{ width: "250px" }}><a href="#b15"
                                         name="abb15">Karte 15</a>: Dendrographische Analyse (zehn Cluster)
                                     </p>
@@ -649,7 +649,7 @@ function Bauer(props) {
                                     im Bereich des trentinischen Zentralraums.
                                 </p>
 
-                                <figure class="imageleft">
+                                <figure className="imageleft">
                                     <p style={{ width: "250px" }}><a href="#b16"
                                         name="abb16">Karte 16</a>: Ähnlichkeitskarte zum Standardfranzösischen
                                     </p>
@@ -676,23 +676,23 @@ function Bauer(props) {
                                 </p>
 
                                 <h1>Anmerkungen</h1>
-                                <p class="annotation"><sup><a href="#fz1" name="fn1">1</a></sup>
+                                <p className="annotation"><sup><a href="#fz1" name="fn1">1</a></sup>
                                     Cf. Banfi et al. 1995.
                                 </p>
 
-                                <p class="annotation"><sup><a href="#fz2" name="fn2">2</a></sup>
+                                <p className="annotation"><sup><a href="#fz2" name="fn2">2</a></sup>
                                     Im Sommer 1992 hatten wir ja auf Sizilien im Rahmen
                                     gemeinsamer Enquêten die ersten VIVALDI-Daten
                                     zusammengetragen (cf. dazu Bauer 1995 und Kattenbusch
                                     1995).
                                 </p>
 
-                                <p class="annotation"><sup><a href="#fz3" name="fn3">3</a></sup>
+                                <p className="annotation"><sup><a href="#fz3" name="fn3">3</a></sup>
                                     Cf. den explizit diesem Thema gewidmeten Beitrag Bauer
                                     2003 sowie id. 2009, 263–284.
                                 </p>
 
-                                <p class="annotation"><sup><a href="#fz4" name="fn4">4</a></sup>
+                                <p className="annotation"><sup><a href="#fz4" name="fn4">4</a></sup>
                                     Der dolomitenladinische Sprachatlas (ALD) stellt
                                     übrigens eine weitere zentrale Berührungsfläche
                                     zwischen dem Autor dieser Zeilen und dem <i>Festeggiato</i>
@@ -705,14 +705,14 @@ function Bauer(props) {
                                     Kattenbusch/Goebl 1986 oder Bauer 1990).
                                 </p>
 
-                                <p class="annotation"><sup><a href="#fz5" name="fn5">5</a></sup>
+                                <p className="annotation"><sup><a href="#fz5" name="fn5">5</a></sup>
                                     Eine kommentierte Bibliographie zur Geschichte der
                                     romanistischen Dialektometrie mit besonderer
                                     Berücksichtigung der „Salzburger Schule“ findet sich
                                     in Bauer 2009, 19–84.
                                 </p>
 
-                                <p class="annotation"><sup><a href="#fz6" name="fn6">6</a></sup>
+                                <p className="annotation"><sup><a href="#fz6" name="fn6">6</a></sup>
                                     Im Vergleich zur Dialektometrisierung des gesamten
                                     Beobachtungsraumes (220 Messpunkte, gut 4.000
                                     Arbeitskarten) mussten hier rund 700 Arbeitskarten
@@ -726,7 +726,7 @@ function Bauer(props) {
                                     über 880.000 Zellen) cf. Bauer 2009, 158–198.
                                 </p>
 
-                                <p class="annotation"><sup><a href="#fz7" name="fn7">7</a></sup>
+                                <p className="annotation"><sup><a href="#fz7" name="fn7">7</a></sup>
                                     Zu den kartographischen Prinzipien der Polygonkarten,
                                     zu den (mehr oder weniger gewichtenden)
                                     Ähnlichkeitsmaßen, zur Intervallisierung der
@@ -737,13 +737,13 @@ function Bauer(props) {
                                     2009, 91–113.
                                 </p>
 
-                                <p class="annotation"><sup><a href="#fz8" name="fn8">8</a></sup>
+                                <p className="annotation"><sup><a href="#fz8" name="fn8">8</a></sup>
                                     Das Standarditalienische ist im Südosten von <a href="#abb1" name="b1">Karte 1</a>
                                     durch das weiße Polygon mit der Nr. 999 abgebildet,
                                     auf das durch einen roten Pfeil verwiesen wird.
                                 </p>
 
-                                <p class="annotation"><sup><a href="#fz9" name="fn9">9</a></sup>
+                                <p className="annotation"><sup><a href="#fz9" name="fn9">9</a></sup>
                                     Die genannte Spannweite gilt dabei für unser
                                     (bekanntlich zu mehr als zwei Dritteln von
                                     phonetischen Merkmalen geprägtes) Gesamtcorpus,
@@ -754,7 +754,7 @@ function Bauer(props) {
                                     2009, 227.
                                 </p>
 
-                                <p class="annotation"><sup><a href="#fz10" name="fn10">10</a></sup>
+                                <p className="annotation"><sup><a href="#fz10" name="fn10">10</a></sup>
                                     Siehe das mit weißem Strichraster versehene,
                                     dunkelblaue Polygon (Legende Intervall [1]) mit der
                                     Nr. 888 im äußersten Südwesten von <a href="#abb1" name="b1">Karte 1</a>. Das
@@ -771,13 +771,13 @@ function Bauer(props) {
                                     entfernt ist.
                                 </p>
 
-                                <p class="annotation"><sup><a href="#fz11" name="fn11">11</a></sup>
+                                <p className="annotation"><sup><a href="#fz11" name="fn11">11</a></sup>
                                     Siehe dazu die hellblau eingefärbten Polygone
                                     (Intervall [2]) mit den Messpunktnummern 97 (Delba)
                                     und 98 (Ciampedel) im äußersten Nordosten von <a href="#abb1" name="b1">Karte 1</a>.
                                 </p>
 
-                                <p class="annotation"><sup><a href="#fz12" name="fn12">12</a></sup>
+                                <p className="annotation"><sup><a href="#fz12" name="fn12">12</a></sup>
                                     Zur problematischen Klassifizierung der Mundarten von
                                     Valsugana und Primiero als Zentraltrentinisch
                                     vs. Venedisch-Vicentinisch bzw. Venedisch-Feltrinisch
@@ -808,17 +808,17 @@ function Bauer(props) {
                                     AIS-Corpus zurückgreifen konnte).
                                 </p>
 
-                                <p class="annotation"><sup><a href="#fz13" name="fn13">13</a></sup>
+                                <p className="annotation"><sup><a href="#fz13" name="fn13">13</a></sup>
                                     Siehe dazu die Verteilung der lachsfarbenen Polygone
                                     auf <a href="#abb1" name="b1">Karte 1</a> (= Intervall [5]: 65–69 Prozent).
                                 </p>
 
-                                <p class="annotation"><sup><a href="#fz14" name="fn14">14</a></sup>
+                                <p className="annotation"><sup><a href="#fz14" name="fn14">14</a></sup>
                                     Siehe dazu die grün eingefärbten Polygone auf <a href="#abb1" name="b1">Karte 1</a>
                                     (= Intervall [3]: 50–62 Prozent).
                                 </p>
 
-                                <p class="annotation"><sup><a href="#fz15" name="fn15">15</a></sup>
+                                <p className="annotation"><sup><a href="#fz15" name="fn15">15</a></sup>
                                     Cf. dazu bereits Heilmann 1955. – Auf <a href="#abb1" name="b1">Karte 1</a> siehe
                                     dazu die unmittelbare Nachbarschaft bzw. die
                                     Nord-Süd-Abfolge der Intervalle [2] (hellblau:
@@ -826,7 +826,7 @@ function Bauer(props) {
                                     und [5] (lachsfarben, PP. 104–105).
                                 </p>
 
-                                <p class="annotation"><sup><a href="#fz16" name="fn16">16</a></sup>
+                                <p className="annotation"><sup><a href="#fz16" name="fn16">16</a></sup>
                                     Der Terminus <i>Noceromanisch</i> entstammt dem Titel der
                                     Diplomarbeit von Kollmann 1997. Alternativ wird als
                                     Sammelbegriff für Nonsbergisch und Sulzbergisch oft
@@ -838,15 +838,15 @@ function Bauer(props) {
                                     Val di Non“ (319f.).
                                 </p>
 
-                                <p class="annotation"><sup><a href="#fz17" name="fn17">17</a></sup>
+                                <p className="annotation"><sup><a href="#fz17" name="fn17">17</a></sup>
                                     Intervall [3] (grün) auf <a href="#abb1" name="b1">Karte 1</a>.
                                 </p>
 
-                                <p class="annotation"><sup><a href="#fz18" name="fn18">18</a></sup>
+                                <p className="annotation"><sup><a href="#fz18" name="fn18">18</a></sup>
                                     Cf. dazu Bauer 2009, 265–269.
                                 </p>
 
-                                <p class="annotation"><sup><a href="#fz19" name="fn19">19</a></sup>
+                                <p className="annotation"><sup><a href="#fz19" name="fn19">19</a></sup>
                                     Siehe dazu die rot signierten, in Intervall [6]
                                     zusammengefassten Dialekte der Orte 97 (Delba), 99
                                     (Moncion) und 100 (Vich/Vigo di Fassa) sowie das
@@ -854,25 +854,25 @@ function Bauer(props) {
                                     Moena) auf <a href="#abb3" name="b3">Karte 3</a>.
                                 </p>
 
-                                <p class="annotation"><sup><a href="#fz20" name="fn20">20</a></sup>
+                                <p className="annotation"><sup><a href="#fz20" name="fn20">20</a></sup>
                                     Siehe dazu die grün und gelb signierten Intervalle [3]
                                     und [4] auf <a href="#abb3" name="b3">Karte 3</a>.
                                 </p>
 
-                                <p class="annotation"><sup><a href="#fz21" name="fn21">21</a></sup>
+                                <p className="annotation"><sup><a href="#fz21" name="fn21">21</a></sup>
                                     Siehe dazu die blau signierten Intervalle [1] und [2] auf <a href="#abb3" name="b3">Karte 3</a>.
                                 </p>
 
-                                <p class="annotation"><sup><a href="#fz22" name="fn22">22</a></sup>
+                                <p className="annotation"><sup><a href="#fz22" name="fn22">22</a></sup>
                                     Siehe dazu die rot, lachsfarben und gelb signierten
                                     Intervalle [4], [5] und [6] auf <a href="#abb4" name="b4">Karte 4</a>.
                                 </p>
 
-                                <p class="annotation"><sup><a href="#fz23" name="fn23">23</a></sup>
+                                <p className="annotation"><sup><a href="#fz23" name="fn23">23</a></sup>
                                     Siehe dazu das grün signierte Intervall [3] auf <a href="#abb4" name="b4">Karte 4</a>.
                                 </p>
 
-                                <p class="annotation"><sup><a href="#fz24" name="fn24">24</a></sup>
+                                <p className="annotation"><sup><a href="#fz24" name="fn24">24</a></sup>
                                     Im Vergleich mit den Varietäten der (in unserem
                                     Raumausschnitt nicht berücksichtigten) nördlichen
                                     Dolomitenladinia (Gröden, Gadertal) sinken die
@@ -880,7 +880,7 @@ function Bauer(props) {
                                     Karten in Bauer 2009, 267 und 270).
                                 </p>
 
-                                <p class="annotation"><sup><a href="#fz25" name="fn25">25</a></sup>
+                                <p className="annotation"><sup><a href="#fz25" name="fn25">25</a></sup>
                                     Die Definition dieser vermeintlichen Sprachgrenze
                                     erfolgt dabei auf der Basis weniger Isoglossen
                                     (cf. Mastrelli Anzilotti 1992, 8), die nach Auskunft
@@ -895,28 +895,28 @@ function Bauer(props) {
                                     werden.
                                 </p>
 
-                                <p class="annotation"><sup><a href="#fz26" name="fn26">26</a></sup>
+                                <p className="annotation"><sup><a href="#fz26" name="fn26">26</a></sup>
                                     Man betrachte das räumliche Ausgreifen der Intervalle
                                     [6] (rot) und [5] (lachsfarben) auf <a href="#abb6" name="b6">Karte 6</a>, <a href="#abb7" name="b7">Karte 7</a>, <a href="#abb8" name="b8">Karte 8</a> und <a href="#abb9" name="b9">Karte 9</a>.
                                 </p>
 
-                                <p class="annotation"><sup><a href="#fz27" name="fn27">27</a></sup>
+                                <p className="annotation"><sup><a href="#fz27" name="fn27">27</a></sup>
                                     Siehe dazu die absolut deckungsgleiche Raumverteilung
                                     der Intervalle [1] (dunkelblau) und [2] (hellblau) auf
                                     <a href="#abb6" name="b6">Karte 6</a>, <a href="#abb7" name="b7">Karte 7</a>, <a href="#abb8" name="b8">Karte 8</a> und <a href="#abb9" name="b9">Karte 9</a>.
                                 </p>
 
-                                <p class="annotation"><sup><a href="#fz28" name="fn28">28</a></sup>
+                                <p className="annotation"><sup><a href="#fz28" name="fn28">28</a></sup>
                                     Siehe dazu die nahezu identische Flächenbildung von
                                     Intervall [3] (grün) im Westausschnitt von <a href="#abb6" name="b6">Karte 6</a>, <a href="#abb7" name="b7">Karte 7</a>, <a href="#abb8" name="b8">Karte 8</a> und <a href="#abb9" name="b9">Karte 9</a>.
                                 </p>
 
-                                <p class="annotation"><sup><a href="#fz29" name="fn29">29</a></sup>
+                                <p className="annotation"><sup><a href="#fz29" name="fn29">29</a></sup>
                                     Siehe dazu die räumliche Verteilung von Intervall [4]
                                     (gelb) im Ostteil von <a href="#abb6" name="b6">Karte 6</a>, <a href="#abb7" name="b7">Karte 7</a>, <a href="#abb8" name="b8">Karte 8</a> und <a href="#abb9" name="b9">Karte 9</a>.
                                 </p>
 
-                                <p class="annotation"><sup><a href="#fz30" name="fn30">30</a></sup>
+                                <p className="annotation"><sup><a href="#fz30" name="fn30">30</a></sup>
                                     Siehe dazu <a href="#abb10" name="b10">Karte 10</a>; dort in kalten (i.e. blauen)
                                     Farben signierte, dicke Polygonseiten stehen für
                                     relativ massive Isoglossenbündel, warm eingefärbte und
@@ -926,7 +926,7 @@ function Bauer(props) {
                                     Kartentyps cf. Bauer 2009, 117–124.
                                 </p>
 
-                                <p class="annotation"><sup><a href="#fz31" name="fn31">31</a></sup>
+                                <p className="annotation"><sup><a href="#fz31" name="fn31">31</a></sup>
                                     Zur dialektometrischen Verwendung der beiden auf
                                     Brunet 1987 bzw. Goebl 1997 zurückgehenden Termini
                                     <i>Chorem</i> (nach frz. <i>chorème</i>) und <i>Dendrem</i> cf. Bauer 2009,
@@ -935,7 +935,7 @@ function Bauer(props) {
                                     und 341–353.
                                 </p>
 
-                                <p class="annotation"><sup><a href="#fz32" name="fn32">32</a></sup>
+                                <p className="annotation"><sup><a href="#fz32" name="fn32">32</a></sup>
                                     Das Französische steht (nach Auskunft des auf <a href="#abb16" name="b16">Karte 16</a>
                                     abgebildeten Ähnlichkeitsprofils, cf. dazu auch Bauer
                                     2010, 15f., 25) dem Westtrentinischen Judikariens mit
@@ -952,13 +952,13 @@ function Bauer(props) {
 
                                 <h1>Literatur</h1>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     AIS = Jaberg, Karl/Jud, Jakob (Hg.) (1928–1940): <i>Sprach- und
                                         Sachatlas Italiens und der Südschweiz</i>, 8 vol., Zofingen [Neudruck:
                                     Nendeln 1971].
                                 </p>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     ALD-I = Goebl, Hans/Bauer, Roland/Haimerl, Edgar (Hg.) (1998): <i>Atlant
                                         linguistic dl ladin dolomitich y di dialec vejins, 1a pert / Atlante
                                         linguistico del ladino dolomitico e dei dialetti limitrofi. 1a parte /
@@ -966,30 +966,30 @@ function Bauer(props) {
                                         Dialekte. 1. Teil</i>, 7 vol., Wiesbaden.
                                 </p>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     Ascoli, Graziadio Isaia (1873): Saggi ladini, in: <i>Archivio
                                         glottologico italiano</i> 1, 1–556.
                                 </p>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     Banfi, Emanuele/Bonfadini, Giovanni/Cordin, Patrizia/Iliescu, Maria
                                     (Hg.) (1995): <i>Italia settentrionale: crocevia di idiomi romanzi</i>,
                                     Tübingen.
                                 </p>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     Bauer, Roland (1990): 4. Transkriptionseminar zum ALD-I, in: <i>Europa
                                         Ethnica</i> 47, 100.
                                 </p>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     – (1995): Vivaldi-Sicilia. Documentazione sonora dei
                                     dialetti siciliani, in: Ruffino, Giovanni (Hg.), <i>Percorsi di
                                         geografia linguistica. Idee per un atlante siciliano della cultura
                                         dialettale e dell’italiano regionale</i>, Palermo, 543–550.
                                 </p>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     – (2003): Sguardo dialettometrico su alcune zone di
                                     transizione dell’Italia nord-orientale (lombardo vs. trentino
                                     vs. veneto), in: Bombi, Raffaella/Fusco, Fabiana (Hg.), <i>Parallela
@@ -997,65 +997,65 @@ function Bauer(props) {
                                         italofona e germanofona</i>, Udine, 93–119.
                                 </p>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     – (2009): <i>Dialektometrische
                                         Einsichten. Sprachklassifikatorische Oberflächenmuster und
                                         Tiefenstrukturen im lombardo-venedischen Dialektraum und in der
                                         Rätoromania</i>, San Martin de Tor.
                                 </p>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     – (2010): Die Position des Rätoromanischen und seine
                                     Beziehungen zum Deutschen, Französischen und Italienischen, in:
                                     <i>Linguistica</i> L, 7–26.
                                 </p>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     Brunet, Roger (1987): <i>La carte. Mode d’emploi</i>, Paris.
                                 </p>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     Goebl, Hans (1997): Some Dendrographic Classifications of the Data of
                                     CLAE 1 and CLAE 2, in: Viereck, Wolfgang/Ramisch,
                                     Heinrich (Hg.), <i>The
                                         Computer Developed Linguistic Atlas of England</i> 2, Tübingen, 23–32.
                                 </p>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     – (2008): La dialettometrizzazione integrale
                                     dell’AIS. Presentazione dei primi risultati, in: <i>Revue de
                                         Linguistique Romane</i> 72, 25–113.
                                 </p>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     Heilmann, Luigi (1955): <i>La parlata di Moena nei suoi rapporti con
                                         Fiemme e con Fassa</i>, Bologna.
                                 </p>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     Kattenbusch, Dieter (1995): Atlas parlant de l’Italie par régions:
                                     Vivaldi, in: <i>Estudis de lingüística i filologia oferts a Antoni
                                         M. Badia i Margarit</i>, Barcelona 1995, 443–455.
                                 </p>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     –/Goebl, Hans (1986): Die ersten Enqueten für den
                                     ALD – Erfahrungen und Ergebnisse, in: <i>Ladinia</i> X, 5–32.
                                 </p>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     Kollmann, Cristian (1997): <i>Germanismen im Appellativwortschatz des
                                         Noceromanischen (Nonsberg, Sulzberg), I. Teil: Gotisch, Fränkisch,
                                         Langobardisch</i>, Innsbruck; [Diplomarbeit].
                                 </p>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     Mastrelli Anzilotti, Giulia (1992): I dialetti trentini centrali,
                                     in: Bertoluzza, Aldo (Hg.), <i>Atti del IIo Convegno sui dialetti
                                         trentini</i>, Trento, 7–20.
                                 </p>
 
-                                <p class="bibl">
+                                <p className="bibl">
                                     Ward, Joe H. Jr. (1963): Hierarchical grouping to optimize an
                                     objective function, in: <i>Journal of the American Statistical
                                         Association</i> 58, 236–244.

@@ -24,7 +24,8 @@ import Schaumburg from './compoments/articles/Schaumburg';
 import Pichler from './compoments/articles/Pichler';
 import FurerJ from './compoments/articles/FurerJ';
 import FurerG from './compoments/articles/FurerG';
-
+import Cocco
+ from './compoments/articles/Cocco';
 function App() {
   return (
     <div>
@@ -37,6 +38,7 @@ function App() {
           <Route path="/bernhard" element={<Bernhard id="Bauer" author="Gerald Bernhard" />} />
           <Route path="/bock" element={<Bock id="Bock" author="Günter Bock" />} />
           <Route path="/chiocchetti" element={<Chiocchetti id="chiocchetti" author="Fabio Chiocchetti" />} />
+          <Route path='/cocco' element={<Cocco id="Cocco" author="Giuseppe Cocco" />} />
           <Route path="/ernst" element={<Ernst id="Ernst" author="Gerhard Ernst" />} />
           <Route path="/furerj" element={<FurerJ id="FurerJ" author="Jean-Jacques Furer" />} />
           <Route path="/furerg" element={<FurerG id="FurerG" author="Gianmarco Furer" />} />

@@ -6,19 +6,19 @@ import GFurerPortrait from "../../images/gfurer/gfurer-portrait.jpg";
 function FurerG(props) {
     return (
         <div>
-            <div id="Wrapper" class="container_14">
+            <div id="Wrapper" className="container_14">
 
                 <div id="Header">
                     <Header id={props.author} />
-                    <div class="grid_9">
+                    <div className="grid_9">
                         <h1 id="main_title">Plurilinguisme programmé/volontaire/voulu</h1>
                         <p id="author">Gianmarco Furer, San Vittore GR/Schweiz</p>
                     </div>
                     <Rubrik />
                 </div>
 
-                <div id="Teasers" class="clearfix">
-                    <div class="grid_9">
+                <div id="Teasers" className="clearfix">
+                    <div className="grid_9">
                         <h1>Remarques préliminaires</h1>
                         <p>
                             Le présent article n’est pas une étude ou un rapport scientifiques,
@@ -45,27 +45,27 @@ function FurerG(props) {
                             linguistique, ni un animal de cirque.
                         </p>
                     </div>
-                    <div class="grid_5">
+                    <div className="grid_5">
 
-                        <div class="abouttheauthor">
+                        <div className="abouttheauthor">
                             <img src={GFurerPortrait} width="100"
                                 height="138" alt="Gianmarco Furer - Portrait" />
-                                <div class="abouttheauthorfont"><br /><br />
+                                <div className="abouttheauthorfont"><br /><br />
                                     <b>Gianmarco Furer</b>, Student der Wirtschaft an der Università
                                     della Svizzera italiana in Lugano, geboren 1988. Kindheit in der
                                     Surselva (romanischsprachige Schweiz) und dem Moesano
                                     (italienischsprachige Schweiz), in einer schweizerisch-polnischen und
                                     mehrsprachigen Familie. Patensohn des Jubilars.
                                 </div>
-                                <div class="clearfloat"></div>
+                                <div className="clearfloat"></div>
                         </div>
                     </div>
                 </div>
 
                 <div id="Main">
-                    <div id="Articles" class="grid_14">
+                    <div id="Articles" className="grid_14">
                         <section id="posts">
-                            <article class="post">
+                            <article className="post">
                                 <p>
                                     Je ne compte pas plus que mon frère baser ma vie sur les langues, cela
                                     n’a pas non plus été l’objectif de nos parents, mais je suis
@@ -1256,7 +1256,7 @@ function FurerG(props) {
                                     d’accord – ils ont accepté quelques occasions qui se sont
                                     présentées de faire passer un message:
                                 </p>
-                                <p class="quote">
+                                <p className="quote">
                                     Le plurilinguisme précoce est fréquent et naturel dans notre société
                                     marquée par la mobilité et le mélange; il n’est pas une charge pour
                                     l’enfant, et lui apporte au contraire une richesse particulière pour

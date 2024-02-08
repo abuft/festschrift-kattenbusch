@@ -7,11 +7,11 @@ import PichlerPortrait from "../../images/epichler/epichler-portrait.jpg";
 function Pichler(props) {
     return (
         <div>
-            <div id="Wrapper" class="container_14">
+            <div id="Wrapper" className="container_14">
 
                 <div id="Header">
                     <Header id={props.author} />
-                    <div class="grid_9">
+                    <div className="grid_9">
                         <h1 id="main_title">Vom Gastarbeiter zum <i>(Gast-) Bürger</i>?
                             Italiener in Deutschland – eine Zwischenbilanz</h1>
                         <p id="author">Edith Pichler, Berlin</p>
@@ -19,8 +19,8 @@ function Pichler(props) {
                     <Rubrik />
                 </div>
 
-                <div id="Teasers" class="clearfix">
-                    <div class="grid_9">
+                <div id="Teasers" className="clearfix">
+                    <div className="grid_9">
                         <h1>Einleitung</h1>
                         <p>
                             Bereits zu Beginn der 1950er Jahre begannen auf italienische Initiative
@@ -105,12 +105,12 @@ function Pichler(props) {
                             für die Ausübung der anderen Rechte (Marshall 2000).
                         </p>
                     </div>
-                    <div class="grid_5">
+                    <div className="grid_5">
 
-                        <div class="abouttheauthor">
+                        <div className="abouttheauthor">
                             <img src={PichlerPortrait} width="100"
                                 height="140" alt="Edith Pichler – Portrait" />
-                            <div class="abouttheauthorfont"><br /><br />
+                            <div className="abouttheauthorfont"><br /><br />
                                 <b>Edith Pichler</b>,<br />
                                 Dr. phil.<br />
                                 Geboren in Bozen (Italien), aufgewachsen in Cles (Trentino). Studium
@@ -131,15 +131,15 @@ function Pichler(props) {
                                     Jedoch haben wir uns nicht im Rahmen der Dialektforschung kennengelernt, sondern durch Dr. Raffaelle Sanzo, damals Technischer Leiter im italienischen Bildungsministerium und bei der Italienischen Botschaft in Berlin und für den Sektor Schule und Bildung zuständig. In Zusammenarbeit mit Dieter Kattenbusch organisierte er 2004 eine Konferenz über Italienische Jugendliche im deutschen Schulsystem. Auf der Konferenz habe ich ein Referat gehalten und Dieter so kennengelernt. Seitdem sind wir in Kontakt geblieben, und Dieter hat mich u.a. einige Male zu seinen Konferenzen als Referentin eingeladen. Außer den Dialekten und anderen wissenschaftlichen Themen verbindet uns auch die Liebe zu den Alpen, und dass seine Frau aus Innsbruck stammt … wie meine Großmutter.</span>
 
                             </div>
-                            <div class="clearfloat"></div>
+                            <div className="clearfloat"></div>
                         </div>
                     </div>
                 </div>
 
                 <div id="Main">
-                    <div id="Articles" class="grid_14">
+                    <div id="Articles" className="grid_14">
                         <section id="posts">
-                            <article class="post">
+                            <article className="post">
                                 <p>
                                     Tatsächlich haben die Italiener in Deutschland einen Weg zurückgelegt,
                                     der sie vom Recht der Teilhabe am Wohlfahrtsstaat (soziale
@@ -582,75 +582,75 @@ function Pichler(props) {
                                 </p>
 
                                 <h1>Literatur</h1>
-                                <p class="bibl">
+                                <p className="bibl">
                                     Bourdieu, Pierre (1983): Ökonomisches Kapital, kulturelles Kapital,
                                     soziales Kapital, in: Kreckel, Reinhard (Hg.): <i>Soziale Ungleichheiten,
                                         Soziale Welt</i>, Sonderband 2, Göttingen, 183–198.
                                 </p>
-                                <p class="bibl">
+                                <p className="bibl">
                                     – (1987): <i>Die feinen Unterschiede. Kritik der gesellschaftlichen
                                         Urteilskraft</i>, Frankfurt a.M.
                                 </p>
-                                <p class="bibl">
+                                <p className="bibl">
                                     Brandt, Andrea/Kaiser, Simone/Kleinhubbert, Guido/Ulrich,
                                     Andreas/Weinzierl, Alfred (2007): Weiße Weste für die Parallelwelt,
                                     <i>Der Spiegel</i> 50, 58–62.
                                 </p>
-                                <p class="bibl">
+                                <p className="bibl">
                                     Dörre, Klaus (2009): Prekarität im Finanzmarkt-Kapitalismus, in:
                                     Castel, Robert/Dörre, Klaus (Hg.): <i>Prekarität, Abstieg, Ausgrenzung.
                                         Die soziale Frage am Beginn des 21. Jahrhunderts</i>, Frankfurt a.M./New
                                     York, 35–64.
                                 </p>
-                                <p class="bibl">
+                                <p className="bibl">
                                     Gogolin, Ingrid (2003): Gleiche Bildungschancen für Kinder mit
                                     Migrationshintergrund – möglich auch in Deutschland?, in: Beauftragte
                                     der Bundesregierung für Migration (Hg.): <i>Förderung von Migranten und
                                         Migrantinnen im Elementar- und Primarbereich. Dokumentation</i>, Berlin,
                                     17–30.
                                 </p>
-                                <p class="bibl">
+                                <p className="bibl">
                                     Graf, Peter/Fernandez-Castillo, Antonio (Hg.) (2011): <i>Schüler auf dem
                                         Weg nach Europa. Interkulturelle Bildung und Mehrsprachigkeit in der
                                         Schule</i>, Bad Heilbrunn.
                                 </p>
-                                <p class="bibl">
+                                <p className="bibl">
                                     Marshall, Thomas H. (2000): Staatsbürgerrechte und soziale Klassen, in:
                                     Mackert, Jürgen/Müller, Hans-Peter (Hg.): <i>Citizenship. Soziologie
                                         der Staatsbürgerschaft</i>, Wiesbaden, 45–102.
                                 </p>
-                                <p class="bibl">
+                                <p className="bibl">
                                     Mau, Steffen (2007): <i>Transnationale Vergesellschaftung. Die Entgrenzung
                                         sozialer Lebenswelten</i> Frankfurt a.M./New York.
                                 </p>
-                                <p class="bibl">
+                                <p className="bibl">
                                     Pichler, Edith (2006): 50 anni di immigrazione italiana in Germania:
                                     transitori, inclusi/esclusi o cittadini europei?, in: <i>Altreitalie.
                                         Rivista internazionale di studi sulle popolazioni di origine italiana
                                         nel mondo</i> 33, 6–18.
                                 </p>
-                                <p class="bibl">
+                                <p className="bibl">
                                     – (2008): Community, Milieus und Schulkarrieren am Beispiel der
                                     italienischen Bevölkerung in Berlin, in: Hillmann, Felicitas/Windzio,
                                     Michael (Hg.): <i>Migration und städtischer Raum. Chancen und Risiken
                                         der Segregation und Integration</i>, Opladen/Farmington Hills, 247–261.
                                 </p>
-                                <p class="bibl">
+                                <p className="bibl">
                                     –  (2011): Die Italiener in Berlin und ihr Selbstverständnis als
                                     neue Europäer, in: Janz, Oliver/Sala, Roberto (Hg.): <i>Dolce Vita? Das
                                         Bild der italienischen Migranten in Deutschland</i>, Frankfurt a.M./New
                                     York, 277–295.
                                 </p>
-                                <p class="bibl">
+                                <p className="bibl">
                                     Statistisches Bundesamt (2010): <i>Bevölkerung und Erwerbstätigkeit.
                                         Bevölkerung mit Migrationshintergrund – Ergebnisse des Mikrozensus
                                         2009</i> – Fachserie 1 Reihe 2.2. Wiesbaden.
                                 </p>
-                                <p class="bibl">
+                                <p className="bibl">
                                     –  (2010): <i>Bildung und Kultur. Allgemeinbildende Schulen, Schuljahr
                                         2008/ 2009</i> – Fachserie 11 Reihe 1. Wiesbaden.
                                 </p>
-                                <p class="bibl">
+                                <p className="bibl">
                                     –  (2011): <i>Bildung und Kultur. Allgemeinbildende Schulen, Schuljahr
                                         2009/ 2010</i> – Fachserie 11 Reihe 1. Wiesbaden.
                                 </p>

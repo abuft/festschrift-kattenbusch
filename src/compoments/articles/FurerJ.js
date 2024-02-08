@@ -7,11 +7,11 @@ import JFurerPortrait from "../../images/jfurer/jfurer-portrait.jpg"
 function FurerJ(props) {
     return (
         <div>
-            <div id="Wrapper" class="container_14">
+            <div id="Wrapper" className="container_14">
 
                 <div id="Header">
                     <Header id={props.author} />
-                    <div class="grid_9">
+                    <div className="grid_9">
                         <h1 id="main_title">Un dictionnaire français-romanche
                             (sursilvan+): Pourquoi – Comment – Par qui</h1>
                         <p id="author">Jean-Jacques Furer, San Vittore GR/Schweiz</p>
@@ -19,8 +19,8 @@ function FurerJ(props) {
                     <Rubrik />
                 </div>
 
-                <div id="Teasers" class="clearfix">
-                    <div class="grid_9">
+                <div id="Teasers" className="clearfix">
+                    <div className="grid_9">
                         <h1>1 Introduction</h1>
 
                         <h2>1.a Pourquoi un dictionnaire français-romanche?</h2>
@@ -107,12 +107,12 @@ function FurerJ(props) {
                             nombre que pour la dimension moyenne des articles.
                         </p>
                     </div>
-                    <div class="grid_5">
+                    <div className="grid_5">
 
-                        <div class="abouttheauthor">
+                        <div className="abouttheauthor">
                             <img src={JFurerPortrait} width="115"
                                 height="100" alt="Jean Jacques Furer - Portrait" />
-                            <div class="abouttheauthorfont"><br /><br />
+                            <div className="abouttheauthorfont"><br /><br />
                                 <b>Jean-Jacques Furer</b>, Übersetzer mit Schwerpunkt Kultur und Literatur, geboren
                                 1948. Kindheit in der Ajoie (nördlichster Teil der
                                 Suisse romande). Hat in allen Sprachregionen der Schweiz
@@ -129,15 +129,15 @@ function FurerJ(props) {
                                     Mit anderen Worten, Dieter und ich sind uns wegen unseres Interesses am Rätoromanischen begegnet, und daraus ist eine lange und tiefe Freundschaft entstanden, die auf beide Familien übergriffen hat, und nur nebensächlich Berufliches hat.</span>
 
                             </div>
-                            <div class="clearfloat"></div>
+                            <div className="clearfloat"></div>
                         </div>
                     </div>
                 </div>
 
                 <div id="Main">
-                    <div id="Articles" class="grid_14">
+                    <div id="Articles" className="grid_14">
                         <section id="posts">
-                            <article class="post">
+                            <article className="post">
                                 <h2>1.b Pourquoi un dictionnaire français–romanche sursilvan+?</h2>
 
                                 <p>
@@ -988,7 +988,7 @@ function FurerJ(props) {
                                 <h1>Notes</h1>
 
 
-                                <p class="annotation"><sup><a href="#fz1" name="fn1">1</a></sup>
+                                <p className="annotation"><sup><a href="#fz1" name="fn1">1</a></sup>
                                     J’ai traité la discrimination du romanche et ses conséquences dans le
                                     cadre de plusieurs études sociolinguistiques et surtout
                                     statistiques. Suivant la langue nationale la mieux adaptée au
@@ -1004,7 +1004,7 @@ function FurerJ(props) {
                                 </ul>
 
 
-                                <p class="annotation"><sup><a href="#fz2" name="fn2">2</a></sup>
+                                <p className="annotation"><sup><a href="#fz2" name="fn2">2</a></sup>
                                     On prendra garde à ne pas confondre Tessin et Suisse italienne. Dans
                                     les vallées italophones des Grisons, la première langue étrangère
                                     apprise à l’école est, logiquement, l’allemand. Déplorablement, pour
@@ -1018,7 +1018,7 @@ function FurerJ(props) {
                                 </p>
 
 
-                                <p class="annotation"><sup><a href="#fz3" name="fn3">3</a></sup>
+                                <p className="annotation"><sup><a href="#fz3" name="fn3">3</a></sup>
                                     La Fundaziun Retoromana a été fondée en 1982 à l’initiative du
                                     P. Flurin Maissen, sous le nom de Fundaziun Retoromana P. Placi a
                                     Spescha, pour reprendre les activités de trois institutions
@@ -1030,13 +1030,13 @@ function FurerJ(props) {
                                     (<a href="http://www.frr.ch">http://www.frr.ch</a>).
                                 </p>
 
-                                <p class="annotation"><sup><a href="#fz4" name="fn4">4</a></sup>
+                                <p className="annotation"><sup><a href="#fz4" name="fn4">4</a></sup>
                                     <i>Dictionnaire romanche sursilvan–français</i>, Fundaziun Retoromana
                                     P. Flurin Maissen, ISBN 3-9522235-0-6.
                                 </p>
 
 
-                                <p class="annotation"><sup><a href="#fz5" name="fn5">5</a></sup>
+                                <p className="annotation"><sup><a href="#fz5" name="fn5">5</a></sup>
                                     Les situations sont extrêmement différentes d’une commune à l’autre,
                                     mais, le romanche restant discriminé au niveau aussi bien fédéral
                                     que cantonal (même si la situation s’est un peu améliorée depuis la
@@ -1045,7 +1045,7 @@ function FurerJ(props) {
                                     romande enseigne et utilise le français.
                                 </p>
 
-                                <p class="annotation"><sup><a href="#fz6" name="fn6">6</a></sup>
+                                <p className="annotation"><sup><a href="#fz6" name="fn6">6</a></sup>
                                     Du point de vue de l’apparition de la forme écrite, le sursilvan est
                                     le troisième des idiomes; il fête cette année (2011) ses 400 ans
                                     d’existence écrite, alors que le putér et le vallader possèdent des
@@ -1056,21 +1056,21 @@ function FurerJ(props) {
                                     sursilvan.
                                 </p>
 
-                                <p class="annotation"><sup><a href="#fz7" name="fn7">7</a></sup>
+                                <p className="annotation"><sup><a href="#fz7" name="fn7">7</a></sup>
                                     La FRR organise également depuis 1969 les Cours d’été de romanche
                                     sursilvan, les plus anciens cours de ce genre pour le romanche:
                                     <a href="http://www.frr.ch">http://www.frr.ch</a>.
                                 </p>
 
 
-                                <p class="annotation"><sup><a href="#fz8" name="fn8">8</a></sup>
+                                <p className="annotation"><sup><a href="#fz8" name="fn8">8</a></sup>
                                     Dans ses cours d’été de romanche sursilvan, la FRR ouvre ainsi
                                     également autant que possible des fenêtres sur les autres idiomes –
                                     voire sur les autres langues rhéto-romanes.
                                 </p>
 
 
-                                <p class="annotation"><sup><a href="#fz9" name="fn9">9</a></sup>
+                                <p className="annotation"><sup><a href="#fz9" name="fn9">9</a></sup>
                                     La FRR aurait déjà souhaité inclure dans le dictionnaire romanche
                                     sursilvan–français des informations concernant les autres idiomes,
                                     mais avait dû y renoncer en raison des coûts et du surcroît de
@@ -1078,7 +1078,7 @@ function FurerJ(props) {
                                 </p>
 
 
-                                <p class="annotation"><sup><a href="#fz10" name="fn10">10</a></sup>
+                                <p className="annotation"><sup><a href="#fz10" name="fn10">10</a></sup>
                                     «En mintga cass vul il lungatg da scartira unificau buca concurrenzar
                                     ni remplazzar ils idioms existents, mobein sulettamein esser ina
                                     alternativa leu nua che mo ina varianta romontscha ei pusseivla e
@@ -1091,7 +1091,7 @@ function FurerJ(props) {
                                 </p>
 
 
-                                <p class="annotation"><sup><a href="#fz11" name="fn11">11</a></sup>
+                                <p className="annotation"><sup><a href="#fz11" name="fn11">11</a></sup>
                                     Il est évident que le romanche aurait moins de difficultés s’il
                                     connaissait un standard unique pour l’ensemble de son aire. Les
                                     circonstances, historiques, géographiques et autres, en ont décidé
@@ -1143,7 +1143,7 @@ function FurerJ(props) {
                                 </p>
 
 
-                                <p class="annotation"><sup><a href="#fz12" name="fn12">12</a></sup>
+                                <p className="annotation"><sup><a href="#fz12" name="fn12">12</a></sup>
                                     Quelques auteurs ont commencé à se servir du rg dans leur œuvre
                                     littéraire. La majorité continue cependant à se servir de l’idiome
                                     de leur région. À l’exception de quelques œuvres dialectales de
@@ -1153,13 +1153,13 @@ function FurerJ(props) {
                                 </p>
 
 
-                                <p class="annotation"><sup><a href="#fz13" name="fn13">13</a></sup>
+                                <p className="annotation"><sup><a href="#fz13" name="fn13">13</a></sup>
                                     La FRR offre également une introduction au rg dans son programme
                                     habituel des cours d’été de romanche sursilvan.
                                 </p>
 
 
-                                <p class="annotation"><sup><a href="#fz14" name="fn14">14</a></sup>
+                                <p className="annotation"><sup><a href="#fz14" name="fn14">14</a></sup>
                                     C’est l’expérience que je fais depuis près de dix ans avec le
                                     <i>Dictionnaire romanche–sursilvan français</i>, qui a pourtant subi
                                     plusieurs contrôles complets, effectués aussi bien par des
@@ -1171,7 +1171,7 @@ function FurerJ(props) {
                                 </p>
 
 
-                                <p class="annotation"><sup><a href="#fz15" name="fn15">15</a></sup>
+                                <p className="annotation"><sup><a href="#fz15" name="fn15">15</a></sup>
                                     La partie français–romanche (vallader) du dictionnaire de Gilbert
                                     Taggart (1990) compte 1500 articles, le <i>Minidictionnaire</i> de
                                     Dominique Stich (2006) donne, comme son nom le suggère, la
@@ -1181,7 +1181,7 @@ function FurerJ(props) {
                                 </p>
 
 
-                                <p class="annotation"><sup><a href="#fz16" name="fn16">16</a></sup>
+                                <p className="annotation"><sup><a href="#fz16" name="fn16">16</a></sup>
                                     Pour le sursilvan, il s’agit des dictionnaires romanche-allemand et
                                     allemand-romanche de Ramun Vieli, puis Ramun Vieli et Alexi
                                     Decurtins, parus de 1938 à 1975; de divers vocabulaires techniques
@@ -1197,7 +1197,7 @@ function FurerJ(props) {
                                 </p>
 
 
-                                <p class="annotation"><sup><a href="#fz17" name="fn17">17</a></sup>
+                                <p className="annotation"><sup><a href="#fz17" name="fn17">17</a></sup>
                                     <i>Dicziunari rumantsch–grischun</i> (DRG), en cours de parution (le dernier
                                     fascicule paru contient les articles de «manzögna» à
                                     «Maria»). Contrairement à ce que le nom pourrait laisser supposer, le
@@ -1212,7 +1212,7 @@ function FurerJ(props) {
                                 </p>
 
 
-                                <p class="annotation"><sup><a href="#fz18" name="fn18">18</a></sup>
+                                <p className="annotation"><sup><a href="#fz18" name="fn18">18</a></sup>
                                     Même si l’allemand a été pour moi aussi la première langue étrangère,
                                     et est comme le romanche une de mes langues préférées – c’est
                                     d’ailleurs un paradoxe et une situation parfois gênante que de
@@ -1221,7 +1221,7 @@ function FurerJ(props) {
 
 
 
-                                <p class="annotation"><sup><a href="#fz19" name="fn19">19</a></sup>
+                                <p className="annotation"><sup><a href="#fz19" name="fn19">19</a></sup>
                                     <i>Le Dictionnaire abrégé de la langue ladine avec traduction allemande,
                                         française et anglaise</i>, paru en 1929, est une réalisation privée
                                     d’Anton Velleman, et le <i>Dictionnaire rumantsch ladin–français</i> est
@@ -1231,7 +1231,7 @@ function FurerJ(props) {
 
 
 
-                                <p class="annotation"><sup><a href="#fz20" name="fn20">20</a></sup>
+                                <p className="annotation"><sup><a href="#fz20" name="fn20">20</a></sup>
                                     Je me demande également dans quelle mesure, consciemment ou non, les
                                     Romanches qui seraient qualifiés pour réaliser un dictionnaire
                                     français–romanche ne mesurent pas leur connaissance du français à
@@ -1241,7 +1241,7 @@ function FurerJ(props) {
 
 
 
-                                <p class="annotation"><sup><a href="#fz21" name="fn21">21</a></sup>
+                                <p className="annotation"><sup><a href="#fz21" name="fn21">21</a></sup>
                                     Une partie des communes de l’aire romanche traditionnelle (celle qui
                                     parlait romanche il y a deux siècles et qui était assez exactement
                                     ce que la précédente vague de germanisation avait laissé subsister
@@ -1296,7 +1296,7 @@ function FurerJ(props) {
 
 
 
-                                <p class="annotation"><sup><a href="#fz22" name="fn22">22</a></sup>
+                                <p className="annotation"><sup><a href="#fz22" name="fn22">22</a></sup>
                                     Le <i>Pledari grond</i> propose également <i>biopur</i>
                                     pour <i>Biobauer</i>. Par contre,
                                     il traduit <i>Windpark</i> par <i>parc aeroelectric</i> (plus exactement
@@ -1304,7 +1304,7 @@ function FurerJ(props) {
                                     voir les fautes de frappe).
                                 </p>
 
-                                <p class="annotation"><sup><a href="#fz23" name="fn23">23</a></sup>
+                                <p className="annotation"><sup><a href="#fz23" name="fn23">23</a></sup>
                                     Et <i>Chinarinde</i> («quinquina») par <i>scorsa chinesa</i> («écorce chinoise»),
                                     ceci toutefois en indiquant également <i>quinquina f</i> en ce qui concerne
                                     le sursilvan; le Dicziunari tudais/ch–rumantsch ladin ne donne,
@@ -1312,7 +1312,7 @@ function FurerJ(props) {
                                 </p>
 
 
-                                <p class="annotation"><sup><a href="#fz24" name="fn24">24</a></sup>
+                                <p className="annotation"><sup><a href="#fz24" name="fn24">24</a></sup>
                                     Voir à ce sujet:
                                     <br />
                                     <ul>
@@ -1326,12 +1326,12 @@ function FurerJ(props) {
 
 
 
-                                <p class="annotation"><sup><a href="#fz25" name="fn25">25</a></sup>
+                                <p className="annotation"><sup><a href="#fz25" name="fn25">25</a></sup>
                                     Mais le mot consacré pour l’ancien disque 16, 33, 45 ou 78 tours est
                                     quant à lui la <i>platta</i>.
                                 </p>
 
-                                <p class="annotation"><sup><a href="#fz26" name="fn26">26</a></sup>
+                                <p className="annotation"><sup><a href="#fz26" name="fn26">26</a></sup>
                                     Le <i>Pledari grond</i> a encore une mention isolée d’<i>ordinatur</i> dans un flot
                                     de traductions donnant <i>computer</i> et autres <i>computerisar</i>; de façon
                                     intéressante, et sans doute caractéristique, il donne également
@@ -1344,39 +1344,39 @@ function FurerJ(props) {
 
 
 
-                                <p class="annotation"><sup><a href="#fz27" name="fn27">27</a></sup>
+                                <p className="annotation"><sup><a href="#fz27" name="fn27">27</a></sup>
                                     Le français (de Suisse) dit ainsi la «guerre du <i>Sonderbund</i>» là où le
                                     romanche parle de <i>l’uiara della/dalla federaziun separada.</i>
                                 </p>
 
 
 
-                                <p class="annotation"><sup><a href="#fz28" name="fn28">28</a></sup>
+                                <p className="annotation"><sup><a href="#fz28" name="fn28">28</a></sup>
                                     Mais le <i>Pledari grond</i> indique très à propos, pour <i>Jugendstil</i>,
                                     <i>jugendstil</i> et <i>stil floreal</i>.
                                 </p>
 
 
-                                <p class="annotation"><sup><a href="#fz29" name="fn29">29</a></sup>
+                                <p className="annotation"><sup><a href="#fz29" name="fn29">29</a></sup>
                                     Je prends soin de signaler, à l’article «avec», que la tournure
                                     (elliptique) française «faire avec» signifie non pas <i>far cun</i>, mais
                                     par exemple <i>s’arranschar cun enzatgei</i>.
                                 </p>
 
 
-                                <p class="annotation"><sup><a href="#fz30" name="fn30">30</a></sup>
+                                <p className="annotation"><sup><a href="#fz30" name="fn30">30</a></sup>
                                     En premier lieu de Claudio Vincenz, romaniste, ancien rédacteur au
                                     <i>Dicziunari rumantsch grischun</i> et aujourd’hui professeur de français
                                     à l’École cantonale de Coire.
                                 </p>
 
 
-                                <p class="annotation"><sup><a href="#fz31" name="fn31">31</a></sup>
+                                <p className="annotation"><sup><a href="#fz31" name="fn31">31</a></sup>
                                     Mais voir la note ci-dessus à propos de <i>Jugendstil</i>.
                                 </p>
 
 
-                                <p class="annotation"><sup><a href="#fz32" name="fn32">32</a></sup>
+                                <p className="annotation"><sup><a href="#fz32" name="fn32">32</a></sup>
                                     J’ajoute également une description ou des précisions dans certains cas
                                     où des mots ou expressions romanches existent, mais sont peu
                                     familières aux Romanches, en eux-mêmes ou quant à leur objet (qui,
@@ -1384,13 +1384,13 @@ function FurerJ(props) {
                                 </p>
 
 
-                                <p class="annotation"><sup><a href="#fz33" name="fn33">33</a></sup>
+                                <p className="annotation"><sup><a href="#fz33" name="fn33">33</a></sup>
                                     Sans en exagérer l’importance, le DFR accorde au vocabulaire romand la
                                     place qui lui est due dans un dictionnaire suisse.
                                 </p>
 
 
-                                <p class="annotation"><sup><a href="#fz34" name="fn34">34</a></sup>
+                                <p className="annotation"><sup><a href="#fz34" name="fn34">34</a></sup>
                                     «Apéro» est familier en français, il ne l’est plus «chez nos
                                     Confédérés»; la difficulté, pour le traducteur allemand–français,
                                     est alors, tout d’abord, de ne pas se laisser entraîner à

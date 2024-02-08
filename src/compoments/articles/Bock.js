@@ -36,10 +36,10 @@ function Bock(props) {
     const [index, setIndex] = useState(0);
     return (
         <div>
-            <div id="Wrapper" class="container_14">
+            <div id="Wrapper" className="container_14">
                 <div id="Header">
                     <Header id={props.author} />
-                    <div class="grid_9">
+                    <div className="grid_9">
                         <h1 id="main_title">Der Neufahrner Triathlon</h1>
                         <p id="author">Günter Bock, Regensburg</p>
                     </div>
@@ -56,8 +56,8 @@ function Bock(props) {
                     captions={{ showToggle: true, descriptionMaxLines: 3, descriptionTextAlign: "center" }}
                 />
 
-                <div id="Teasers" class="clearfix">
-                    <div class="grid_9">
+                <div id="Teasers" className="clearfix">
+                    <div className="grid_9">
                         <p>
                             Wo und wann hatte ich Dieter eigentlich kennengelernt? Zum einen bei
                             einem Regensburger politischen Verein, wo er sich als Vorstand zuweilen
@@ -109,12 +109,12 @@ function Bock(props) {
                             auch etwas anderes vorstellen können.
                         </p>
                     </div>
-                    <div class="grid_5">
+                    <div className="grid_5">
 
-                        <div class="abouttheauthor">
+                        <div className="abouttheauthor">
                             <img src={BockPortrait} width="120"
                                 height="80" alt="Günter Bock - Portrait" />
-                            <div class="abouttheauthorfont"><br /><br />
+                            <div className="abouttheauthorfont"><br /><br />
                                 <b>Günter Bock</b>,
                                 Organisations- programmierer und IT-Berater/Dozent,
                                 geboren 1954 in Bayreuth. Aufgewachsen in Fichtelberg,
@@ -130,15 +130,15 @@ function Bock(props) {
                                     Mit diesem kleinen Essay möchte ich mich bei meinem Sports-, Geschäftspartner und Freund in allen Lebenslagen für viele schöne, aber auch schmerzliche Erlebnisse, die es ohne ihn so nicht gegeben hätte, herzlich bedanken.</span>
 
                             </div>
-                            <div class="clearfloat"></div>
+                            <div className="clearfloat"></div>
                         </div>
                     </div>
                 </div>
 
                 <div id="Main">
-                    <div id="Articles" class="grid_14">
+                    <div id="Articles" className="grid_14">
                         <section id="posts">
-                            <article class="post">
+                            <article className="post">
                                 <p>
                                     Im Frühjahr fuhren Dieter, sein Freund Anton und ich nach München zu
                                     meinem ersten Halbmarathon. Es ging drei- oder viermal die gleiche Route
@@ -153,7 +153,7 @@ function Bock(props) {
                                     45 Kilometer zurück. Am Sonntag war ich vollkommen fertig und musste
                                     mich die Woche über bei der Arbeit erholen.
                                 </p>
-                                <figure class="imageleft">
+                                <figure className="imageleft">
                                     <p style={{ width: "300px" }}>Abb. 1: Marathon in München 1987</p>
                                     <button type="button" onClick={() => { setOpen(true); setIndex(0); }}>
                                         <img src={BockMarathonMuenchen1987Small} width="300"
@@ -180,7 +180,7 @@ function Bock(props) {
                                     ein Stein vom Herzen. Ich hatte sogar noch Kraft für eine beherzte
                                     Stadionrunde und lief knapp unter dreieinhalb Stunden durchs Ziel.
                                 </p>
-                                <figure class="imageright">
+                                <figure className="imageright">
                                     <p style={{ width: "220px" }}>Abb. 2: Marathon in Berlin 1988</p>
                                     <button type="button" onClick={() => { setOpen(true); setIndex(1); }}>
                                         <img src={BockMarathonBerlin1988Small}
@@ -220,7 +220,7 @@ function Bock(props) {
                                     erst heraus, nachdem ich mich mühsam wieder aufgerappelt hatte),
                                     glattweg von hinten überrollt.
                                 </p>
-                                <figure class="imageleft">
+                                <figure className="imageleft">
                                     <p style={{ width: "300px" }}>Abb. 3: Alpenpässetour 1988:
                                         Dieter und Anton beim Frühstück</p>
                                     <button type="button" onClick={() => { setOpen(true); setIndex(2); }}>
@@ -264,7 +264,7 @@ function Bock(props) {
                                     Die Szene wiederholte sich. Der <i>barista</i> verharrte in seiner Stellung und
                                     wiederholte im gleichen Tonfall: „Duecento lire“.
                                 </p>
-                                <figure class="imageright">
+                                <figure className="imageright">
                                     <p style={{ width: "260px" }}>Abb. 4: Alpenpässetour 1989: Günter Bock mit Leihrennrad</p>
                                     <button type="button" onClick={() => { setOpen(true); setIndex(3); }}>
                                         <img src={BockLeihrennradSmall} width="260" height="200" alt="Alpenpässetour mit Leihrennrad" />
@@ -330,7 +330,7 @@ function Bock(props) {
                                     gerade in der Gegend Urlaub machten, von sehr kaltem Wasser berichtet,
                                     da die Woche zuvor ein Schlechtwettergebiet durchgezogen war.
                                 </p>
-                                <figure class="imageleft">
+                                <figure className="imageleft">
                                     <p style={{ width: "290px" }}>Abb. 5: Swisstriathlon 1987: Start im kalten Bergsee</p>
                                     <button type="button" onClick={() => { setOpen(true); setIndex(4); }}>
                                         <img src={BockSwissTriathlonStartSmall}
@@ -376,7 +376,7 @@ function Bock(props) {
                                     mehr als zehn Minuten voraus!“ riefen sie aufgeregt. „Den holst du
                                     heute nicht mehr ein.“
                                 </p>
-                                <figure class="imageright">
+                                <figure className="imageright">
                                     <p style={{ width: "290px" }}>Abb. 6: Swisstriathlon 1987: Im Ziel</p>
                                     <button type="button" onClick={() => { setOpen(true); setIndex(5); }}>
                                         <img src={BockSwissTriathlonZielSmall}
@@ -398,7 +398,7 @@ function Bock(props) {
                                     gerechnet und befürchteten, sie hätten die Zielankunft unseres
                                     technischen Direktors verschlafen.
                                 </p>
-                                <figure class="imageleft">
+                                <figure className="imageleft">
                                     <p style={{ width: "280px" }}>Abb. 7: Nach dem Swisstriathlon 1987</p>
                                     <button type="button" onClick={() => { setOpen(true); setIndex(6); }}>
                                         <img src={BockSwissTriathlonDanachSmall}
@@ -454,7 +454,7 @@ function Bock(props) {
                                     Stoßstange des dahinter parkenden Autos. Das setzte sofort Adrenalin in
                                     ihm frei und mit rotem Kopf rief er: „Wir starten!“
                                 </p>
-                                <figure class="imageleft">
+                                <figure className="imageleft">
                                     <p style={{ width: "300px" }}>Abb. 8: Pentathlon 1987: Zieleinlauf in Zell am See</p>
                                     <button type="button" onClick={() => { setOpen(true); setIndex(7); }}>
                                         <img src={BockPentathlonSmall}
@@ -532,7 +532,7 @@ function Bock(props) {
                                     den See stürzte. Bald zog sich das Feld auseinander, das lotsende
                                     Schiff begann langsam kleiner zu werden.
                                 </p>
-                                <figure class="imageright">
+                                <figure className="imageright">
                                     <p style={{ width: "330px" }}>Abb. 9: Im Trio beim Bodensee-Triathlon 1990</p>
                                         <button type="button" onClick={() => { setOpen(true); setIndex(8); }}>
                                         <img src={BockBodenseeTriathlonSmall}

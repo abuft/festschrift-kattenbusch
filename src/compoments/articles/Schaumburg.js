@@ -8,19 +8,19 @@ import SchaumburgPortrait from "../../images/cschaumburg/cschaumburg-portrait.jp
 function Schaumburg(props) {
     return (
         <div>
-            <div id="Wrapper" class="container_14">
+            <div id="Wrapper" className="container_14">
 
                 <div id="Header">
                     <Header id={props.author} />
-                    <div class="grid_9">
+                    <div className="grid_9">
                         <h1 id="main_title">Über laufende Forscher</h1>
                         <p id="author">Christophe Schaumburg, Gießen</p>
                     </div>
                     <Rubrik />
                 </div>
 
-                <div id="Teasers" class="clearfix">
-                    <div class="grid_9">
+                <div id="Teasers" className="clearfix">
+                    <div className="grid_9">
                         <p>
                             „Stillstand“: Kenne ich kaum, brauche ich nicht.
                         </p>
@@ -38,25 +38,25 @@ function Schaumburg(props) {
                             Forscherhirn sportlich mit einer Extraportion Sauerstoff zu versorgen.
                         </p>
                     </div>
-                    <div class="grid_5">
+                    <div className="grid_5">
 
-                        <div class="abouttheauthor">
+                        <div className="abouttheauthor">
                             <img src={SchaumburgPortrait} width="120"
                                 height="95" alt="Christophe Schaumburg - Portrait" />
-                            <div class="abouttheauthorfont"><br /><br />
+                            <div className="abouttheauthorfont"><br /><br />
                                 <b>Christophe Schaumburg</b>,
                                 Lektor für Französisch an der
                                 Justus-Liebig-Universität in Gießen. Freund von Dieter Kattenbusch.
                             </div>
-                            <div class="clearfloat"></div>
+                            <div className="clearfloat"></div>
                         </div>
                     </div>
                 </div>
 
                 <div id="Main">
-                    <div id="Articles" class="grid_14">
+                    <div id="Articles" className="grid_14">
                         <section id="posts">
-                            <article class="post">
+                            <article className="post">
                                 <p>
                                     So habe ich ihn bereits bei unserer ersten Begegnung vor ... einer
                                     unwesentlichen Anzahl an Jahren erlebt, und er hat mich dann auch sehr
@@ -66,7 +66,7 @@ function Schaumburg(props) {
                                 <p>
                                     Frei nach La Fontaine möchte ich ihm zurufen:
                                 </p>
-                                <p class="quote">
+                                <p className="quote">
                                     Que faisais-tu cet été?<br />
                                     Tu courais?<br />
                                     Eh bien continue (maintenant).
