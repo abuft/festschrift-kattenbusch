@@ -31,7 +31,7 @@ function Autoren(props) {
                     <p className="bibl">Bernardi, Rut: <a href="/videsottBernardi">Eine administrative Übersetzung ins
                         Dolomitenladinische aus
                         dem Jahr 1811</a></p>
-                    <p className="bibl">Bernhard, Gerald: <a href="bernhard-akzent-arzneien.html">Akzent, Arzneien und andere
+                    <p className="bibl">Bernhard, Gerald: <a href="/bernhard">Akzent, Arzneien und andere
                         Schwierigkeiten</a></p>
                     <p className="bibl">Bock, Günter: <a href="bock-triathlon.html">Der Neufahrner Triathlon</a></p>
 

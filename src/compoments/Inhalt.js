@@ -24,7 +24,7 @@ function Inhalt(props) {
 
                     <p className="bibl">Roland Bauer: <a href="/bauer">Zur inneren Arealgliederung des Trentino.
                         Eine dialektometrische Nachschau</a></p>
-                    <p className="bibl">Gerald Bernhard: <a href="bernhard-akzent-arzneien.html">Akzent, Arzneien und andere Schwierigkeiten</a></p>
+                    <p className="bibl">Gerald Bernhard: <a href="/bernhard">Akzent, Arzneien und andere Schwierigkeiten</a></p>
                     <p className="bibl">Sylvia Setzkorn: <a href="setzkorn-durchfall.html">Die volkstümlichen Bezeichnungen für die Krankheit ‚Durchfall‘ in der Romania
                         – onomasiologische und sprachgeographische Betrachtungen</a></p>
                     <p className="bibl">Thomas Stehl: <a href="stehl-sprachdynamik.html">Sprachdynamik und Variationslinguistik in Italien</a></p>
