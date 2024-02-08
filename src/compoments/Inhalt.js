@@ -79,7 +79,7 @@ function Inhalt(props) {
                     <h2><a href="#k8" name="kat8">8</a> Sport</h2>
 
                     <p className="bibl">Günter Bock: <a href="/bock">Der Neufahrner Triathlon</a></p>
-                    <p className="bibl">Christophe Schaumburg: <a href="schaumburg-laufende-forscher.html">Über laufende Forscher</a></p>
+                    <p className="bibl">Christophe Schaumburg: <a href="/schaumburg">Über laufende Forscher</a></p>
 
                     <h2><a href="#k9" name="kat9">9</a> VIVALDI</h2>
 

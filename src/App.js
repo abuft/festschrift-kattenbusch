@@ -20,6 +20,7 @@ import Tosques from './compoments/articles/Tosques';
 import Bauer from './compoments/articles/Bauer';
 import Bernhard from './compoments/articles/Bernhard';
 import Bock from './compoments/articles/Bock';
+import Schaumburg from './compoments/articles/Schaumburg';
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
           <Route path="/klare" element={<Klare id="Klare" author="Johannes Klare" />} />
           <Route path="/koehler" element={<Koehler id="Koehler" author="Carola Koehler" />} />
           <Route path="/perone" element={<Perone id="perone" author="Ugo Perone" />} />
+          <Route path="/schaumburg" element={<Schaumburg id="Schaumburg" author="Christophe Schaumburg" />} />
           <Route path="/schmidt" element={<Schmidt id="Schmidt" author="Jochen Schmidt" />} />
           <Route path="/tosques" element={<Tosques id="Tosques" author="Fabio Tosques" />} />
           <Route path="/urbano" element={<Urbano id="urbano" author="Amalia Urbano" />} />

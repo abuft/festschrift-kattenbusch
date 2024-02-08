@@ -112,7 +112,7 @@ function Autoren(props) {
                         Fonseca, Figura Cimeira da Poesia Neo-Realista</a></p>
 
                     <h2><a href="#k12" name="kat12">S</a></h2>
-                    <p className="bibl">Schaumburg, Christophe: <a href="schaumburg-laufende-forscher.html">Über laufende Forscher</a>
+                    <p className="bibl">Schaumburg, Christophe: <a href="/schaumburg">Über laufende Forscher</a>
                     </p>
                     <p className="bibl">Schmidt, Jochen: <a href="/schmidt">Warum Rumänisch?</a></p>
                     <p className="bibl">Setzkorn, Sylvia: <a href="setzkorn-durchfall.html">Die volkstümlichen Bezeichnungen für die
