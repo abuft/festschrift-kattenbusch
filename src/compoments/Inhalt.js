@@ -97,7 +97,7 @@ function Inhalt(props) {
                     <p className="bibl">Johannes Klare: <a href="/klare">Esperanto – eine Minderheitensprache?</a></p>
                     <p className="bibl">Trudel Meisenburg: <a href="meisenburg-optimale-kattenbusch.html">Der optimale Kattenbusch: The ultimate OT account of and for my dear old friend (but never
                         fiancé!) Dieter K.</a></p>
-                    <p className="bibl">Peter Stein: <a href="stein-zwanzig-jahre.html">„Pourquoi et comment élaborer une orthographe
+                    <p className="bibl">Peter Stein: <a href="/stein">„Pourquoi et comment élaborer une orthographe
                         pour des langues romanes non encore codifiées? Quelques réflexions
                         comparatives à propos de la codification du ladin des Dolomites et du
                         créole mauricien“ – und was sich in 20 Jahren geändert hat</a></p>

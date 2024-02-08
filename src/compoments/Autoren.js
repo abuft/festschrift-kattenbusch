@@ -121,7 +121,7 @@ function Autoren(props) {
 
                     <p className="bibl">Stehl, Thomas: <a href="stehl-sprachdynamik.html">Sprachdynamik und Variationslinguistik in
                         Italien</a></p>
-                    <p className="bibl">Stein, Peter: <a href="stein-zwanzig-jahre.html">„Pourquoi et comment élaborer une orthographe
+                    <p className="bibl">Stein, Peter: <a href="/stein">„Pourquoi et comment élaborer une orthographe
                         pour des langues romanes non encore codifiées? Quelques réflexions
                         comparatives à propos de la codification du ladin des Dolomites et du
                         créole mauricien“ – und was sich in 20 Jahren geändert hat</a></p>
