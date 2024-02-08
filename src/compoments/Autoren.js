@@ -39,7 +39,7 @@ function Autoren(props) {
                     <h2><a href="#k2" name="kat2">C</a></h2>
 
                     <p className="bibl">Chiocchetti, Fabio: <a href="/chiocchetti">Ícaro non vola</a></p>
-                    <p className="bibl">Cocco, Giuseppe: <a href="cocco-faeto.html">Il Francoprovenzale di Faeto</a></p>
+                    <p className="bibl">Cocco, Giuseppe: <a href="/cocco">Il Francoprovenzale di Faeto</a></p>
 
 
                     <h2><a href="#k3" name="kat3">D</a></h2>

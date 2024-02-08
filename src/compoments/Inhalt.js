@@ -59,7 +59,7 @@ function Inhalt(props) {
 
                     <h2><a href="#k5" name="kat5">5</a> Mehrsprachigkeit</h2>
 
-                    <p className="bibl">Giuseppe Cocco/Fabio Tosques: <a href="cocco-faeto.html">Il Francoprovenzale di Faeto</a></p>
+                    <p className="bibl">Giuseppe Cocco/Fabio Tosques: <a href="/cocco">Il Francoprovenzale di Faeto</a></p>
                     <p className="bibl">Gerhard Ernst: <a href="ernst-cartolina.html">Una cartolina dalla Val Maira</a></p>
                     <p className="bibl">Gianmarco Furer: <a href="/furerg">Plurilinguisme programmé/volontaire/voulu</a></p>
 

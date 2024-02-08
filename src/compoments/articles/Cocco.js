@@ -8,12 +8,46 @@ import Rubrik from "../Rubrik";
 import CoccoPortrait from "../../images/gcocco/gcocco-portrait.jpg";
 import UpArrow from "../UpArrow";
 import Footer from "../Footer";
+import Ufe1Small from "../../images/gcocco/ufe-1_small.jpg";
+import Faeto1Small from "../../images/gcocco/faeto-1_small.jpg";
+import Faeto2Small from "../../images/gcocco/faeto-2_small.jpg";
+import Faeto3Small from "../../images/gcocco/faeto-3_small.jpg";
+import Faeto4Small from "../../images/gcocco/faeto-4_small.jpg";
+import Faeto5Small from "../../images/gcocco/faeto-5_small.jpg";
+import Faeto6Small from "../../images/gcocco/faeto-6_small.jpg";
+import DkGc1980Small from "../../images/gcocco/dk-gc-1980_small.jpg";
+
+const images = [
+    { src: "https://festschrift-kattenbusch.de/images/gcocco/ufe-1.jpg", title: "Fig. 1", description: "Manifesto dell’Università Francoprovenzale d’Estate" },
+    { src: "https://festschrift-kattenbusch.de/images/gcocco/faeto-1.jpg", title: "Fig. 2", description: "Veduta di Faeto con la Chiesa SS. Salvatore" },
+    { src: "https://festschrift-kattenbusch.de/images/gcocco/faeto-2.jpg", title: "Fig. 3", description: "Faeto, pausa all'ombra" },
+    { src: "https://festschrift-kattenbusch.de/images/gcocco/faeto-3.jpg", title: "Fig. 4", description: "Centro storico di Faeto" },
+    { src: "https://festschrift-kattenbusch.de/images/gcocco/dk-gc-1980.jpg", title: "Fig. 5", description: "Dieter Kattenbusch e il suo informante Giuseppe Cocco a Faeto nel 1980" },
+    { src: "https://festschrift-kattenbusch.de/images/gcocco/faeto-4.jpg", title: "Fig. 6", description: "Un vicolo a Faeto" },
+    { src: "https://festschrift-kattenbusch.de/images/gcocco/faeto-5.jpg", title: "Fig. 7", description: "Faeto" },
+    { src: "https://festschrift-kattenbusch.de/images/gcocco/faeto-6.jpg", title: "Fig. 8", description: "Faeto, Il Muncipio" },
+]
 
 function Cocco(props) {
+
+    const [open, setOpen] = useState(false);
+    const [index, setIndex] = useState(0);
+
     return (
         <div>
+            <Lightbox
+                open={open}
+                close={() => setOpen(false)}
+                index={index}
+                slides={images}
+                controller={{ closeOnBackdropClick: true }}
+                plugins={[Captions]}
+                captions={{ showToggle: true, descriptionMaxLines: 5, descriptionTextAlign: "center" }}
+            />
+
             <div id="Wrapper" className="container_14">
                 <div id="Header">
+                    <Header id={props.author} />
                     <div className="grid_9">
                         <h1 id="main_title">Il Francoprovenzale di Faeto</h1>
                         <p id="author">Giuseppe Cocco, Faeto (FG). A colloquio con Fabio
@@ -92,11 +126,10 @@ function Cocco(props) {
                                 <figure className="imageleft">
                                     <p style={{ width: "200px" }}>Fig. 1: Manifesto
                                         dell’UFE</p>
-                                    <a href="images/gcocco/ufe-1.jpg" rel="lightbox"
-                                        title="Fig. 1: Manifesto dell’Università Francoprovenzale d’Estate">
-                                        <img src="images/gcocco/ufe-1_small.jpg" width="200"
+                                    <button type="button" onClick={() => { setOpen(true); setIndex(0); }}>
+                                        <img src={Ufe1Small} width="200"
                                             height="270" alt="Manifesto UFE" />
-                                    </a>
+                                    </button>
                                 </figure>
 
                                 <p className="question">
@@ -160,11 +193,10 @@ function Cocco(props) {
                                 </p>
                                 <figure className="imageright">
                                     <p style={{ width: "270px" }}>Fig. 2: Veduta di Faeto</p>
-                                    <a href="images/gcocco/faeto-1.jpg" rel="lightbox"
-                                        title="Fig. 2: Veduta di Faeto con la Chiesa SS. Salvatore">
-                                        <img src="images/gcocco/faeto-1_small.jpg" width="270"
+                                    <button type="button" onClick={() => { setOpen(true); setIndex(1); }}>
+                                        <img src={Faeto1Small} width="270"
                                             height="200" alt="Veduta di Faeto" />
-                                    </a>
+                                    </button>
                                 </figure>
 
                                 <p className="question">
@@ -209,11 +241,10 @@ function Cocco(props) {
                                 </p>
                                 <figure className="imageleft">
                                     <p style={{ width: "270px" }}>Fig. 3: Faeto</p>
-                                    <a href="images/gcocco/faeto-2.jpg" rel="lightbox"
-                                        title="Fig. 3: Faeto, pausa all'ombra">
-                                        <img src="images/gcocco/faeto-2_small.jpg" width="270"
+                                    <button type="button" onClick={() => { setOpen(true); setIndex(2); }}>
+                                        <img src={Faeto2Small} width="270"
                                             height="200" alt="Faeto" />
-                                    </a>
+                                    </button>
                                 </figure>
 
                                 <p className="question">
@@ -252,11 +283,10 @@ function Cocco(props) {
 
                                 <figure className="imageright">
                                     <p style={{ width: "270px" }}>Fig. 4: Centro storico di Faeto</p>
-                                    <a href="images/gcocco/faeto-3.jpg" rel="lightbox"
-                                        title="Fig. 4: Centro storico di Faeto">
-                                        <img src="images/gcocco/faeto-3_small.jpg" width="270"
+                                    <button type="button" onClick={() => { setOpen(true); setIndex(3); }}>
+                                        <img src={Faeto3Small} width="270"
                                             height="200" alt="Centro storico di Faeto" />
-                                    </a>
+                                    </button>
                                 </figure>
 
                                 <p className="question">
@@ -288,11 +318,10 @@ function Cocco(props) {
                                 <figure className="imageleft">
                                     <p style={{ width: "245px" }}>Fig. 5: D. Kattenbusch e
                                         G. Cocco a Faeto nel 1980</p>
-                                    <a href="images/gcocco/dk-gc-1980.jpg" rel="lightbox"
-                                        title="Fig. 5: Dieter Kattenbusch e il suo informante Giuseppe Cocco a Faeto nel 1980">
-                                        <img src="images/gcocco/dk-gc-1980_small.jpg" width="245"
+                                    <button type="button" onClick={() => { setOpen(true); setIndex(4); }}>
+                                        <img src={DkGc1980Small} width="245"
                                             height="440" alt="Dk e GC 1980" />
-                                    </a>
+                                    </button>
                                 </figure>
 
                                 <p className="question">
@@ -338,11 +367,10 @@ function Cocco(props) {
                                 </p>
                                 <figure className="imageright">
                                     <p style={{ width: "270px" }}>Fig. 6: Centro storico di Faeto</p>
-                                    <a href="images/gcocco/faeto-4.jpg" rel="lightbox"
-                                        title="Fig. 6: Centro storico di Faeto">
-                                        <img src="images/gcocco/faeto-4_small.jpg" width="270"
+                                    <button type="button" onClick={() => { setOpen(true); setIndex(5); }}>
+                                        <img src={Faeto4Small} width="270"
                                             height="200" alt="Centro storico di Faeto" />
-                                    </a>
+                                    </button>
                                 </figure>
 
                                 <p className="question">
@@ -402,11 +430,10 @@ function Cocco(props) {
                                 </p>
                                 <figure className="imageleft">
                                     <p style={{ width: "200px" }}>Fig. 7: Strada decorata a Faeto</p>
-                                    <a href="images/gcocco/faeto-5.jpg" rel="lightbox"
-                                        title="Fig. 7: Strada decorata a proposito dell’UFE a Faeto">
-                                        <img src="images/gcocco/faeto-5_small.jpg" width="200"
+                                    <button type="button" onClick={() => { setOpen(true); setIndex(6); }}>
+                                        <img src={Faeto5Small} width="200"
                                             height="270" alt="Strada decorata a proposito dell’UFE a Faeto" />
-                                    </a>
+                                    </button>
                                 </figure>
 
                                 <p className="question">
@@ -473,11 +500,10 @@ function Cocco(props) {
 
                                 <figure className="imageright">
                                     <p style={{ width: "270px" }}>Fig. 8: Munecipje di Faeto</p>
-                                    <a href="images/gcocco/faeto-6.jpg" rel="lightbox"
-                                        title="Fig. 8: Munecipje di Faeto">
-                                        <img src="images/gcocco/faeto-6_small.jpg" width="270"
+                                    <button type="button" onClick={() => { setOpen(true); setIndex(7); }}>
+                                        <img src={Faeto6Small} width="270"
                                             height="200" alt="Munecipje di Faeto" />
-                                    </a>
+                                    </button>
                                 </figure>
 
                                 <p className="question">
