@@ -22,7 +22,7 @@ function Inhalt(props) {
 
                     <h2><a href="#k1" name="kat1">1</a> Dialekte/Varietäten</h2>
 
-                    <p className="bibl">Roland Bauer: <a href="bauer-arealgliederung-trentino.html">Zur inneren Arealgliederung des Trentino.
+                    <p className="bibl">Roland Bauer: <a href="/bauer">Zur inneren Arealgliederung des Trentino.
                         Eine dialektometrische Nachschau</a></p>
                     <p className="bibl">Gerald Bernhard: <a href="bernhard-akzent-arzneien.html">Akzent, Arzneien und andere Schwierigkeiten</a></p>
                     <p className="bibl">Sylvia Setzkorn: <a href="setzkorn-durchfall.html">Die volkstümlichen Bezeichnungen für die Krankheit ‚Durchfall‘ in der Romania
@@ -40,7 +40,6 @@ function Inhalt(props) {
                         Italia: usi, costumi, teatro e letteratura</a></p>
                     <p className="bibl">Gherardo Ugolini: <a href="ugolini-primato.html">Il primato
                         dell'italiano</a></p>
-
 
                     <h2><a href="#k3" name="kat3">3</a> Ladinisch/Rätoromanisch</h2>
 
@@ -70,7 +69,6 @@ function Inhalt(props) {
                     <p className="bibl">Fabio Chiocchetti: <a href="/chiocchetti">Ícaro non vola</a></p>
                     <p className="bibl">Georg Kremnitz: <a href="kremnitz-exkursionen.html">Über Exkursionen. Erinnerungen und Überlegungen</a></p>
 
-
                     <h2><a href="#k7" name="kat7">7</a> Rumänisch</h2>
 
                     <p className="bibl">Maren Huberty: <a href="huberty-ueber-boecke.html">Über Böcke und Böcke. Eine kleine
@@ -83,9 +81,6 @@ function Inhalt(props) {
                     <p className="bibl">Günter Bock: <a href="bock-triathlon.html">Der Neufahrner Triathlon</a></p>
                     <p className="bibl">Christophe Schaumburg: <a href="schaumburg-laufende-forscher.html">Über laufende Forscher</a></p>
 
-
-
-
                     <h2><a href="#k9" name="kat9">9</a> VIVALDI</h2>
 
                     <p className="bibl">Barbara De Angelis/Harald Völker: <a href="angelis-voelker-avezzano.html">VIVALDI zu Besuch in der Familie</a></p>
@@ -96,8 +91,6 @@ function Inhalt(props) {
                     <p className="bibl">Ugo Perone: <a href="/perone">Stile VIVALDI</a></p>
                     <p className="bibl">Katharina Wieland/Jochen Plikat/Lutz Küster: <a href="kwp-vivaldi-didaktik.html">VIVALDI – eine reiche Fundgrube für Lehramtsstudierende?
                         Fremdsprachen- und hochschuldidaktische Überlegungen</a></p>
-
-
 
                     <h2><a href="#k10" name="kat10">10</a> Varia</h2>
 

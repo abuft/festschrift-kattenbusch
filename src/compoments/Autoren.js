@@ -25,7 +25,7 @@ function Autoren(props) {
 
                     <h2><a href="#k1" name="kat1">B</a></h2>
 
-                    <p className="bibl">Bauer, Roland: <a href="bauer-arealgliederung-trentino.html">Zur inneren Arealgliederung des
+                    <p className="bibl">Bauer, Roland: <a href="/bauer">Zur inneren Arealgliederung des
                         Trentino.
                         Eine dialektometrische Nachschau</a></p>
                     <p className="bibl">Bernardi, Rut: <a href="/videsottBernardi">Eine administrative Übersetzung ins
