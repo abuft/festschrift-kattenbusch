@@ -72,8 +72,10 @@ function Tosques(props) {
                 <div className="grid_5">
 
                     <div className="abouttheauthor">
-                        <img src={TosquesPortrait} width="100"
-                            height="130" alt="Fabio Tosques - Portrait" />
+                        <img src={TosquesPortrait}
+                            width="100"
+                            height="130"
+                            alt="Fabio Tosques - Portrait" />
                         <div className="abouttheauthorfont"><br /><br />
                             <b>Fabio Tosques</b>, M.A., studierte Italianistik,
                             Bibliothekswissenschaft und Informatik an der

@@ -32,7 +32,7 @@ function Inhalt(props) {
 
                     <h2><a href="#k2" name="kat2">2</a> Kulturgeschichte</h2>
 
-                    <p className="bibl">Hans Goebl: <a href="goebl-tumulazione.html">Kulturwissenschaftliches aus der
+                    <p className="bibl">Hans Goebl: <a href="/goebl">Kulturwissenschaftliches aus der
                         ALD-Werkstatt: <i>tumulazione</i> versus <i>inumazione</i></a></p>
                     <p className="bibl">Edith Pichler: <a href="/pichler">Vom Gastarbeiter zum <i>(Gast-)Bürger</i>?
                         Italiener in Deutschland – eine Zwischenbilanz</a></p>

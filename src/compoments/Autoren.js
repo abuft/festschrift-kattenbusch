@@ -63,7 +63,7 @@ function Autoren(props) {
 
                     <h2><a href="#k6" name="kat6">G</a></h2>
 
-                    <p className="bibl">Goebl, Hans: <a href="goebl-tumulazione.html">Kulturwissenschaftliches aus der
+                    <p className="bibl">Goebl, Hans: <a href="/goebl">Kulturwissenschaftliches aus der
                         ALD-Werkstatt: <i>tumulazione</i> versus <i>inumazione</i></a></p>
                     <p className="bibl">Großmann, Doreen: <a href="grossmann-vivaldi.html">Hinter den Kulissen von VIVALDI</a></p>
 
@@ -127,7 +127,7 @@ function Autoren(props) {
                         créole mauricien“ – und was sich in 20 Jahren geändert hat</a></p>
 
                     <h2><a href="#k13" name="kat13">T</a></h2>
-                    <p className="bibl">Tosques, Fabio: <a href="cocco-faeto.html">Il Francoprovenzale di Faeto</a></p>
+                    <p className="bibl">Tosques, Fabio: <a href="/cocco">Il Francoprovenzale di Faeto</a></p>
                     <p className="bibl">Tosques, Fabio: <a href="/tosques">Die frankoprovenzalischen Sprachinseln Faeto
                         und Celle di San Vito in der deutschen Wikipedia – eine Bestandsaufnahme</a></p>
 
