@@ -27,6 +27,7 @@ import FurerG from './compoments/articles/FurerG';
 import Cocco from './compoments/articles/Cocco';
 import Stein from './compoments/articles/Stein';
 import Goebl from './compoments/articles/Goebl';
+import Grossmann from './compoments/articles/Grossmann';
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
           <Route path="/furerg" element={<FurerG id="FurerG" author="Gianmarco Furer" />} />
           <Route path="/geleitwort" element={<Geleitwort id="Geleitwort" />} />
           <Route path="/goebl" element={<Goebl id="Goebel" author="Hans Goebel" />} />
+          <Route path="/grossmann" element={<Grossmann id="Grossmann" author="Doreen Grossmann" />} />
           <Route path="/impressum" element={<Impressum id="Impressum" />} />
           <Route path="/inhalt" element={<Inhalt id="Inhaltsverzeichnis" />} />
           <Route path="/klare" element={<Klare id="Klare" author="Johannes Klare" />} />

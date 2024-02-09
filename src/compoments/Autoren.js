@@ -65,7 +65,7 @@ function Autoren(props) {
 
                     <p className="bibl">Goebl, Hans: <a href="/goebl">Kulturwissenschaftliches aus der
                         ALD-Werkstatt: <i>tumulazione</i> versus <i>inumazione</i></a></p>
-                    <p className="bibl">Großmann, Doreen: <a href="grossmann-vivaldi.html">Hinter den Kulissen von VIVALDI</a></p>
+                    <p className="bibl">Großmann, Doreen: <a href="/grossmann">Hinter den Kulissen von VIVALDI</a></p>
 
                     <h2><a href="#k7" name="kat7">H</a></h2>
 
