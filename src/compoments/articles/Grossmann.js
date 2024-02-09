@@ -6,6 +6,7 @@ import "yet-another-react-lightbox/plugins/captions.css";
 import Footer from "../Footer";
 import Rubrik from "../Rubrik";
 import UpArrow from "../UpArrow";
+import Header from "../Header";
 import GrossmannPortrait from "../../images/dgrossmann/dgrossmann-portrait.jpg";
 import Vivtka1Small from "../../images/dgrossmann/vivtka-1_small.png";
 import Vivtka2Small from "../../images/dgrossmann/vivtka-2_small.png";
@@ -40,6 +41,7 @@ const images = [
         description: "Kartenerstellung mit PaintShop Pro",
     },
 ];
+
 function Grossmann(props) {
 
     const [open, setOpen] = useState(false);
@@ -48,6 +50,7 @@ function Grossmann(props) {
     return (
         <div id="Wrapper" className="container_14">
             <div id="Header">
+                <Header id={props.author} />
                 <div className="grid_9">
                     <h1 id="main_title">Hinter den Kulissen von VIVALDI</h1>
                     <p id="author">Doreen Großmann, Berlin</p>
@@ -62,7 +65,7 @@ function Grossmann(props) {
                 slides={images}
                 controller={{ closeOnBackdropClick: true }}
                 plugins={[Captions]}
-                captions={{ showToggle: true, descriptionMaxLines: 5, descriptionTextAlign: "center" }}
+                captions={{ showToggle: true, descriptionMaxLines: 3, descriptionTextAlign: "center" }}
             />
 
             <div id="Teasers" className="clearfix">
