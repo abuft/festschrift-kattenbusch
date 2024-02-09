@@ -71,7 +71,7 @@ function Inhalt(props) {
 
                     <h2><a href="#k7" name="kat7">7</a> Rumänisch</h2>
 
-                    <p className="bibl">Maren Huberty: <a href="huberty-ueber-boecke.html">Über Böcke und Böcke. Eine kleine
+                    <p className="bibl">Maren Huberty: <a href="/huberty">Über Böcke und Böcke. Eine kleine
                         etymologische Studie zu Rumänisch <i>ţap</i></a></p>
                     <p className="bibl">Jochen Schmidt: <a href="schmidt-rumaenisch.html">Warum Rumänisch?</a></p>
 

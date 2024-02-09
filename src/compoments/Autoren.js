@@ -24,7 +24,6 @@ function Autoren(props) {
 
 
                     <h2><a href="#k1" name="kat1">B</a></h2>
-
                     <p className="bibl">Bauer, Roland: <a href="/bauer">Zur inneren Arealgliederung des
                         Trentino.
                         Eine dialektometrische Nachschau</a></p>
@@ -37,43 +36,39 @@ function Autoren(props) {
 
 
                     <h2><a href="#k2" name="kat2">C</a></h2>
-
                     <p className="bibl">Chiocchetti, Fabio: <a href="/chiocchetti">Ícaro non vola</a></p>
                     <p className="bibl">Cocco, Giuseppe: <a href="/cocco">Il Francoprovenzale di Faeto</a></p>
 
 
                     <h2><a href="#k3" name="kat3">D</a></h2>
-
                     <p className="bibl">De Angelis, Barbara: <a href="/angelisVoelker">VIVALDI zu Besuch in der
                         Familie</a></p>
 
 
                     <h2><a href="#k4" name="kat4">E</a></h2>
-
                     <p className="bibl">Ernst, Gerhard: <a href="/ernst">Una cartolina dalla Val Maira</a></p>
 
 
                     <h2><a href="#k5" name="kat5">F</a></h2>
-
                     <p className="bibl">Furer, Gianmarco: <a href="/furerg">Plurilinguisme
                         programmé/volontaire/voulu</a></p>
                     <p className="bibl">Furer, Jean-Jacques: <a href="/furerj">
                         Un dictionnaire français-romanche
                         (sursilvan+): Pourquoi – Comment – Par qui</a></p>
 
-                    <h2><a href="#k6" name="kat6">G</a></h2>
 
+                    <h2><a href="#k6" name="kat6">G</a></h2>
                     <p className="bibl">Goebl, Hans: <a href="/goebl">Kulturwissenschaftliches aus der
                         ALD-Werkstatt: <i>tumulazione</i> versus <i>inumazione</i></a></p>
                     <p className="bibl">Großmann, Doreen: <a href="/grossmann">Hinter den Kulissen von VIVALDI</a></p>
 
-                    <h2><a href="#k7" name="kat7">H</a></h2>
 
-                    <p className="bibl">Huberty, Maren: <a href="huberty-ueber-boecke.html">Über Böcke und Böcke. Eine kleine
+                    <h2><a href="#k7" name="kat7">H</a></h2>
+                    <p className="bibl">Huberty, Maren: <a href="/huberty">Über Böcke und Böcke. Eine kleine
                         etymologische Studie zu Rumänisch <i>ţap</i></a></p>
 
-                    <h2><a href="#k8" name="kat8">K</a></h2>
 
+                    <h2><a href="#k8" name="kat8">K</a></h2>
                     <p className="bibl">Klare, Johannes: <a href="/klare">Esperanto – eine Minderheitensprache?</a></p>
                     <p className="bibl">Köhler, Carola: <a href="/koehler">VIVALDI und ich. Ein persönlicher Rückblick</a>
                     </p>
@@ -83,8 +78,8 @@ function Autoren(props) {
                         Lehramtsstudierende?
                         Fremdsprachen- und hochschuldidaktische Überlegungen</a></p>
 
-                    <h2><a href="#k9" name="kat9">M</a></h2>
 
+                    <h2><a href="#k9" name="kat9">M</a></h2>
                     <p className="bibl">Mattusch, Michèle: <a href="mattusch-dante.html">Dante und die Sprache der Sinne –
                         literaturwissenschaftliche
                         Reflexionen zu Dante Alighieris <i>De vulgari eloquentia</i></a></p>

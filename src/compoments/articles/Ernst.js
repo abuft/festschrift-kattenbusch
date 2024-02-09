@@ -15,15 +15,35 @@ import Soleglio_small from '../../images/gernst/soleglio_small.jpg';
 import Header from "../Header";
 import UpArrow from "../UpArrow";
 
-function Ernst(props) {
+const images = [
+    {
+        src: 'https://festschrift-kattenbusch.de/images/gernst/morinesio.jpg',
+        title: "Abb. 1",
+        description: 'Morinesio/Mourines (CN)'
+    },
+    {
+        src: 'https://festschrift-kattenbusch.de/images/gernst/obacco.jpg',
+        title: "Abb. 2",
+        description: 'Obacco/L’Ubac (CN)'
+    },
+    {
+        src: 'https://festschrift-kattenbusch.de/images/gernst/paias.jpg',
+        title: "Abb. 3",
+        description: 'Paiàs/Palhás (CN)'
+    },
+    {
+        src: 'https://festschrift-kattenbusch.de/images/gernst/garzino.jpg',
+        title: "Abb. 4",
+        description: 'Garzino'
+    },
+    {
+        src: 'https://festschrift-kattenbusch.de/images/gernst/soleglio.jpg',
+        title: "Abb. 5",
+        description: 'Soleglio Bue/Solelha Buou (CN)'
+    }
+];
 
-    const images = [
-        { src: 'https://festschrift-kattenbusch.de/images/gernst/morinesio.jpg', title: "Abb. 1", description: 'Morinesio/Mourines (CN)' },
-        { src: 'https://festschrift-kattenbusch.de/images/gernst/obacco.jpg', title: "Abb. 2", description: 'Obacco/L’Ubac (CN)' },
-        { src: 'https://festschrift-kattenbusch.de/images/gernst/paias.jpg', title: "Abb. 3", description: 'Paiàs/Palhás (CN)' },
-        { src: 'https://festschrift-kattenbusch.de/images/gernst/garzino.jpg', title: "Abb. 4", description: 'Garzino' },
-        { src: 'https://festschrift-kattenbusch.de/images/gernst/soleglio.jpg', title: "Abb. 5", description: 'Soleglio Bue/Solelha Buou (CN)' }
-    ];
+function Ernst(props) {
 
     const [open, setOpen] = useState(false);
     const [index, setIndex] = useState(0);
@@ -47,7 +67,7 @@ function Ernst(props) {
                     controller={{ closeOnBackdropClick: true }}
                     slides={images.slice(0)}
                     plugins={[Captions]}
-                    captions={{ showToggle:true, descriptionMaxLines: 3, descriptionTextAlign: "center" }}
+                    captions={{ showToggle: true, descriptionMaxLines: 3, descriptionTextAlign: "center" }}
                 />
 
                 <div id="Teasers" className="clearfix">
@@ -553,7 +573,7 @@ function Ernst(props) {
                         </section>
                     </div>
                 </div>
-                <UpArrow />   
+                <UpArrow />
                 <Footer />
             </div>
         </div>
