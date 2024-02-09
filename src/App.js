@@ -30,6 +30,7 @@ import Goebl from './compoments/articles/Goebl';
 import Grossmann from './compoments/articles/Grossmann';
 import Huberty from './compoments/articles/Huberty';
 import Kremnitz from './compoments/articles/Kremnitz';
+import Mattusch from './compoments/articles/Mattusch';
 
 function App() {
   return (
@@ -56,6 +57,7 @@ function App() {
           <Route path="/klare" element={<Klare id="Klare" author="Johannes Klare" />} />
           <Route path="/koehler" element={<Koehler id="Koehler" author="Carola Koehler" />} />
           <Route path="/kremnitz" element={<Kremnitz id="Kremnitz" author="Georg Kremnitz" />} />
+          <Route path="/mattusch" element={<Mattusch id="Mattusch" author="Michèle Mattusch" />} />
           <Route path="/perone" element={<Perone id="perone" author="Ugo Perone" />} />
           <Route path="/pichler" element={<Pichler id="Pichler" author="Edith Pichler" />} />
           <Route path="/schaumburg" element={<Schaumburg id="Schaumburg" author="Christophe Schaumburg" />} />

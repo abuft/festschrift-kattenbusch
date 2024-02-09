@@ -51,7 +51,7 @@ function Inhalt(props) {
 
                     <h2><a href="#k4" name="kat4">4</a> Literaturwissenschaft</h2>
 
-                    <p className="bibl">Michèle Mattusch: <a href="mattusch-dante.html">Dante und die Sprache der Sinne – literaturwissenschaftliche
+                    <p className="bibl">Michèle Mattusch: <a href="/mattusch">Dante und die Sprache der Sinne – literaturwissenschaftliche
                         Reflexionen zu Dante Alighieris <i>De vulgari eloquentia</i></a></p>
                     <p className="bibl">Luciano Caetano da Rosa: <a href="da-rosa-fonseca.html">No Centenário do Nascimento de Manuel da
                         Fonseca, Figura Cimeira da Poesia Neo-Realista</a></p>
@@ -67,7 +67,7 @@ function Inhalt(props) {
                     <h2><a href="#k6" name="kat6">6</a> Reisen</h2>
 
                     <p className="bibl">Fabio Chiocchetti: <a href="/chiocchetti">Ícaro non vola</a></p>
-                    <p className="bibl">Georg Kremnitz: <a href="/kremnitz">Über Exkursionen. Erinnerungen und Überlegungen</a></p>
+                    <p className="bibl">Georg Kremnitz: <a href="/kremnitz-exkursionen.html">Über Exkursionen. Erinnerungen und Überlegungen</a></p>
 
                     <h2><a href="#k7" name="kat7">7</a> Rumänisch</h2>
 

@@ -80,7 +80,7 @@ function Autoren(props) {
 
 
                     <h2><a href="#k9" name="kat9">M</a></h2>
-                    <p className="bibl">Mattusch, Michèle: <a href="mattusch-dante.html">Dante und die Sprache der Sinne –
+                    <p className="bibl">Mattusch, Michèle: <a href="/mattusch">Dante und die Sprache der Sinne –
                         literaturwissenschaftliche
                         Reflexionen zu Dante Alighieris <i>De vulgari eloquentia</i></a></p>
 
