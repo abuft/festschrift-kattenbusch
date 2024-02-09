@@ -67,7 +67,7 @@ function Inhalt(props) {
                     <h2><a href="#k6" name="kat6">6</a> Reisen</h2>
 
                     <p className="bibl">Fabio Chiocchetti: <a href="/chiocchetti">Ícaro non vola</a></p>
-                    <p className="bibl">Georg Kremnitz: <a href="kremnitz-exkursionen.html">Über Exkursionen. Erinnerungen und Überlegungen</a></p>
+                    <p className="bibl">Georg Kremnitz: <a href="/kremnitz">Über Exkursionen. Erinnerungen und Überlegungen</a></p>
 
                     <h2><a href="#k7" name="kat7">7</a> Rumänisch</h2>
 

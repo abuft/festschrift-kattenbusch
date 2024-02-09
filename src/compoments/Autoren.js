@@ -72,7 +72,7 @@ function Autoren(props) {
                     <p className="bibl">Klare, Johannes: <a href="/klare">Esperanto – eine Minderheitensprache?</a></p>
                     <p className="bibl">Köhler, Carola: <a href="/koehler">VIVALDI und ich. Ein persönlicher Rückblick</a>
                     </p>
-                    <p className="bibl">Kremnitz, Georg: <a href="kremnitz-exkursionen.html">Über Exkursionen. Erinnerungen und
+                    <p className="bibl">Kremnitz, Georg: <a href="/kremnitz">Über Exkursionen. Erinnerungen und
                         Überlegungen</a></p>
                     <p className="bibl">Küster, Lutz: <a href="kwp-vivaldi-didaktik.html">VIVALDI – eine reiche Fundgrube für
                         Lehramtsstudierende?
