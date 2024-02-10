@@ -89,7 +89,7 @@ function Inhalt(props) {
                     <p className="bibl">Guido Mensching: <a href="mensching-sardisch-syntax.html">Anmerkungen zur sardischen Syntax anhand des
                         Vivaio Acustico delle Lingue e dei Dialetti d’Italia (VIVALDI)</a></p>
                     <p className="bibl">Ugo Perone: <a href="/perone">Stile VIVALDI</a></p>
-                    <p className="bibl">Katharina Wieland/Jochen Plikat/Lutz Küster: <a href="kwp-vivaldi-didaktik.html">VIVALDI – eine reiche Fundgrube für Lehramtsstudierende?
+                    <p className="bibl">Katharina Wieland/Jochen Plikat/Lutz Küster: <a href="/kuesterPlikatWieland">VIVALDI – eine reiche Fundgrube für Lehramtsstudierende?
                         Fremdsprachen- und hochschuldidaktische Überlegungen</a></p>
 
                     <h2><a href="#k10" name="kat10">10</a> Varia</h2>

@@ -74,7 +74,7 @@ function Autoren(props) {
                     </p>
                     <p className="bibl">Kremnitz, Georg: <a href="/kremnitz">Über Exkursionen. Erinnerungen und
                         Überlegungen</a></p>
-                    <p className="bibl">Küster, Lutz: <a href="kwp-vivaldi-didaktik.html">VIVALDI – eine reiche Fundgrube für
+                    <p className="bibl">Küster, Lutz: <a href="/kuesterPlikatWieland">VIVALDI – eine reiche Fundgrube für
                         Lehramtsstudierende?
                         Fremdsprachen- und hochschuldidaktische Überlegungen</a></p>
 
@@ -97,7 +97,7 @@ function Autoren(props) {
                     <p className="bibl">Perone, Ugo: <a href="/perone">Stile VIVALDI</a></p>
                     <p className="bibl">Pichler, Edith: <a href="/pichler">Vom Gastarbeiter zum <i>(Gast-)Bürger</i>?
                         Italiener in Deutschland – eine Zwischenbilanz</a></p>
-                    <p className="bibl">Plikat, Jochen: <a href="kwp-vivaldi-didaktik.html">VIVALDI – eine reiche Fundgrube für
+                    <p className="bibl">Plikat, Jochen: <a href="/kuesterPlikatWieland">VIVALDI – eine reiche Fundgrube für
                         Lehramtsstudierende?
                         Fremdsprachen- und hochschuldidaktische Überlegungen</a></p>
 
@@ -142,7 +142,7 @@ function Autoren(props) {
 
                     <h2><a href="#k16" name="kat16">W</a></h2>
                     <p className="bibl">Wieland,
-                        Katharina: <a href="kwp-vivaldi-didaktik.html">VIVALDI –
+                        Katharina: <a href="/kuesterPlikatWieland">VIVALDI –
                             eine reiche Fundgrube für Lehramtsstudierende?
                             Fremdsprachen- und hochschuldidaktische
                             Überlegungen</a></p>
