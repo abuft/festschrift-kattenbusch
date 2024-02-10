@@ -60,20 +60,20 @@ function Inhalt(props) {
                     <h2><a href="#k5" name="kat5">5</a> Mehrsprachigkeit</h2>
 
                     <p className="bibl">Giuseppe Cocco/Fabio Tosques: <a href="/cocco">Il Francoprovenzale di Faeto</a></p>
-                    <p className="bibl">Gerhard Ernst: <a href="ernst-cartolina.html">Una cartolina dalla Val Maira</a></p>
+                    <p className="bibl">Gerhard Ernst: <a href="/ernst">Una cartolina dalla Val Maira</a></p>
                     <p className="bibl">Gianmarco Furer: <a href="/furerg">Plurilinguisme programmé/volontaire/voulu</a></p>
 
 
                     <h2><a href="#k6" name="kat6">6</a> Reisen</h2>
 
                     <p className="bibl">Fabio Chiocchetti: <a href="/chiocchetti">Ícaro non vola</a></p>
-                    <p className="bibl">Georg Kremnitz: <a href="/kremnitz-exkursionen.html">Über Exkursionen. Erinnerungen und Überlegungen</a></p>
+                    <p className="bibl">Georg Kremnitz: <a href="/kremnitz">Über Exkursionen. Erinnerungen und Überlegungen</a></p>
 
                     <h2><a href="#k7" name="kat7">7</a> Rumänisch</h2>
 
                     <p className="bibl">Maren Huberty: <a href="/huberty">Über Böcke und Böcke. Eine kleine
                         etymologische Studie zu Rumänisch <i>ţap</i></a></p>
-                    <p className="bibl">Jochen Schmidt: <a href="schmidt-rumaenisch.html">Warum Rumänisch?</a></p>
+                    <p className="bibl">Jochen Schmidt: <a href="/schmidt">Warum Rumänisch?</a></p>
 
 
                     <h2><a href="#k8" name="kat8">8</a> Sport</h2>
@@ -83,7 +83,7 @@ function Inhalt(props) {
 
                     <h2><a href="#k9" name="kat9">9</a> VIVALDI</h2>
 
-                    <p className="bibl">Barbara De Angelis/Harald Völker: <a href="angelis-voelker-avezzano.html">VIVALDI zu Besuch in der Familie</a></p>
+                    <p className="bibl">Barbara De Angelis/Harald Völker: <a href="angelisVoelker">VIVALDI zu Besuch in der Familie</a></p>
                     <p className="bibl">Doreen Großmann: <a href="/grossmann">Hinter den Kulissen von VIVALDI</a></p>
                     <p className="bibl">Carola Köhler: <a href="/koehler">VIVALDI und ich. Ein persönlicher Rückblick</a></p>
                     <p className="bibl">Guido Mensching: <a href="mensching-sardisch-syntax.html">Anmerkungen zur sardischen Syntax anhand des
@@ -95,7 +95,7 @@ function Inhalt(props) {
                     <h2><a href="#k10" name="kat10">10</a> Varia</h2>
 
                     <p className="bibl">Johannes Klare: <a href="/klare">Esperanto – eine Minderheitensprache?</a></p>
-                    <p className="bibl">Trudel Meisenburg: <a href="meisenburg-optimale-kattenbusch.html">Der optimale Kattenbusch: The ultimate OT account of and for my dear old friend (but never
+                    <p className="bibl">Trudel Meisenburg: <a href="/meisenburg">Der optimale Kattenbusch: The ultimate OT account of and for my dear old friend (but never
                         fiancé!) Dieter K.</a></p>
                     <p className="bibl">Peter Stein: <a href="/stein">„Pourquoi et comment élaborer une orthographe
                         pour des langues romanes non encore codifiées? Quelques réflexions

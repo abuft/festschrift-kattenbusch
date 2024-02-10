@@ -82,7 +82,6 @@ function Tosques(props) {
 
                 </div>
                 <div className="grid_5">
-
                     <div className="abouttheauthor">
                         <img src={TosquesPortrait}
                             width="100"

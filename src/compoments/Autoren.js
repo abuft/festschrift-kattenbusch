@@ -84,7 +84,7 @@ function Autoren(props) {
                         literaturwissenschaftliche
                         Reflexionen zu Dante Alighieris <i>De vulgari eloquentia</i></a></p>
 
-                    <p className="bibl">Meisenburg, Trudel: <a href="meisenburg-optimale-kattenbusch.html">Der optimale Kattenbusch: The
+                    <p className="bibl">Meisenburg, Trudel: <a href="/meisenburg">Der optimale Kattenbusch: The
                         ultimate OT account of and for my dear old friend (but never
                         fiancé!) Dieter K.</a></p>
                     <p className="bibl">Mensching, Guido: <a href="mensching-sardisch-syntax.html">Anmerkungen zur sardischen Syntax
