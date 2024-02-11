@@ -53,7 +53,7 @@ function Inhalt(props) {
 
                     <p className="bibl">Michèle Mattusch: <a href="/mattusch">Dante und die Sprache der Sinne – literaturwissenschaftliche
                         Reflexionen zu Dante Alighieris <i>De vulgari eloquentia</i></a></p>
-                    <p className="bibl">Luciano Caetano da Rosa: <a href="da-rosa-fonseca.html">No Centenário do Nascimento de Manuel da
+                    <p className="bibl">Luciano Caetano da Rosa: <a href="/daRosaFonseca">No Centenário do Nascimento de Manuel da
                         Fonseca, Figura Cimeira da Poesia Neo-Realista</a></p>
 
 

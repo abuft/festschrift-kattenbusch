@@ -36,6 +36,7 @@ import Meisenburg from './compoments/articles/Meisenburg';
 import Ugolini from './compoments/articles/Ugolini';
 import Mensching from './compoments/articles/Mensching';
 import Stehl from './compoments/articles/Stehl';
+import DaRosaFonseca from './compoments/articles/DaRosaFonseca';
 
 function App() {
   return (
@@ -50,6 +51,7 @@ function App() {
           <Route path="/bock" element={<Bock id="Bock" author="Günter Bock" />} />
           <Route path="/chiocchetti" element={<Chiocchetti id="chiocchetti" author="Fabio Chiocchetti" />} />
           <Route path='/cocco' element={<Cocco id="Cocco" author="Giuseppe Cocco" />} />
+          <Route path="/daRosaFonseca" element={<DaRosaFonseca id="DaRosaFonseca" author="Luciano Caetano da Rosa" />} />
           <Route path="/ernst" element={<Ernst id="Ernst" author="Gerhard Ernst" />} />
           <Route path="/furerj" element={<FurerJ id="FurerJ" author="Jean-Jacques Furer" />} />
           <Route path="/furerg" element={<FurerG id="FurerG" author="Gianmarco Furer" />} />

@@ -102,7 +102,7 @@ function Autoren(props) {
                         Fremdsprachen- und hochschuldidaktische Überlegungen</a></p>
 
                     <h2><a href="#k11" name="kat11">R</a></h2>
-                    <p className="bibl">Rosa, Luciano Caetano da: <a href="da-rosa-fonseca.html">No Centenário do Nascimento de Manuel
+                    <p className="bibl">Rosa, Luciano Caetano da: <a href="/daRosaFonseca">No Centenário do Nascimento de Manuel
                         da
                         Fonseca, Figura Cimeira da Poesia Neo-Realista</a></p>
 
