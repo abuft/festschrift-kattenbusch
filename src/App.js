@@ -34,6 +34,7 @@ import Mattusch from './compoments/articles/Mattusch';
 import KuesterPlikatWieland from './compoments/articles/KuesterPlikatWieland';
 import Meisenburg from './compoments/articles/Meisenburg';
 import Ugolini from './compoments/articles/Ugolini';
+import Mensching from './compoments/articles/Mensching';
 
 function App() {
   return (
@@ -63,6 +64,7 @@ function App() {
           <Route path="/kuesterPlikatWieland" element={<KuesterPlikatWieland id="KuesterPlikatWieland" author="Küster/Plikat/Wieland" />} />  
           <Route path="/mattusch" element={<Mattusch id="Mattusch" author="Michèle Mattusch" />} />
           <Route path="/meisenburg" element={<Meisenburg id="Meisenburg" author="Trudel Meisenburg" />} />
+          <Route path="/mensching" element={<Mensching id="Mensching" author="Guido Mensching" />} />
           <Route path="/perone" element={<Perone id="perone" author="Ugo Perone" />} />
           <Route path="/pichler" element={<Pichler id="Pichler" author="Edith Pichler" />} />
           <Route path="/schaumburg" element={<Schaumburg id="Schaumburg" author="Christophe Schaumburg" />} />

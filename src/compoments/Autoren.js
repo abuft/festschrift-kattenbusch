@@ -87,7 +87,7 @@ function Autoren(props) {
                     <p className="bibl">Meisenburg, Trudel: <a href="/meisenburg">Der optimale Kattenbusch: The
                         ultimate OT account of and for my dear old friend (but never
                         fiancé!) Dieter K.</a></p>
-                    <p className="bibl">Mensching, Guido: <a href="mensching-sardisch-syntax.html">Anmerkungen zur sardischen Syntax
+                    <p className="bibl">Mensching, Guido: <a href="/mensching">Anmerkungen zur sardischen Syntax
                         anhand des
                         Vivaio Acustico delle Lingue e dei Dialetti d’Italia (VIVALDI)</a></p>
 

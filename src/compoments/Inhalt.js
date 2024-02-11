@@ -86,7 +86,7 @@ function Inhalt(props) {
                     <p className="bibl">Barbara De Angelis/Harald Völker: <a href="angelisVoelker">VIVALDI zu Besuch in der Familie</a></p>
                     <p className="bibl">Doreen Großmann: <a href="/grossmann">Hinter den Kulissen von VIVALDI</a></p>
                     <p className="bibl">Carola Köhler: <a href="/koehler">VIVALDI und ich. Ein persönlicher Rückblick</a></p>
-                    <p className="bibl">Guido Mensching: <a href="mensching-sardisch-syntax.html">Anmerkungen zur sardischen Syntax anhand des
+                    <p className="bibl">Guido Mensching: <a href="/mensching">Anmerkungen zur sardischen Syntax anhand des
                         Vivaio Acustico delle Lingue e dei Dialetti d’Italia (VIVALDI)</a></p>
                     <p className="bibl">Ugo Perone: <a href="/perone">Stile VIVALDI</a></p>
                     <p className="bibl">Katharina Wieland/Jochen Plikat/Lutz Küster: <a href="/kuesterPlikatWieland">VIVALDI – eine reiche Fundgrube für Lehramtsstudierende?
