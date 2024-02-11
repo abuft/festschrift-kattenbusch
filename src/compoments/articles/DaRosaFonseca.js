@@ -5,11 +5,11 @@ import Rubrik from "../Rubrik";
 
 function DaRosaFonseca(props) {
     return (
-        <div id="Wrapper" class="container_14">
+        <div id="Wrapper" className="container_14">
 
             <div id="Header">
                 <Header id={props.author} />
-                <div class="grid_9">
+                <div className="grid_9">
                     <h1 id="main_title">No Centenário do Nascimento de Manuel da
                         Fonseca, Figura Cimeira da Poesia Neo-Realista</h1>
                     <p id="author">Luciano Caetano da Rosa, Berlin</p>
@@ -17,8 +17,8 @@ function DaRosaFonseca(props) {
                 <Rubrik />
             </div>
 
-            <div id="Teasers" class="clearfix">
-                <div class="grid_9">
+            <div id="Teasers" className="clearfix">
+                <div className="grid_9">
                     <p>
                         Com este escrito, pretendo simultaneamente atingir três objectivos:
                         homenagear um dos mais marcantes poetas do movimento neo-realista no
@@ -39,22 +39,22 @@ function DaRosaFonseca(props) {
                         d’oc)/Einführung ins Okzitanische (Languedokische).
                     </p>
                 </div>
-                <div class="grid_5">
+                <div className="grid_5">
 
-                    <div class="abouttheauthor">
-                        <div class="abouttheauthorfont"><br /><br />
+                    <div className="abouttheauthor">
+                        <div className="abouttheauthorfont"><br /><br />
                             <b>Luciano Caetano da Rosa</b>, Dr. phil., Mitherausgeber der
                             Zeitschrift Lusorama, Rentner.
                         </div>
-                        <div class="clearfloat"></div>
+                        <div className="clearfloat"></div>
                     </div>
                 </div>
             </div>
 
             <div id="Main">
-                <div id="Articles" class="grid_14">
+                <div id="Articles" className="grid_14">
                     <section id="posts">
-                        <article class="post">
+                        <article className="post">
 
                             <p>Por fim, opero aqui, duas décadas mais tarde, uma segunda aproximação
                                 à poesia do Manel, saudoso amigo e camarada com alma de maltês, para
@@ -302,7 +302,7 @@ function DaRosaFonseca(props) {
                                 nada …”) ou sob forma de convite contra a alienação individual,
                                 tal como se exprime no poema “Antes Que Seja Tarde” (ibid.: 148):
                             </p>
-                            <p class="quote">
+                            <p className="quote">
                                 Amigo
                                 <br />
                                 […]
@@ -354,7 +354,7 @@ function DaRosaFonseca(props) {
                                 despreocupado, de sarcasmo felino, sem olvidar a voz do “eu lírico”
                                 que tem consciência do seu estatuto artístico:
                             </p>
-                            <p class="quote">
+                            <p className="quote">
                                 … “Como nasci poeta …” (ibid.: 71)
                             </p>
                             <p>
@@ -394,7 +394,7 @@ function DaRosaFonseca(props) {
                                 vida e para a necessária luta. O indivíduo actual confunde-se no seu
                                 destino com o homem de todos os tempos em suas lutas:
                             </p>
-                            <p class="quote">
+                            <p className="quote">
                                 E abro clareiras
                                 <br />
                                 na floresta milenária do meu caminho. (ibid.: 39)
@@ -409,7 +409,7 @@ function DaRosaFonseca(props) {
                                 alentejana, abertura que se espelha e se espalha até no espraiar do
                                 verso assente na profusão da vogal a ou ainda a vastidão do mar:
                             </p>
-                            <p class="quote">
+                            <p className="quote">
                                 Marasmo deste balanço de lago
                                 <br />
                                 […]
@@ -420,7 +420,7 @@ function DaRosaFonseca(props) {
                             <p>
                                 já que
                             </p>
-                            <p class="quote">
+                            <p className="quote">
 
                                 … o mar não tem fronteiras nem distâncias
                                 <br />
@@ -431,7 +431,7 @@ function DaRosaFonseca(props) {
                                 Ou contemplação dos longes e das distâncias e das solidões do
                                 Alentejo:
                             </p>
-                            <p class="quote">
+                            <p className="quote">
                                 … e parto
                                 <br />
                                 para os longes mais longes das distâncias mais longas
@@ -441,14 +441,14 @@ function DaRosaFonseca(props) {
                             <p>
                                 que fazem apetecer a vida toda e tornam o poeta
                             </p>
-                            <p class="quote">
+                            <p className="quote">
                                 Livre para todos os caminhos do homem (ibid.)
                             </p>
                             <p>
                                 Enfim, abertura humana que se reflecte numa “visão generosa da
                                 vida”, conforme salientou Jorge de Sena:
                             </p>
-                            <p class="quote">
+                            <p className="quote">
                                 Que venham todos os pobres da Terra
                                 <br />
                                 os ofendidos e humilhados
@@ -470,7 +470,7 @@ function DaRosaFonseca(props) {
                                 A capital inspirou-lhe até um dos seus mais belos poemas, uma perfeita
                                 unidade de forma-conteúdo, de que damos aqui apenas uma quadra:
                             </p>
-                            <p class="quote">
+                            <p className="quote">
                                 Tejo que levas as águas
                                 <br />
                                 Correndo de par em par
@@ -565,7 +565,7 @@ function DaRosaFonseca(props) {
                                 metafórica, para um campo onde surgem elementos surrealistas. Darei um
                                 único exemplo: seja o verso
                             </p>
-                            <p class="quote">
+                            <p className="quote">
                                 Mugem bezerros com rosas nos cornos (Fonseca <sup>6</sup>1978: 40)
                             </p>
                             <p>
@@ -614,7 +614,7 @@ function DaRosaFonseca(props) {
                                     entre o passado e o futuro, ou poesia do que haja de mais surpreendente;
                                 </li>
                             </ul>
-                            <p class="quote">
+                            <p className="quote">
                                 Quando chega o domingo
                                 <br />
                                 Faço tenção de todas as coisas mais belas
@@ -630,7 +630,7 @@ function DaRosaFonseca(props) {
                                 Sirva de exemplo o poema D. Abastança, esposa do Comendador. O tema é
                                 a caridadezinha. E então
                             </p>
-                            <p class="quote">
+                            <p className="quote">
                                 […]
                                 <br />
                                 Ela dá ele subtrai
@@ -646,7 +646,7 @@ function DaRosaFonseca(props) {
                                 Fazendo mais e mais pobres
                             </p>
 
-                            <p class="quote">
+                            <p className="quote">
                                 […]
                                 <br />
                                 Todo o que milhões furtou
@@ -658,7 +658,7 @@ function DaRosaFonseca(props) {
                                 Dar pouco a quem foi roubado
                             </p>
 
-                            <p class="quote">
+                            <p className="quote">
                                 Oh engano sempre novo
                                 <br />
                                 De tão estranha caridade
@@ -674,7 +674,7 @@ function DaRosaFonseca(props) {
                                 cinismo. A verdadeira caridade vem expressa no poema “Saibam todos em
                                 Montemaior” assim:
                             </p>
-                            <p class="quote">
+                            <p className="quote">
                                 E o gesto franco do lançar da semente
                                 <br />
                                 era distribuir pão por toda a gente (ibid.: 185)
@@ -684,7 +684,7 @@ function DaRosaFonseca(props) {
                                 povo se diverte na rua achando imenso prazer na Tuna do Zé Jacinto que
                                 toca a marcha Almadanim (ibid.: 126):
                             </p>
-                            <p class="quote">
+                            <p className="quote">
                                 […]
                                 <br />
                                 A gente cantava assobiava aquilo de cor
@@ -700,7 +700,7 @@ function DaRosaFonseca(props) {
                                 nenhuma àquela manifestação cultural do povo, e desvalorizava-a,
                                 considerando-a indecente e coisa de doidos:
                             </p>
-                            <p class="quote">
+                            <p className="quote">
                                 Entanto as senhoras não gostavam
                                 <br />
                                 faziam má cara dizendo coisas
@@ -716,7 +716,7 @@ function DaRosaFonseca(props) {
                                 sofrida era assim de novo posta em causa e recusada pela combatividade;
                                 e a Tuna na rua
                             </p>
-                            <p class="quote">
+                            <p className="quote">
                                 não era música era raiva
                                 <br />
                                 aquela marcha Almadanim.
@@ -732,7 +732,7 @@ function DaRosaFonseca(props) {
                                 humanos, amantes da paz. Este ideário prossegue em “Tu e eu meu
                                 amor” e aí o poeta nos ensina que:
                             </p>
-                            <p class="quote">
+                            <p className="quote">
                                 […] a eternidade
                                 <br />
                                 é ser livre e amar (ibid.: 180)
@@ -768,7 +768,7 @@ function DaRosaFonseca(props) {
                                 Bom é que todos saibam, sem equívocos, onde o poeta sempre esteve,
                                 onde se situa com essa humildade de quem é verdadeiramente grande:
                             </p>
-                            <p class="quote">
+                            <p className="quote">
                                 De estar onde estou não me temo nem louvo
                                 <br />
                                 Que sou todos sabem um homem do povo (Fonseca <sup>6</sup>1978: 185)
@@ -780,46 +780,46 @@ function DaRosaFonseca(props) {
 
 
                             <h1>Bibliografia:</h1>
-                            <p class="bibl">
+                            <p className="bibl">
                                 Fonseca, Manuel da (<sup>6</sup>1978): <i>Poemas completos</i>,
                                 Lisboa. Com Prefácio de Mário Dionísio.
                             </p>
 
-                            <p class="bibl">
+                            <p className="bibl">
                                 Torres, Alexandre Pinheiro, Pref., Org. e Notas (1989): <i>Novo
                                     Cancioneiro</i>, Lisboa, 58–65; 207–324.
                             </p>
 
-                            <p class="bibl">
+                            <p className="bibl">
                                 Coelho, Jacinto do Prado (<sup>3</sup>1978): <i>Dicionário de
                                     Literatura Portuguesa</i>, Porto. Em especial, verbetes sobre o
                                 Alentejo, Neo-realismo e Novo Cancioneiro: Tomo 1: 24, 35, 36,
                                 199, 214; Tomo 2: 468; Tomo 3: 727, 744, 875, 935.
                             </p>
 
-                            <p class="bibl">
+                            <p className="bibl">
                                 Lourenço, Eduardo (<sup>2</sup>1983): <i>Sentido e Forma da Poesia
                                     Neo-realista</i>, Lisboa.
                             </p>
 
-                            <p class="bibl">
+                            <p className="bibl">
                                 Rosa, Luciano Caetano da (1990): “Não me temo nem louvo”, in:
                                 <i>Lusorama</i> Nr. 12, Juni, 29–33.
                             </p>
 
-                            <p class="bibl">
+                            <p className="bibl">
                                 Simões, Manuel (1979): <i>Garcia Lorca e Manuel da Fonseca: Dois
                                     Poetas em Confronto</i>, Milano.
                             </p>
 
 
                             <h1>Imprensa:</h1>
-                            <p class="bibl">
+                            <p className="bibl">
                                 “Centenário do nascimento de Manuel da Fonseca, camarada de Partido e
                                 de Luta”, in: <i>Avante</i>, 20.10.2011: 13–20.
                             </p>
 
-                            <p class="bibl">
+                            <p className="bibl">
                                 “Por todas as Estradas do Mundo”, in: <i>Alentejo Popular</i>, 20.10.2011:
                                 1, 7, 11.
                             </p>
