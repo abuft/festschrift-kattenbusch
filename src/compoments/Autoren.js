@@ -114,7 +114,7 @@ function Autoren(props) {
                         Krankheit ‚Durchfall‘ in der Romania
                         – onomasiologische und sprachgeographische Betrachtungen</a></p>
 
-                    <p className="bibl">Stehl, Thomas: <a href="stehl-sprachdynamik.html">Sprachdynamik und Variationslinguistik in
+                    <p className="bibl">Stehl, Thomas: <a href="/stehl">Sprachdynamik und Variationslinguistik in
                         Italien</a></p>
                     <p className="bibl">Stein, Peter: <a href="/stein">„Pourquoi et comment élaborer une orthographe
                         pour des langues romanes non encore codifiées? Quelques réflexions

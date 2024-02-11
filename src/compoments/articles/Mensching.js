@@ -206,8 +206,8 @@ function Mensching(props) {
 
                             <p>
                                 Vergleicht man dieses bisher vorliegende VIVALDI-Punktenetz für
-                                Sardinien mit der von Kampmann (2010) erstellten
-                                <a href="#abb2" name="b2">Karte 2</a>, so lässt sich
+                                Sardinien mit der von Kampmann (2010) 
+                                erstellten <a href="#abb2" name="b2">Karte 2</a>, so lässt sich
                                 folgendes festhalten:<sup><a href="#fn3" name="fz3">3</a></sup>
                             </p>
 

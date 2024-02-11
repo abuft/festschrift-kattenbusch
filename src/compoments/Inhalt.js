@@ -27,7 +27,7 @@ function Inhalt(props) {
                     <p className="bibl">Gerald Bernhard: <a href="/bernhard">Akzent, Arzneien und andere Schwierigkeiten</a></p>
                     <p className="bibl">Sylvia Setzkorn: <a href="setzkorn-durchfall.html">Die volkstümlichen Bezeichnungen für die Krankheit ‚Durchfall‘ in der Romania
                         – onomasiologische und sprachgeographische Betrachtungen</a></p>
-                    <p className="bibl">Thomas Stehl: <a href="stehl-sprachdynamik.html">Sprachdynamik und Variationslinguistik in Italien</a></p>
+                    <p className="bibl">Thomas Stehl: <a href="/stehl">Sprachdynamik und Variationslinguistik in Italien</a></p>
                     <p className="bibl">Amalia Urbano: <a href="/urbano"><i>Lu Destine</i> di Modesto Della Porta</a></p>
 
                     <h2><a href="#k2" name="kat2">2</a> Kulturgeschichte</h2>
