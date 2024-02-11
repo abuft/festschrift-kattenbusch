@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import titlePic from "../images/titel/titelbild.jpg";
 import titleAudio from "../videos/titel/titelfilm_silent.mp4"
 import Footer from "./Footer";
+import classes from "./Rubrik.module.css";
 
 function Start() {
 
@@ -30,9 +31,13 @@ function Start() {
                             <h2 className="header"><a href="/geleitwort">Zum Geleit</a></h2>
                             <h2 className="header"><a href="/inhalt">Inhalt</a></h2>
                             <h2 className="header"><a href="/autoren">Autorinnen/Autoren</a></h2>
-                            <h2 className="header">Rubriken<button onClick={toggleContentHandler}>...</button></h2>
+                            <h2 className="header">Rubriken
+                                <button className={classes.button}
+                                    onClick={toggleContentHandler}>...
+                                </button>
+                            </h2>
                             {showContent && (
-                                <ul>
+                                <ul className="rubrik">
                                     <li><a href="/inhalt#kat1">Dialekte/Varietäten</a></li>
                                     <li><a href="/inhalt#kat2">Kulturgeschichte</a></li>
                                     <li><a href="/inhalt#kat3">Ladinisch/Rätoromanisch</a></li>

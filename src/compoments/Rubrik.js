@@ -1,4 +1,5 @@
 import { useState } from "react";
+import classes from "./Rubrik.module.css";
 
 function Rubrik() {
 
@@ -14,7 +15,11 @@ function Rubrik() {
                 <h2 className="header"><a href="/" name="index">Startseite</a></h2>
                 <h2 className="header"><a href="/inhalt">Inhalt</a></h2>
                 <h2 className="header"><a href="/autoren">Autorinnen/Autoren</a></h2>
-                <h2 className="header">Rubriken<button onClick={toggleContentHandler}>...</button></h2>
+                <h2 className="header">Rubriken
+                        <button className={classes.button}
+                        onClick={toggleContentHandler}>...
+                    </button>
+                </h2>
                 {showContent && (
                     <ul className="rubrik">
                         <li><a href="/inhalt#kat1">Dialekte/Varietäten</a></li>
