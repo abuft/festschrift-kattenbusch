@@ -1,8 +1,9 @@
 function Footer() {
     return (
-        <div className="grid_5 prefix_5">
+        < div className="grid_5 prefix_5" >
+            {/* <!-- Copyright information --> */}
             <footer id="page_footer">
-                {/* <!-- Copyright information --> */}
+                <hr />
                 <p style={
                     {
                         fontFamily: "Arial",
@@ -17,7 +18,7 @@ function Footer() {
                     &copy; 2012
                 </p>
             </footer>
-        </div>
+        </div >
 
     );
 };

@@ -129,7 +129,7 @@ function Autoren(props) {
                     <h2><a href="#k14" name="kat14">U</a></h2>
                     <p className="bibl">Ubbidiente, Roberto: <a href="ubbidiente-caffe.html">“Oro nero” – La cultura del caffè in
                         Italia: usi, costumi, teatro e letteratura</a></p>
-                    <p className="bibl">Ugolini, Gherardo: <a href="ugolini-primato.html">Il primato
+                    <p className="bibl">Ugolini, Gherardo: <a href="/ugolini">Il primato
                         dell'italiano</a></p>
                     <p className="bibl">Urbano, Amalia: <a href="/urbano"><i>Lu Destine</i> di Modesto Della Porta</a>
                     </p>

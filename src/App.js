@@ -33,6 +33,7 @@ import Kremnitz from './compoments/articles/Kremnitz';
 import Mattusch from './compoments/articles/Mattusch';
 import KuesterPlikatWieland from './compoments/articles/KuesterPlikatWieland';
 import Meisenburg from './compoments/articles/Meisenburg';
+import Ugolini from './compoments/articles/Ugolini';
 
 function App() {
   return (
@@ -68,6 +69,7 @@ function App() {
           <Route path="/schmidt" element={<Schmidt id="Schmidt" author="Jochen Schmidt" />} />
           <Route path="/stein" element={<Stein id="Stein" author="Peter Stein" />} />
           <Route path="/tosques" element={<Tosques id="Tosques" author="Fabio Tosques" />} />
+          <Route path="/ugolini" element={<Ugolini id="ugolini" author="Gherardo Ugolini" />} />
           <Route path="/urbano" element={<Urbano id="urbano" author="Amalia Urbano" />} />
           <Route path="/videsottBernardi" element={<VidesottBernardi id="videsott_bernardi" author="Paul Videsott/Rut Bernardi" />} />
         </Routes>
