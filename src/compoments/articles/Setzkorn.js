@@ -6,11 +6,11 @@ import SetzkornPortrait from "../../images/ssetzkorn/ssetzkorn-portrait.jpg";
 function Setzkorn(props) {
     return (
         <div>
-            <div id="Wrapper" className"container_14">
+            <div id="Wrapper" className="container_14">
 
                 <div id="Header">
 
-                    <div className"grid_9">
+                    <div className="grid_9">
                         <h1 id="main_title">Die volkstümlichen Bezeichnungen für die
                             Krankheit ‚Durchfall‘ in der Romania – onomasiologische und
                             sprachgeographische Betrachtungen</h1>
@@ -19,8 +19,8 @@ function Setzkorn(props) {
                     <Rubrik />
                 </div>
 
-                <div id="Teasers" className"clearfix">
-                    <div className"grid_9">
+                <div id="Teasers" className="clearfix">
+                    <div className="grid_9">
                         <h1>Vorwort</h1>
                         <p>
                             Die vorliegende Arbeit basiert auf einer vor einiger Zeit unternommenen
@@ -41,12 +41,12 @@ function Setzkorn(props) {
                             die eingeschränkte Bedeutung auszumachen war.
                         </p>
                     </div>
-                    <div className"grid_5">
+                    <div className="grid_5">
 
-                        <div className"abouttheauthor">
+                        <div className="abouttheauthor">
                             <img src={SetzkornPortrait} width="120"
                                 height="125" alt="Sylvia Setzkorn - Portrait" />
-                            <div className"abouttheauthorfont"><br /><br />
+                            <div className="abouttheauthorfont"><br /><br />
                                 <b>Sylvia Setzkorn</b>,	Dr. phil., seit 2001 Wissenschaftliche
                                 Mitarbeiterin am Institut für Romanistik der Humboldt-Universität zu
                                 Berlin. Studium der Romanischen Philologie (Französisch/ Italienisch)
@@ -54,20 +54,20 @@ function Setzkorn(props) {
                                 Mitarbeiterin am Institut für Romanistik der
                                 Ernst-Moritz-Arndt-Universität Greifswald. 2000 Promotion.
                             </div>
-                            <div className"clearfloat"></div>
+                            <div className="clearfloat"></div>
                         </div>
                     </div>
                 </div>
 
                 <div id="Main">
-                    <div id="Articles" className"grid_14">
+                    <div id="Articles" className="grid_14">
                         <section id="posts">
-                            <article className"post">
+                            <article className="post">
                                 <h1>1 Definition des Gegenstandes</h1>
                                 <p>
                                     In der Brockhaus Enzyklopädie findet sich folgende Erklärung:
                                 </p>
-                                <p className"longcitation">
+                                <p className="longcitation">
                                     <i>Durchfall</i>, <i>Diarrhö</i>, häufige Entleerung breiigen oder wäßrigen, je
                                     nach Ursache auch mit Schleim, Eiter und Blut vermengten, meist
                                     vermehrten Stuhls; sie wird v.a. durch eine reizhaft gesteigerte
@@ -112,7 +112,7 @@ function Setzkorn(props) {
                                     folgenden Eintrag:
                                 </p>
 
-                                <p className"longcitation">
+                                <p className="longcitation">
                                     diarrèa = lat. DIARRHŒA del gr. DÍÁRROIA, comp. della partic. DIÀ
                                     indicante movimento a traverso e RÈÔ <i>scorro</i> (v. RIVO) = Flusso di
                                     ventre, evacuazione frequente e copiosa di materie fecali liquide,
@@ -125,7 +125,7 @@ function Setzkorn(props) {
                                     informiert wie folgt:
                                 </p>
 
-                                <p className"longcitation">
+                                <p className="longcitation">
                                     DIARHÉE n.f., réfection savante (1568) de la forme altérée <i>diarrie</i>
                                     (1372), est emprunté au bas latin <i>diarrhaea</i> „flux du ventre“.
                                     Ce mot est emprunté au grec <i>diarroia</i>, lui-même dérivé, par
@@ -694,7 +694,7 @@ function Setzkorn(props) {
                                         name="fz42">42</a></sup>
                                 </p>
 
-                                <p className"longcitation">
+                                <p className="longcitation">
                                     Quare adminus xiiii vulgaribus sola videtur Ytalia variari. Que adhuc
                                     omnia vulgaria in sese variantur, ut puta in Tuscia Senenses et Aretini,
                                     in Lombardia Ferrarenses et Placentini; nec non eadem civitate aliqualem
@@ -705,7 +705,7 @@ function Setzkorn(props) {
                                     ultra.
                                 </p>
 
-                                <p className"longcitation">
+                                <p className="longcitation">
                                     [Insomma, la sola Italia sembra diversificarsi in almeno 14 volgari. Poi,
                                     tutti questi volgari si differenziano al loro interno, come, in Toscana,
                                     il senese dall’aretino e, in Lombardia, il ferrarese dal piacentino; e
@@ -839,7 +839,7 @@ function Setzkorn(props) {
                                     Der Wikipédia-Artikel ‚Diarrhée du voyageur‘ vermerkt:
                                 </p>
 
-                                <p className"longcitation">
+                                <p className="longcitation">
                                     Selon les pays, la diarrhée du voyageur porte différents noms […]:
                                     Tourista ou turista – flux coelique – gastro-entérale emporiatrique
                                     – Aden gut – Bali belly – Barsa belly – boyaux d’Aden –
@@ -916,7 +916,7 @@ function Setzkorn(props) {
 
 
                                 <h1>Anmerkungen</h1>
-                                <p className"annotation"><sup><a href="#fz1" name="fn1">1</a></sup>
+                                <p className="annotation"><sup><a href="#fz1" name="fn1">1</a></sup>
                                     Zum Terminus der Sprachgeographie siehe Eugenio Coseriu (1975). Eine
                                     Definition der Sprachgeographie sowie Angaben zur Geschichte und zu
                                     Methoden von wichtigen Sprachatlanten finden sich zusammengefasst in
@@ -939,16 +939,16 @@ function Setzkorn(props) {
                                     Hans Goebl (2011).
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz2" name="fn2">2</a></sup>
+                                <p className="annotation"><sup><a href="#fz2" name="fn2">2</a></sup>
                                     <i>Brockhaus Enzyklopädie</i> (1988: 44).
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz3" name="fn3">3</a></sup>
+                                <p className="annotation"><sup><a href="#fz3" name="fn3">3</a></sup>
                                     FEW III: <i>diarrhoea</i>. EWFS: <i>diarrhee</i> 14. Jh., aus lat. <i>diarrhoea</i>
                                     ‚Durchfluss‘.
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz4" name="fn4">4</a></sup>
+                                <p className="annotation"><sup><a href="#fz4" name="fn4">4</a></sup>
                                     Vgl. z.B. fr. <i>foire</i>, <i>chiasse</i>, <i>chite</i>, <i>drisse</i>
                                     – sp. <i>cagalera</i>, <i>flujo de
                                         vientre</i>, <i>seguidillas</i>. Alle im Artikel aufgeführten
@@ -956,39 +956,39 @@ function Setzkorn(props) {
                                     sich gesammelt im Anhang.
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz5" name="fn5">5</a></sup>
+                                <p className="annotation"><sup><a href="#fz5" name="fn5">5</a></sup>
                                     Ottorini Pianigiani (1907).
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz6" name="fn6">6</a></sup>
+                                <p className="annotation"><sup><a href="#fz6" name="fn6">6</a></sup>
                                     Alain Rey (sous la direction de) (2006).
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz7" name="fn7">7</a></sup>
+                                <p className="annotation"><sup><a href="#fz7" name="fn7">7</a></sup>
                                     Die entsprechenden Wörterbücher finden sich im Literaturverzeichnis.
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz8" name="fn8">8</a></sup>
+                                <p className="annotation"><sup><a href="#fz8" name="fn8">8</a></sup>
                                     Vgl. dazu mfr./nfr. <i>solutif</i> adj. ‚laxatif‘; siehe FEW
                                     XII: <i>solvere</i>, S. 84.
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz9" name="fn9">9</a></sup>
+                                <p className="annotation"><sup><a href="#fz9" name="fn9">9</a></sup>
                                     Der Langenscheidt Latein–Deutsch (1981) verzeichnet die genannten
                                     Wörter in der Bedeutung ‚Durchfall‘ und mit der Anmerkung
                                     ‚nachklassisch‘. Ausnahme bildet <i>soluta</i>, das das besagte Wörterbuch
                                     nicht als eigenständige Krankheitsbezeichnung aufführt.
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz10" name="fn10">10</a></sup>
+                                <p className="annotation"><sup><a href="#fz10" name="fn10">10</a></sup>
                                     Siehe hierzu Angelo Prati (1970): <i>sciogliere</i>.
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz11" name="fn11">11</a></sup>
+                                <p className="annotation"><sup><a href="#fz11" name="fn11">11</a></sup>
                                     FEW III: <i>foria</i>.
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz12" name="fn12">12</a></sup>
+                                <p className="annotation"><sup><a href="#fz12" name="fn12">12</a></sup>
                                     Interessant ist hier die Komposition von <i>caca</i> + <i>fioria</i>,
                                     die wohl eine Remotivierung des Inhalts durch das hinzugetretene
                                     erste Element darstellen soll. Formal analog gebildet
@@ -998,39 +998,39 @@ function Setzkorn(props) {
                                     Zeit in das Französische aufgenommen.
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz13" name="fn13">13</a></sup>
+                                <p className="annotation"><sup><a href="#fz13" name="fn13">13</a></sup>
                                     Vgl. Alejandro Ciorănescu (1958): <i>cufuri</i> ‚Durchfall haben‘; Sextil
                                     Puşcariu (1975): 430, <i>cúfur</i> ‚Durchfall haben‘.
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz14" name="fn14">14</a></sup>
+                                <p className="annotation"><sup><a href="#fz14" name="fn14">14</a></sup>
                                     Vgl. auch DEEH: <i>foria</i>, S. 688.
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz15" name="fn15">15</a></sup>
+                                <p className="annotation"><sup><a href="#fz15" name="fn15">15</a></sup>
                                     Von großem Wert in dieser Hinsicht könnten auch die nächsten, noch
                                     nicht erschienenen Bände des <i>Atlas linguistique roman</i> (AliR) sein.
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz16" name="fn16">16</a></sup>
+                                <p className="annotation"><sup><a href="#fz16" name="fn16">16</a></sup>
                                     FEW III: <i>foire</i> I 2, S. 712 u. FEW II, 1: <i>cacare</i> 4,
                                     S. 18. Es existieren auch Ableitungen zur Bezeichnung für den Abort,
                                     FEW II, 1: <i>cacare</i> 5, S. 18.
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz17" name="fn17">17</a></sup>
+                                <p className="annotation"><sup><a href="#fz17" name="fn17">17</a></sup>
                                     Es bestehen weiterhin Ableitungen mit Bezug auf den Namen des
                                     Bingelkrautes, das früher in der Heilkunde als Abführmittel eine
                                     große Rolle spielte: FEW III: <i>foire</i> II, 1 u. FEW II,
                                     1: <i>cacare</i> 3a.
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz18" name="fn18">18</a></sup>
+                                <p className="annotation"><sup><a href="#fz18" name="fn18">18</a></sup>
                                     Zur Aufteilung in West- und Ostromania und zur Gliederung der
                                     romanischen Sprachen siehe z.B. Kuhn (1951: 90ff.).
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz19" name="fn19">19</a></sup>
+                                <p className="annotation"><sup><a href="#fz19" name="fn19">19</a></sup>
                                     Battisti/Alessio (1950ff.) verzeichnen diese Form als vulgären
                                     Ausdruck und belegen sie für das 15. Jahrhundert. Darüber hinaus
                                     existieren zahlreiche weitere Ableitungen von CACARE zur Bezeichnung von
@@ -1039,21 +1039,21 @@ function Setzkorn(props) {
                                     das 17. und das 18. Jahrhundert; ebd., S. 246.
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz20" name="fn20">20</a></sup>
+                                <p className="annotation"><sup><a href="#fz20" name="fn20">20</a></sup>
                                     Gask. <i>caguero</i> wird ferner bestätigt in Alcee Durrieux (1901). Der
                                     ALD-I enthält eine allgemeinere Karte 85: <i>cacare</i>.
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz21" name="fn21">21</a></sup>
+                                <p className="annotation"><sup><a href="#fz21" name="fn21">21</a></sup>
                                     Gerhard Rohlfs (1971).
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz22" name="fn22">22</a></sup>
+                                <p className="annotation"><sup><a href="#fz22" name="fn22">22</a></sup>
                                     Kuhn (1951: 372) spricht von einer diesbezüglichen
                                     „Sonderstellung des Spanischen in der Wortbildung“.
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz23" name="fn23">23</a></sup>
+                                <p className="annotation"><sup><a href="#fz23" name="fn23">23</a></sup>
                                     Dass die verschiedenen Mundarten andere Suffixe bei gleichbleibendem
                                     Stamm kennen und sich eine bestimmte Form nicht durchsetzt, mag daran
                                     liegen, dass die gemeinsame Bezeichnung mit einer anderen Bezeichnung
@@ -1062,19 +1062,19 @@ function Setzkorn(props) {
                                     <i>cagot</i> ‚Frömmler‘, FEW II, 1: <i>cacare</i> 8.
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz24" name="fn24">24</a></sup>
+                                <p className="annotation"><sup><a href="#fz24" name="fn24">24</a></sup>
                                     Der REW 3018 führt abruzz. <i>šite</i> gleichzeitig auf EXIRE zurück.
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz25" name="fn25">25</a></sup>
+                                <p className="annotation"><sup><a href="#fz25" name="fn25">25</a></sup>
                                     Friedrich Diez (1887: 574).
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz26" name="fn26">26</a></sup>
+                                <p className="annotation"><sup><a href="#fz26" name="fn26">26</a></sup>
                                     ALF 588; FEW III: <i>drits</i>, S. 160.
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz27" name="fn27">27</a></sup>
+                                <p className="annotation"><sup><a href="#fz27" name="fn27">27</a></sup>
                                     Vgl. überdies von lat. PREMERE ‚drücken‘ log. <i>premidas</i>
                                     ‚Durchfall‘ (AIS), nach Massimo Pittau (2003), S. 167, im Sardischen
                                     <i>prémida</i>, <i>prémmida</i> und das von <i>skits</i> abgeleitete <i>esquissar</i>
@@ -1084,86 +1084,86 @@ function Setzkorn(props) {
                                     Anstrengung des Kranken ganz allgemein eine Rolle gespielt haben.
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz28" name="fn28">28</a></sup>
+                                <p className="annotation"><sup><a href="#fz28" name="fn28">28</a></sup>
                                     EWFS: <i>ord</i>, <i>orde</i>, S. 660.
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz29" name="fn29">29</a></sup>
+                                <p className="annotation"><sup><a href="#fz29" name="fn29">29</a></sup>
                                     Vgl. REW 6090; Puşcariu 1826.
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz30" name="fn30">30</a></sup>
+                                <p className="annotation"><sup><a href="#fz30" name="fn30">30</a></sup>
                                     FEW II, 1: <i>cacare</i> u. <i>caccita</i>.
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz31" name="fn31">31</a></sup>
+                                <p className="annotation"><sup><a href="#fz31" name="fn31">31</a></sup>
                                     Giovanni Spano (1998 [1851]).
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz32" name="fn32">32</a></sup>
+                                <p className="annotation"><sup><a href="#fz32" name="fn32">32</a></sup>
                                     Pittau (2003: 167).
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz33" name="fn33">33</a></sup>
+                                <p className="annotation"><sup><a href="#fz33" name="fn33">33</a></sup>
                                     FEW III: <i>fluxus</i>, S. 645.
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz34" name="fn34">34</a></sup>
+                                <p className="annotation"><sup><a href="#fz34" name="fn34">34</a></sup>
                                     Vgl. Herrmann Urtel (1913: 85).
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz35" name="fn35">35</a></sup>
+                                <p className="annotation"><sup><a href="#fz35" name="fn35">35</a></sup>
                                     Harri Meier (1986: 118).
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz36" name="fn36">36</a></sup>
+                                <p className="annotation"><sup><a href="#fz36" name="fn36">36</a></sup>
                                     Gerhard Rohlfs (1949/54: 292f.).
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz37" name="fn37">37</a></sup>
+                                <p className="annotation"><sup><a href="#fz37" name="fn37">37</a></sup>
                                     Wilhelm Meyer-Lübke (1894: 492).
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz38" name="fn38">38</a></sup>
+                                <p className="annotation"><sup><a href="#fz38" name="fn38">38</a></sup>
                                     Rohlfs (1949/54: 294f.).
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz39" name="fn39">39</a></sup>
+                                <p className="annotation"><sup><a href="#fz39" name="fn39">39</a></sup>
                                     Meyer-Lübke (1894: 467).
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz40" name="fn40">40</a></sup>
+                                <p className="annotation"><sup><a href="#fz40" name="fn40">40</a></sup>
                                     Rohlfs (1949/1954: 341f.).
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz41" name="fn41">41</a></sup>
+                                <p className="annotation"><sup><a href="#fz41" name="fn41">41</a></sup>
                                     Rohlfs (ebd.: 238).
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz42" name="fn42">42</a></sup>
+                                <p className="annotation"><sup><a href="#fz42" name="fn42">42</a></sup>
                                     Dante Alighieri (2008: 28, it. Üb. 29).
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz43" name="fn43">43</a></sup>
+                                <p className="annotation"><sup><a href="#fz43" name="fn43">43</a></sup>
                                     Meyer-Lübke (1894: 492).
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz44" name="fn44">44</a></sup>
+                                <p className="annotation"><sup><a href="#fz44" name="fn44">44</a></sup>
                                     Zu einer weiter ausdifferenzierten Struktur der romanischen Sprachen
                                     siehe Swiggers (2010: 271ff.).
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz45" name="fn45">45</a></sup>
+                                <p className="annotation"><sup><a href="#fz45" name="fn45">45</a></sup>
                                     Zudem wäre dafür eine detailliertere, auf einen kleineren Raum
                                     beschränkte Analyse notwendig, wie sie Dieter Kattenbusch/Fabio
                                     Tosques/Andreas Rauher (2011) vornehmen.
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz46" name="fn46">46</a></sup>
+                                <p className="annotation"><sup><a href="#fz46" name="fn46">46</a></sup>
                                     Siehe dazu Harald Thun (2010: 507ff.) und Hans Goebl (2011).
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz47" name="fn47">47</a></sup>
+                                <p className="annotation"><sup><a href="#fz47" name="fn47">47</a></sup>
                                     Zum Beispiel: <i>Viaggio assistito</i>
                                     (<a href="http://www.viaggioassistito.com/2010/04/la-diarrea-del-viaggiatore-o-vendetta.html"
                                         target="_blank" rel="noreferrer">http://www.viaggioassistito.com/2010/04/la-diarrea-del-viaggiatore-o-vendetta.html</a>,
@@ -1175,33 +1175,33 @@ function Setzkorn(props) {
                                     16.1.2012).
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz48" name="fn48">48</a></sup>
+                                <p className="annotation"><sup><a href="#fz48" name="fn48">48</a></sup>
                                     Wikipedia: <i>Diarrea del viajero</i>
                                     (<a href="http://es.wikipedia.org/wiki/Diarrea_del_viajero"
                                         target="_blank" rel="noreferrer">http://es.wikipedia.org/wiki/Diarrea_del_viajero</a>,
                                     16.1.2012).
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz49" name="fn49">49</a></sup>
+                                <p className="annotation"><sup><a href="#fz49" name="fn49">49</a></sup>
                                     Sfatulmedicului.ro: <i>Diareea calatorului</i>
                                     (<a href="http://www.sfatulmedicului.ro/Tulburari-de-tranzit--diareea-si-constipatia-/diareea-calatorului_555" target="_blank" rel="noreferrer">
                                         http://www.sfatulmedicului.ro/Tulburari-de-tranzit--diareea-si-constipat
                                         ia-/diareea-calatorului_555</a>, 16.1.2012).
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz50" name="fn50">50</a></sup>
+                                <p className="annotation"><sup><a href="#fz50" name="fn50">50</a></sup>
                                     Wikipédia: Diarrhée du voyageur
                                     (<a href="http://fr.wikipedia.org/wiki/Diarrhée_du_voyageur"
                                         target="_blank" rel="noreferrer">http://fr.wikipedia.org/wiki/Diarrhée_du_voyageur</a>,
                                     16.1.2012).
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz51" name="fn51">51</a></sup>
+                                <p className="annotation"><sup><a href="#fz51" name="fn51">51</a></sup>
                                     Deshalb werden die Namen speziell zur Bezeichnung der Reisekrankheit
                                     nicht in die untenstehende Tabelle eingestellt.
                                 </p>
 
-                                <p className"annotation"><sup><a href="#fz52" name="fn52">52</a></sup>
+                                <p className="annotation"><sup><a href="#fz52" name="fn52">52</a></sup>
                                     Insofern ist natürlich auch die Sprachwissenschaft, wie alle
                                     Disziplinen der Geisteswissenschaft, den sogenannten <i>Life Sciences</i>
                                     zuzurechnen. Solche Überlegungen sind Gegenstand der Debatte über die
@@ -1213,27 +1213,27 @@ function Setzkorn(props) {
                                 <p>Alle im Text verwendeten Abkürzungen sind dem FEW und dem REW entnommen oder folgen den
                                     Vorgaben der jeweiligen konsultierten Quellen.</p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Alighieri, Dante (2008 [ca. 1305] VII edizione): <i>De vulgari eloquentia.
                                         Introduzione, traduzione e note di Vittorio Coletti</i>, Milano.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Bauer, Roland (2010): Le projet VIVALDI: Présentation d’un atlas
                                     linguistique parlant virtuel, in: Gotzon Aurrekoetxa/Jose
                                     Luis Ormaetxea (Hg.), <i>Tools for Linguistic Variation</i>, Bilbao, 461–472.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Coseriu, Eugenio (1975): <i>Die Sprachgeographie</i>, Tübingen.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Ette, Ottmar (2004): <i>ÜberLebenswissen. Die Aufgabe der Philologie</i>,
                                     Berlin.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     – (2011): Daniel Alarcón, Lost City Radio: Vom Krieg, den
                                     Sprachen der Diktatur und der Erfindung eines anderen Lebens, in:
                                     Claudia Schlaak/Lena Busse (Hg.): <i>Sprachkontakte, Sprachvariation und
@@ -1241,18 +1241,18 @@ function Setzkorn(props) {
                                     Tübingen, 485–502.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Ettinger, Stephan (1974): <i>Form und Funktion in der Wortbildung. Die
                                         Diminutiv- und Augmentativmodifikation im Lateinischen, Deutschen und
                                         Romanischen. Kritischer Forschungsbericht 1900–1970</i>, Tübingen.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Geckeler, Horst/Kattenbusch, Dieter (1992): <i>Einführung in die
                                         italienische Sprachwissenschaft</i>, 2., durchgesehene Auflage, Tübingen.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Goebl, Hans (2011): Quo vadis, atlas linguistice? Einige
                                     wissenschaftshistorische und zeitgeistkritische Reflexionen zur
                                     atlasgestützten Geolinguistik, in: Claudia Schlaak/Lena Busse (Hg.),
@@ -1260,99 +1260,99 @@ function Setzkorn(props) {
                                     Thomas Stehl zum 60. Geburtstag), Tübingen, 5–27.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Iordan, Iorgu (1942): <i>Einführung in die Geschichte und Methoden der
                                         romanischen Sprachwissenschaft</i>, Berlin.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Johnstone, Barbara (2010): Language and geographical space, in: Peter Auer/Jürgen E. Schmidt (Hg.): <i>An International Handbook of Linguistic
                                         Variation</i>, Vol. 1: <i>Theories and Methods</i>, Berlin/New York, 1–17.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Kattenbusch, Dieter (1999): <i>Grundlagen der italienischen
                                         Sprachwissenschaft</i>, Regensburg.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     – (2009): Sprache(n) und Dialekte in Italien, in:
                                     <i>Zibaldone</i> 48, 15–24.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     –/Tosques, Fabio (2010): VIVALDI Trentino-Südtirol,
                                     in: <i>Ladinia</i> XXXIV, 205–228.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     –/–/Rauher, Andreas (2011): Umbria
                                     Dialettale, in: Claudia Schlaak/Lena Busse (Hg.): <i>Sprachkontake,
                                         Sprachvariation und Sprachwandel</i> (Festschrift für Thomas Stehl zum 60.
                                     Geburtstag), Tübingen, 443–460.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Kurschildgen, Elke (1983): <i>Untersuchungen zu Funktionsveränderungen bei
                                         Suffixen im Lateinischen und Romanischen</i>, Bonn.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Meier, Harri (1986): <i>Prinzipien der etymologischen Forschung</i>,
                                     Heidelberg.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Meyer-Lübke, Wilhelm (1894): <i>Grammatik der romanischen Sprachen</i>, Bd. 2,
                                     Leipzig.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Müller, Marcel Lucas/Köhler, Carola/Kattenbusch, Dieter (2001):
                                     VIVALDI – ein sprechender Sprachatlas im Internet als Beispiel für
                                     eine automatisierte, computergestützte Sprachatlasgenerierung und
                                     -präsentation, in: <i>Dialectologia et Geolinguistica</i> 9, 55–68.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Pfister, Max (1980): <i>Einführung in die romanische Etymologie</i>,
                                     Darmstadt.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Quadri, Bruno (1952): <i>Aufgaben und Methoden der onomasiologischen
                                         Forschung</i>, Bern.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Rohlfs, Gerhard (1949/54): <i>Historische Grammatik der italienischen
                                         Sprache und ihrer Mundarten</i>, Bern.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     – (1954): <i>Die lexikalische Differenzierung der romanischen
                                         Sprachen. Versuch einer romanischen Wortgeographie</i>, München.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     – (1971): <i>Romanische Sprachgeographie. Geschichte und
                                         Grundlagen</i>, München.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Swiggers, Pierre (2010): Mapping the Romance Language of Europe, in:
                                     Alfred Lameli/Roland Kehrein/Stefan Rabanus (Hg.): <i>An International
                                         Handbook of Linguistic Variations</i>, Vol. 2: <i>Language Mapping</i>, Berlin/New
                                     York, 269–300.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Thun, Harald (2010): Pluridimensional Cartography, in: Alfred Lameli/Roland Kehrein/Stefan Rabanus (Hg.): <i>An International Handbook
                                         of Linguistic Variations</i>, Vol. 2: <i>Language Mapping</i>, Berlin/New York,
                                     506–524.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Urtel, Herrmann (1913): Prolegomena zu einer Studie über die
                                     romanischen Krankheitsnamen, in: <i>Archiv für das Studium der neueren
                                         Sprachen und Literaturen</i> 67, 81–116.
@@ -1361,280 +1361,280 @@ function Setzkorn(props) {
 
                                 <h1>Wörterbücher und Atlanten</h1>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     AIS = Jaberg, Karl/Jud, Jakob (1928–40): <i>Sprach- und Sachatlas
                                         Italiens und der Südschweiz</i>, 8 Bde., Zofingen. [AIS 677 (1932)].
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     ALD-I = Goebl, Hans/Bauer, Roland/Haimerl, Edgar et al. (Hg.) (1998):
                                     <i>ALD-I: Sprachatlas des Dolomitenladinischen und angrenzender Dialekte I/Atlant linguistic dl ladin dolomitich y di dialec vejins I/Atlante
                                         linguistico del ladino dolomitico e dei dialetti limitrofi I</i>, 7 Bde.,
                                     Wiesbaden. [ALD-I 85: cacare].
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     ALEA = Alvar, Manuel (1961–1973): <i>Atlas Linguístico-Etnográfico de
                                         Andalucía</i>, 6 Bde., Granada. [ALEA V, 1309 (1972)].
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     ALEANR = Alvar, Manuel (1979–1980): <i>Atlas Linguístico y Etnográfico
                                         de Aragón, Navarra y Rioja</i>, 12 Bde., Madrid. [ALEANR VIII, 1018
                                     (1980)].
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     ALEIC = Bottiglioni, Gino (1932–1952): <i>Atlante Linguistico Etnografico
                                         Italiano della Corsica</i>, 10 Bde., Pisa. [ALEIC X, 1845(a), (1941/42)].
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     ALF = Gilliéron, Jules/Edmont, Edmond (1902–1920): <i>Atlas linguistique
                                         de la France</i>, 13 Bde., Paris. [ALF 588, (1904)].
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     ALI = Bartoli, M.G. et al. (Hg.) (1995ff.): <i>Atlante Linguistico Italiano</i>, Roma. [Vol. I: ALI 163].
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     AliR = Tuaillon, Gaston (rédaction)/Contini, Michel (directeur) (1996):
                                     <i>Atlas Linguistique Roman</i>, Vol. 1: 14 Karten, Roma.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     ALLY = Gardette, Pierre (1950–1976): <i>Atlas linguistique et
                                         ethnographique du Lyonnais</i>, 5 Bde., Lyon. [ALLY III, 992].
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     ALMC = Nauton, Pierre (1957–63): <i>Atlas linguistique et ethnographique
                                         du Massif Central</i>, 4 Bde., Paris. [ALMC III, 1310 (1961)].
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     ASLEF = Pellegrini, Giovan Battista (1972–1986): <i>Atlante
                                         storico-linguistico-etnografico friulano</i>, 6 Bde, Padova-Udine. [ASLEF
                                     III, 1643 u. 1710, (1978)].
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     De Azevedo, Domingos (<sup>4</sup>1953): <i>Grande Dicionário Português–Francês</i>,
                                     Lisboa.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     De Azkue, Ressurección Maria (1969): <i>Diccionario
                                         Vasco-Español-Francés</i>, Bilbao.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Battisti, Carlo/Alessio, Giovanni (1950ff.): <i>Dizionario Italiano</i>,
                                     Firenze.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Bertaud de Chazaud, Henri (1971): <i>Nouveau Dictionnaire des Synonymes</i>,
                                     Paris.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     <i>Brockhaus Enzyklopädie</i> (1988), Bd. 6, 19. Auflage, Mannheim.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Ciorănescu, Alejandro (1958): <i>Diccionario Etimológico Rumano</i> I, Fasc.
                                     1, La Laguna.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Ciorănescu, Alejandro (2005): <i>Dicţionarul Etimologic Al Limbii
                                         Române</i>, Bucureşti.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     DCVB = Alcover, Antoni Maria/Moll, Francesc de Borja (1983): <i>Diccionari
                                         català-valencià-balear</i>, 10 Bde., Palma de Mallorca. Online unter
                                     <a href="http://dcvb.iecat.net/" target="_blank" rel="noreferrer">http://dcvb.iecat.net/</a>.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     DDM = Dauzat, Albert/Dubois, Jean/Mitterand, Henri (1977): <i>Nouveau
                                         Dictionnaire Etymologique et Historique de la Langue Française</i>, Paris.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     DECH = Corominas, Joan (1980–83): <i>Diccionario Critíco Etimológico
                                         Castellano e Hispánico</i>, Bd. 1–5, Bern.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     DEEH = De Diego, Vicente García/De Diego, Carmen García (1985):
                                     <i>Diccionario Etimológico Español e Hispánico</i>, Madrid.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     DELC = Corominas, Joan (1954–57): <i>Diccionario Crítico Etimológico de
                                         la Lengua Castellana</i>, 4 Bde., Bern.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     DFC = Dubois, Jean et al. (1971): <i>Dictionnaire du français
                                         contemporain</i>, Paris.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     <i>Dictionnaire historique de la langue française (Dictionnaires Le
                                         Robert)</i> (2006), sous la direction de Alain Rey, Paris.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Diez, Friedrich (1887): <i>Etymologisches Wörterbuch der romanischen
                                         Sprachen</i>, Bonn.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Durrieux, Alcee (1901): <i>Dictionnaire de la langue gasconne</i>, Paris.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     EWFS = Gamillscheg, Ernst (1969): <i>Etymologisches Wörterbuch der
                                         französischen Sprache</i>, Heidelberg.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Faggin, Giorgio (1985): <i>Vocabulario della lingua friulana</i>, Udine.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     FEW = von Wartburg, Walther (1922–2002): <i>Französisches Etymologisches
                                         Wörterbuch. Eine Darstellung des galloromanischen Sprachschatzes</i>, 25
                                     Bde., Bonn/Basel.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     De Fuorvières, Xavier (1973): <i>Dictionnaire Provençal–Français</i>,
                                     Avignon.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Gabrielli, Aldo (1979): <i>Dizionario dei sinonimi e dei contrari</i>, Milano.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Georges, Karl Ernst (1966): <i>Kleines Deutsch–Lateinisches
                                         Handwörterbuch</i>, Hannover.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     GR = Robert, Paul (1985): <i>Le Grand Robert de la langue française</i>,
                                     Paris.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Kuhn, Alwin (1951): <i>Romanische Philologie – 1. Teil: Die romanischen
                                         Sprachen</i>, Bern.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     <i>Langenscheidts Großes Schulwörterbuch Lateinisch-Deutsch</i>, bearbeitet
                                     von Dr. Erich Pertsch (1981): Berlin.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     LEI = Pfister, Max/Schweickard, Wolfgang (2006): <i>LEI – Lessico
                                         Etimologico italiano</i>, Vol. IX, Wiesbaden.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Lünemann, Georg Heinrich (1826): <i>Georg Heinrich Lünemanns
                                         lateinisch–deutsch und deutsch–lateinisches Handwörterbuch</i>, Leipzig.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Menge-Güthling (1959): <i>Enzyklopädisches Wörterbuch der lateinischen
                                         und deutschen Sprache</i>. Zweiter Teil: Deutsch–Latein, Berlin.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Meyer-Lübke, Wilhelm (1894): <i>Grammatik der romanischen Sprachen</i>, Bd. 2,
                                     Leipzig.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     – (1966): <i>Historische Grammatik der französischen
                                         Wortbildungslehre</i>, Heidelberg.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Moliner, Maria (1970): <i>Diccionario del uso del español</i>, Madrid.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     NALR Banat = Neiescu, Petru (1980): <i>Noul Atlas linguistic român pe
                                         regiuni</i>, Bucureşti. [NALR Banat I, 115].
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     NALR Oltenia = Cazacu, Boris et al. (1967–1984): <i>Noul atlas lingvistic
                                         român pe regiuni: Oltenia</i>, Bucureşti. [NALR Oltenia I, 136, 1967)].
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Nascentes, Antenor (1969): <i>Dicionário de sinônimos</i>, Rio de Janeiro.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Pianigiani, Ottorini (1907): <i>Vocabolario etimologico della lingua
                                         italiana</i>, Vol. 1, Roma/ Milano.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Pittau, Massimo (2003): <i>Dizionario della Lingua Sarda – Fraseologico
                                         ed Etimologico II</i>, Vol. Italiano-sardo, Cagliari.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     PR = Robert, Paul (1971): <i>Le Petit Robert</i>, Paris.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Prati, Angelo (1970): <i>Vocabolario Etimologico Italiano</i>, Milano.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Puşcariu, Sextil (1975): <i>Etymologisches Wörterbuch der rumänischen
                                         Sprache</i>, Heidelberg.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     REW = Meyer-Lübke, Wilhelm (1972; 5. Aufl., unveränd. Nachdr. der 3.,
                                     vollst. neubearb. Aufl. [Heidelberg 1935]): <i>Romanisches Etymologisches
                                         Wörterbuch</i>, Heidelberg.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Seche, Luiza/Seche, Mircea (1982): <i>Dicţionarul de sinonime al limbii
                                         române</i>, Bucureşti.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Dr. Slaby, Rudolf/Dr. Grossmann, Rudolf (1937): <i>Wörterbuch der
                                         spanischen und deutschen Sprache</i>, Leipzig.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Sonder, Ambros/Grisch, Mena (1970): <i>Vocabulari da Surmeir
                                         rumantsch–tudestg, tudestg–rumantsch</i>, Coira.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Spano, Giovanni (1998 [1851]): <i>Vocabolariu Sardu–Italianu (A-E)</i>, a cura
                                     di Giulio Paulis, Nuoro [Cagliari].
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     VIVALDI = Kattenbusch, Dieter (Hg.) (1998ff.), <i>VIVALDI= Vivaio Acustico
                                         delle Lingue e dei Dialetti d’Italia – Akustischer Sprachatlas
                                         Italiens nach Regionen</i>, 1: Sicilia, 2: Sardegna, 3: Liguria, 4: Valle
@@ -1645,28 +1645,28 @@ function Setzkorn(props) {
 
                                 <h1>Internetquellen</h1>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Farmacia di Muria: <i>Diarrea del viaggiatore</i>, <a href="http://www.farmaciadimuria.it/3livello_dettaglio_new.asp?id=2409" target="_blank" rel="noreferrer">http://www.farmaciadimuria.it/3livello_dettaglio_new.asp?id=2409</a>, 16.1.2012.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Sfatulmedicului.ro: <i>Diareea calatorului</i>, <a href="http://www.sfatulmedicului.ro/Tulburari-de-tranzit--diareea-si-constipa
                                                                    tia-/diareea-calatorului_555" target="_blank" rel="noreferrer">http://www.sfatulmedicului.ro/Tulburari-de-tranzit--diareea-si-constipat
                                         ia-/diareea-calatorului_555</a>, 16.1.2012.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     <i>Viaggio assistito</i>, <a href="http://www.viaggioassistito.com/2010/04/la-diarrea-del-viaggiatore-o-vendetta.html"
                                         target="_blank" rel="noreferrer">http://www.viaggioassistito.com/2010/04/la-diarrea-del-viaggiatore-o-ve
                                         ndetta.html</a>, 16.1.2012.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Wikipedia: <i>Diarrea del viajero</i>, <a href="http://es.wikipedia.org/wiki/Diarrea_del_viajero"
                                         target="_blank" rel="noreferrer">http://es.wikipedia.org/wiki/Diarrea_del_viajero</a>, 16.1.2012.
                                 </p>
 
-                                <p className"bibl">
+                                <p className="bibl">
                                     Wikipédia: <i>Diarrhée du voyageur</i>, <a href="http://fr.wikipedia.org/wiki/Diarrhée_du_voyageur" target="_blank" rel="noreferrer">http://fr.wikipedia.org/wiki/Diarrhée_du_voyageur</a>, 16.1.2012.
                                 </p>
 
