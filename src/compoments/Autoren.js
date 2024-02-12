@@ -127,7 +127,7 @@ function Autoren(props) {
                         und Celle di San Vito in der deutschen Wikipedia – eine Bestandsaufnahme</a></p>
 
                     <h2><a href="#k14" name="kat14">U</a></h2>
-                    <p className="bibl">Ubbidiente, Roberto: <a href="ubbidiente-caffe.html">“Oro nero” – La cultura del caffè in
+                    <p className="bibl">Ubbidiente, Roberto: <a href="/ubbidiente">“Oro nero” – La cultura del caffè in
                         Italia: usi, costumi, teatro e letteratura</a></p>
                     <p className="bibl">Ugolini, Gherardo: <a href="/ugolini">Il primato
                         dell'italiano</a></p>

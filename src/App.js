@@ -38,6 +38,7 @@ import Mensching from './compoments/articles/Mensching';
 import Stehl from './compoments/articles/Stehl';
 import DaRosaFonseca from './compoments/articles/DaRosaFonseca';
 import Setzkorn from './compoments/articles/Setzkorn';
+import Ubbidiente from './compoments/articles/Ubbidiente';
 
 function App() {
   return (
@@ -77,6 +78,7 @@ function App() {
           <Route path="/stehl" element={<Stehl id="Stehl" author="Thomas Stehl" />} />
           <Route path="/stein" element={<Stein id="Stein" author="Peter Stein" />} />
           <Route path="/tosques" element={<Tosques id="Tosques" author="Fabio Tosques" />} />
+          <Route path="/ubbidiente" element={<Ubbidiente id="ubbidiente" author="Roberto Ubbidiente" />} />
           <Route path="/ugolini" element={<Ugolini id="ugolini" author="Gherardo Ugolini" />} />
           <Route path="/urbano" element={<Urbano id="urbano" author="Amalia Urbano" />} />
           <Route path="/videsottBernardi" element={<VidesottBernardi id="videsott_bernardi" author="Paul Videsott/Rut Bernardi" />} />

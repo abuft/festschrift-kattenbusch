@@ -36,7 +36,7 @@ function Inhalt(props) {
                         ALD-Werkstatt: <i>tumulazione</i> versus <i>inumazione</i></a></p>
                     <p className="bibl">Edith Pichler: <a href="/pichler">Vom Gastarbeiter zum <i>(Gast-)Bürger</i>?
                         Italiener in Deutschland – eine Zwischenbilanz</a></p>
-                    <p className="bibl">Roberto Ubbidiente: <a href="ubbidiente-caffe.html">“Oro nero” – La cultura del caffè in
+                    <p className="bibl">Roberto Ubbidiente: <a href="/ubbidiente">“Oro nero” – La cultura del caffè in
                         Italia: usi, costumi, teatro e letteratura</a></p>
                     <p className="bibl">Gherardo Ugolini: <a href="/ugolini">Il primato
                         dell'italiano</a></p>

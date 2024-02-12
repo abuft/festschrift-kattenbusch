@@ -59,7 +59,6 @@ function Tosques(props) {
                 captions={{ showToggle: true, descriptionMaxLines: 5, descriptionTextAlign: "center" }}
             />
 
-
             <div id="Teasers" className="clearfix">
                 <div className="grid_9">
                     <h1>Wikipedia aus Sicht der Rezipienten</h1>
