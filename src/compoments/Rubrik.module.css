@@ -5,3 +5,13 @@ button {
     font-size: 24px;
     font-weight: bold;
 }
+
+.button:hover {
+    cursor: pointer; 
+}
+
+.button:focus,
+.button:active {
+    background-color: white;
+    transition: none;
+}

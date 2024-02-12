@@ -37,6 +37,7 @@ import Ugolini from './compoments/articles/Ugolini';
 import Mensching from './compoments/articles/Mensching';
 import Stehl from './compoments/articles/Stehl';
 import DaRosaFonseca from './compoments/articles/DaRosaFonseca';
+import Setzkorn from './compoments/articles/Setzkorn';
 
 function App() {
   return (
@@ -72,6 +73,7 @@ function App() {
           <Route path="/pichler" element={<Pichler id="Pichler" author="Edith Pichler" />} />
           <Route path="/schaumburg" element={<Schaumburg id="Schaumburg" author="Christophe Schaumburg" />} />
           <Route path="/schmidt" element={<Schmidt id="Schmidt" author="Jochen Schmidt" />} />
+          <Route path="/setzkorn" element={<Setzkorn id="Setzkorn" author="Sylvia Setzkorn" />} />
           <Route path="/stehl" element={<Stehl id="Stehl" author="Thomas Stehl" />} />
           <Route path="/stein" element={<Stein id="Stein" author="Peter Stein" />} />
           <Route path="/tosques" element={<Tosques id="Tosques" author="Fabio Tosques" />} />

@@ -110,7 +110,7 @@ function Autoren(props) {
                     <p className="bibl">Schaumburg, Christophe: <a href="/schaumburg">Über laufende Forscher</a>
                     </p>
                     <p className="bibl">Schmidt, Jochen: <a href="/schmidt">Warum Rumänisch?</a></p>
-                    <p className="bibl">Setzkorn, Sylvia: <a href="setzkorn-durchfall.html">Die volkstümlichen Bezeichnungen für die
+                    <p className="bibl">Setzkorn, Sylvia: <a href="/setzkorn">Die volkstümlichen Bezeichnungen für die
                         Krankheit ‚Durchfall‘ in der Romania
                         – onomasiologische und sprachgeographische Betrachtungen</a></p>
 
