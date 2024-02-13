@@ -13,10 +13,16 @@ import PiantaSmall from "../../images/rubbidiente/pianta_small.jpg";
 import NoteamareSmall from "../../images/rubbidiente/noteamare_small.jpg";
 import KulczyckiSmall from "../../images/rubbidiente/kulczycki_small.jpg";
 import BottegaSmall from "../../images/rubbidiente/bottega_small.jpg";
+import CanaleGrandeSmall from "../../images/rubbidiente/canale-grande_small.jpg";
+import CaffeGrecoSmall from "../../images/rubbidiente/caffe-greco_small.jpg";
+import AnticoCaffeGrecoSmall from "../../images/rubbidiente/antico-caffe-greco_small.jpg";
+import VesuvioSmall from "../../images/rubbidiente/vesuvio_small.jpg";
+import Caffettiera1Small from "../../images/rubbidiente/caffettiera-1_small.jpg";
+import Caffettiera2Small from "../../images/rubbidiente/caffettiera-2_small.jpg";
 
 const images = [
     {
-        src: "http://www.idealdieta.it/spiegel/guarana.jpg",
+        src: "https://festschrift-kattenbusch.de/images/rubbidiente/guarana.jpg",
         title: "Fig. 1",
         description: "Guarana"
     },
@@ -41,27 +47,32 @@ const images = [
         description: "Bottega del caffè di Franz Koltschitzky"
     },
     {
-        src: "http://www.copia-di-arte.com/a/canal-detto-canaletto/il-ritorno-del-bucintoro.html",
+        src: "https://festschrift-kattenbusch.de/images/rubbidiente/canale-grande.jpg",
         title: "Fig. 6",
         description: "Il ritorno del Bucintoro"
     },
     {
-        src: "http://www.anticocaffegreco.eu/2008/caffegreco_fullscreen.html",
+        src: "https://festschrift-kattenbusch.de/images/rubbidiente/caffe-greco.jpg",
         title: "Fig. 7",
         description: "Caffè Greco: Saletta"
     },
     {
-        src: "http://www.cornici.info/show.php?pid=137",
+        src: "https://festschrift-kattenbusch.de/images/rubbidiente/antico-caffe-greco.jpg",
+        title: "Fig. 8",
+        description: "Caffè Greco: Saletta"
+    },
+    {
+        src: "https://festschrift-kattenbusch.de/images/rubbidiente/vesuvio.jpg",
         title: "Fig. 9",
         description: "Napoli e il Golfo visti da Mergellina"
     },
     {
-        src: "http://www.lucianopignataro.it/wp-content/uploads/2011/05/caffettiere-varie.jpg",
+        src: "https://festschrift-kattenbusch.de/images/rubbidiente/caffettiera-1.jpg",
         title: "Fig. 10",
         description: "Diversi tipi di “napoletana”, dalla classica alla più moderna"
     },
     {
-        src: "http://www.bialetti.it/it",
+        src: "https://festschrift-kattenbusch.de/images/rubbidiente/caffettiera-2.jpg",
         title: "Fig. 11",
         description: "La Moka Express inventata da Alfonso Bialetti nel 1933"
     },
@@ -566,14 +577,10 @@ function Ubbidiente(props) {
                             <figure className="imageright">
                                 <p style={{ width: "210px" }}>Fig. 6: Il ritorno del Bucintoro
                                 </p>
-                                <a href="images/rubbidiente/canale-grande.jpg" rel="lightbox"
-                                    title='Fig. 6: Giovanni Antonio Canal (Canaletto), <i>Il
-                   ritorno del Bucintoro</i>
-                   (<a href="http://www.copia-di-arte.com/a/canal-detto-canaletto/il-ritorno-del-bucintoro.html" 
-                       target="_blank" rel="noreferrer">http://www.copia-di-arte.com/a/canal-detto-canaletto/il-ritorno-del-bucintoro.html</a>)'>
-                                    <img src="images/rubbidiente/canale-grande_small.jpg" width="210"
+                                <button type="button" onClick={() => { setOpen(true); setIndex(5); }}>
+                                    <img src={CanaleGrandeSmall} width="210"
                                         height="177" alt="Il ritorno del Bucintoro" />
-                                </a>
+                                </button>
                             </figure>
 
                             <p>
@@ -722,13 +729,10 @@ function Ubbidiente(props) {
                             <figure className="imageleft">
                                 <p style={{ width: "168px" }}>Fig. 7: Caffè Greco: Saletta
                                 </p>
-                                <a href="images/rubbidiente/caffe-greco.jpg" rel="lightbox"
-                                    title='Fig. 7: Caffè Greco: Saletta
-                   (<a href="http://www.anticocaffegreco.eu/2008/caffegreco_fullscreen.html"
-                       target="_blank" rel="noreferrer">http://www.anticocaffegreco.eu/2008/caffegreco_fullscreen.html</a>)'>
-                                    <img src="images/rubbidiente/caffe-greco_small.jpg" width="188"
+                                <button type="button" onClick={() => { setOpen(true); setIndex(6); }}>
+                                    <img src={CaffeGrecoSmall} width="188"
                                         height="250" alt="Caffè Greco: saletta" />
-                                </a>
+                                </button>
                             </figure>
 
                             <p>
@@ -749,11 +753,10 @@ function Ubbidiente(props) {
                             <figure className="imageright">
                                 <p style={{ width: "224px" }}>Fig. 8: Caffè Greco: Saletta
                                 </p>
-                                <a href="images/rubbidiente/antico-caffe-greco.jpg" rel="lightbox"
-                                    title='Fig. 8: Caffè Greco: Saletta (<a href="http://www.anticocaffegreco.eu/2008/caffegreco_fullscreen.html" target="_blank" rel="noreferrer">http://www.anticocaffegreco.eu/2008/caffegreco_fullscreen.html</a>)'>
-                                    <img src="images/rubbidiente/antico-caffe-greco.jpg" width="224"
+                                <button type="button" onClick={() => { setOpen(true); setIndex(7); }}>
+                                    <img src={AnticoCaffeGrecoSmall} width="224"
                                         height="125" alt="Caffè Greco: saletta" />
-                                </a>
+                                </button>
                             </figure>
 
                             <p className="longcitation">
@@ -815,12 +818,10 @@ function Ubbidiente(props) {
                             <figure className="imageleft">
                                 <p style={{ width: "350px" }}>Fig. 9: Napoli e il Golfo
                                 </p>
-                                <a href="images/rubbidiente/vesuvio.jpg" rel="lightbox"
-                                    title='Fig. 9: Giancarlo Rossetti, <i>Napoli e il Golfo visti
-                   da Mergellina</i> (<a href="http://www.cornici.info/show.php?pid=137" target="_blank" rel="noreferrer">http://www.cornici.info/show.php?pid=137</a>)'>
-                                    <img src="images/rubbidiente/vesuvio_small.jpg" width="350"
+                                <button type="button" onClick={() => { setOpen(true); setIndex(8); }}>
+                                    <img src={VesuvioSmall} width="350"
                                         height="177" alt="Napoli e il Golfo" />
-                                </a>
+                                </button>
                             </figure>
 
                             <p>
@@ -874,13 +875,10 @@ function Ubbidiente(props) {
                             <figure className="imageleft">
                                 <p style={{ width: "318px" }}>Fig. 10: Diversi tipi di “napoletana”
                                 </p>
-                                <a href="images/rubbidiente/caffettiera-1.jpg" rel="lightbox"
-                                    title='Fig. 10: Diversi tipi di “napoletana”, dalla classica
-                   alla più moderna
-                   (<a href="http://www.lucianopignataro.it/wp-content/uploads/2011/05/caffettiere-varie.jpg" target="_blank" rel="noreferrer">http://www.lucianopignataro.it/wp-content/uploads/2011/05/caffettiere-varie.jpg</a>)'>
-                                    <img src="images/rubbidiente/caffettiera-1_small.jpg" width="318"
+                                <button type="button" onClick={() => { setOpen(true); setIndex(9); }}>
+                                    <img src={Caffettiera1Small} width="318"
                                         height="225" alt="Diversi tipi di “napoletana”" />
-                                </a>
+                                </button>
                             </figure>
 
                             <p>
@@ -905,13 +903,10 @@ function Ubbidiente(props) {
                             <figure className="imageright">
                                 <p style={{ width: "165px" }}>Fig. 11: La Moka Express
                                 </p>
-                                <a href="images/rubbidiente/caffettiera-2.jpg" rel="lightbox"
-                                    title='Fig. 10: La Moka Express inventata da Alfonso
-                   Bialetti nel 1933 (<a href="http://www.bialetti.it/it"
-                                         target="_blank" rel="noreferrer">http://www.bialetti.it/it</a>)'>
-                                    <img src="images/rubbidiente/caffettiera-2_small.jpg" width="165"
+                                <button type="button" onClick={() => { setOpen(true); setIndex(10); }}>
+                                    <img src={Caffettiera2Small} width="165"
                                         height="150" alt="La Moka Express" />
-                                </a>
+                                </button>
                             </figure>
 
                             <p>
