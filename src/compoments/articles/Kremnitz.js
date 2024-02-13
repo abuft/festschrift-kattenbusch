@@ -30,7 +30,6 @@ function Kremnitz(props) {
 
     return (
         <div id="Wrapper" className="container_14">
-
             <div id="Header">
                 <Header id={props.author} />
                 <div className="grid_9">
