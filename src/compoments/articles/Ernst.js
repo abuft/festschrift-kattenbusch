@@ -17,27 +17,27 @@ import UpArrow from "../UpArrow";
 
 const images = [
     {
-        src: 'https://festschrift-kattenbusch.de/images/gernst/morinesio.jpg',
+        src: 'https://fabio-tosques.de/images/gernst/morinesio.jpg',
         title: "Abb. 1",
         description: 'Morinesio/Mourines (CN)'
     },
     {
-        src: 'https://festschrift-kattenbusch.de/images/gernst/obacco.jpg',
+        src: 'https://fabio-tosques.de/images/gernst/obacco.jpg',
         title: "Abb. 2",
         description: 'Obacco/L’Ubac (CN)'
     },
     {
-        src: 'https://festschrift-kattenbusch.de/images/gernst/paias.jpg',
+        src: 'https://fabio-tosques.de/images/gernst/paias.jpg',
         title: "Abb. 3",
         description: 'Paiàs/Palhás (CN)'
     },
     {
-        src: 'https://festschrift-kattenbusch.de/images/gernst/garzino.jpg',
+        src: 'https://fabio-tosques.de/images/gernst/garzino.jpg',
         title: "Abb. 4",
         description: 'Garzino'
     },
     {
-        src: 'https://festschrift-kattenbusch.de/images/gernst/soleglio.jpg',
+        src: 'https://fabio-tosques.de/images/gernst/soleglio.jpg',
         title: "Abb. 5",
         description: 'Soleglio Bue/Solelha Buou (CN)'
     }

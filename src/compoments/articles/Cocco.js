@@ -18,14 +18,46 @@ import Faeto6Small from "../../images/gcocco/faeto-6_small.jpg";
 import DkGc1980Small from "../../images/gcocco/dk-gc-1980_small.jpg";
 
 const images = [
-    { src: "https://festschrift-kattenbusch.de/images/gcocco/ufe-1.jpg", title: "Fig. 1", description: "Manifesto dell’Università Francoprovenzale d’Estate" },
-    { src: "https://festschrift-kattenbusch.de/images/gcocco/faeto-1.jpg", title: "Fig. 2", description: "Veduta di Faeto con la Chiesa SS. Salvatore" },
-    { src: "https://festschrift-kattenbusch.de/images/gcocco/faeto-2.jpg", title: "Fig. 3", description: "Faeto, pausa all'ombra" },
-    { src: "https://festschrift-kattenbusch.de/images/gcocco/faeto-3.jpg", title: "Fig. 4", description: "Centro storico di Faeto" },
-    { src: "https://festschrift-kattenbusch.de/images/gcocco/dk-gc-1980.jpg", title: "Fig. 5", description: "Dieter Kattenbusch e il suo informante Giuseppe Cocco a Faeto nel 1980" },
-    { src: "https://festschrift-kattenbusch.de/images/gcocco/faeto-4.jpg", title: "Fig. 6", description: "Un vicolo a Faeto" },
-    { src: "https://festschrift-kattenbusch.de/images/gcocco/faeto-5.jpg", title: "Fig. 7", description: "Faeto" },
-    { src: "https://festschrift-kattenbusch.de/images/gcocco/faeto-6.jpg", title: "Fig. 8", description: "Faeto, Il Muncipio" },
+    {
+        src: "https://fabio-tosques.de/images/gcocco/ufe-1.jpg",
+        title: "Fig. 1",
+        description: "Manifesto dell’Università Francoprovenzale d’Estate"
+    },
+    {
+        src: "https://fabio-tosques.de/images/gcocco/faeto-1.jpg",
+        title: "Fig. 2",
+        description: "Veduta di Faeto con la Chiesa SS. Salvatore"
+    },
+    {
+        src: "https://fabio-tosques.de/images/gcocco/faeto-2.jpg",
+        title: "Fig. 3",
+        description: "Faeto, pausa all'ombra"
+    },
+    {
+        src: "https://fabio-tosques.de/images/gcocco/faeto-3.jpg",
+        title: "Fig. 4",
+        description: "Centro storico di Faeto"
+    },
+    {
+        src: "https://fabio-tosques.de/images/gcocco/dk-gc-1980.jpg",
+        title: "Fig. 5",
+        description: "Dieter Kattenbusch e il suo informante Giuseppe Cocco a Faeto nel 1980"
+    },
+    {
+        src: "https://fabio-tosques.de/images/gcocco/faeto-4.jpg",
+        title: "Fig. 6",
+        description: "Un vicolo a Faeto"
+    },
+    {
+        src: "https://fabio-tosques.de/images/gcocco/faeto-5.jpg",
+        title: "Fig. 7",
+        description: "Faeto"
+    },
+    {
+        src: "https://fabio-tosques.de/images/gcocco/faeto-6.jpg",
+        title: "Fig. 8",
+        description: "Faeto, Il Muncipio"
+    },
 ]
 
 function Cocco(props) {

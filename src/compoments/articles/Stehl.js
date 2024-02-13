@@ -13,12 +13,12 @@ import DiskurstraditionenSmall from "../../images/tstehl/diskurstraditionen_smal
 
 const images = [
     {
-        src: "https://festschrift-kattenbusch.de/images/tstehl/dynamik-konvergenz.png",
+        src: "https://fabio-tosques.de/images/tstehl/dynamik-konvergenz.png",
         title: "Abb. 1",
         description: "Dynamik der Konvergenz in Süditalien"
     },
     {
-        src: "https://festschrift-kattenbusch.de/images/tstehl/diskurstraditionen.png",
+        src: "https://fabio-tosques.de/images/tstehl/diskurstraditionen.png",
         title: "Abb. 2",
         description: "Diskurstraditionen im konvergenten Sprachkontakt"
     },

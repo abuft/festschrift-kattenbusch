@@ -28,82 +28,82 @@ import Karte16Small from "../../images/rbauer/karte16_small.jpg";
 function Bauer(props) {
     const images = [
         {
-            src: "https://festschrift-kattenbusch.de/images/rbauer/karte1.jpg",
+            src: "https://fabio-tosques.de/images/rbauer/karte1.jpg",
             title: "Karte 1",
             description: "Ähnlichkeitskarte zum Standarditalienischen (ALD - Trentino)"
         },
         {
-            src: "https://festschrift-kattenbusch.de/images/rbauer/karte2.jpg",
+            src: "https://fabio-tosques.de/images/rbauer/karte2.jpg",
             title: "Karte 2",
             description: "Ähnlichkeitskarte zum Standarditalienischen (AIS)"
         },
         {
-            src: "https://festschrift-kattenbusch.de/images/rbauer/karte3.jpg",
+            src: "https://fabio-tosques.de/images/rbauer/karte3.jpg",
             title: "Karte 3",
             description: "Ähnlichkeitskarte zum Dolomitenladinischen (Oberfassanischen)"
         },
         {
-            src: "https://festschrift-kattenbusch.de/images/rbauer/karte4.jpg",
+            src: "https://fabio-tosques.de/images/rbauer/karte4.jpg",
             title: "Karte 4",
             description: "Ähnlichkeitskarte zum Solandrischen (Sulzbergischen)"
         },
         {
-            src: "https://festschrift-kattenbusch.de/images/rbauer/karte5.jpg",
+            src: "https://fabio-tosques.de/images/rbauer/karte5.jpg",
             title: "Karte 5",
             description: "Ähnlichkeitskarte zum Anaunischen (Nonsbergischen)"
         },
         {
-            src: "https://festschrift-kattenbusch.de/images/rbauer/karte6.jpg",
+            src: "https://fabio-tosques.de/images/rbauer/karte6.jpg",
             title: "Karte 6",
             description: "Ähnlichkeitskarte zum Zentraltrentinischen (Bozner Unterland)"
         },
         {
-            src: "https://festschrift-kattenbusch.de/images/rbauer/karte7.jpg",
+            src: "https://fabio-tosques.de/images/rbauer/karte7.jpg",
             title: "Karte 7",
             description: "Ähnlichkeitskarte zum Zentraltrentinischen (Stadt Trient)"
         },
         {
-            src: "https://festschrift-kattenbusch.de/images/rbauer/karte8.jpg",
+            src: "https://fabio-tosques.de/images/rbauer/karte8.jpg",
             title: "Karte 8",
             description: "Ähnlichkeitskarte zum Zentraltrentinischen (Val Lagarina)"
         },
         {
-            src: "https://festschrift-kattenbusch.de/images/rbauer/karte9.jpg",
+            src: "https://fabio-tosques.de/images/rbauer/karte9.jpg",
             title: "Karte 9",
             description: "Ähnlichkeitskarte zum Zentraltrentinischen (Valsugana)"
         },
         {
-            src: "https://festschrift-kattenbusch.de/images/rbauer/karte10.jpg",
+            src: "https://fabio-tosques.de/images/rbauer/karte10.jpg",
             title: "Karte 10",
             description: "Ähnlichkeitskarte zum Zentraltrentinischen (Val di Cembra)"
         },
         {
-            src: "https://festschrift-kattenbusch.de/images/rbauer/karte11.jpg",
+            src: "https://fabio-tosques.de/images/rbauer/karte11.jpg",
             title: "Karte 11",
             description: "Ähnlichkeitskarte zum Zentraltrentinischen (Val di Fiemme)"
         },
         {
-            src: "https://festschrift-kattenbusch.de/images/rbauer/karte12.jpg",
+            src: "https://fabio-tosques.de/images/rbauer/karte12.jpg",
             title: "Karte 12",
             description: "Ähnlichkeitskarte zum Zentraltrentinischen (Val di Non)"
         },
         {
-            src: "https://festschrift-kattenbusch.de/images/rbauer/karte13.jpg",
+            src: "https://fabio-tosques.de/images/rbauer/karte13.jpg",
             title: "Karte 13",
             description: "Ähnlichkeitskarte zum Zentraltrentinischen (Val di Sole)"
         },
         {
-            src: "https://festschrift-kattenbusch.de/images/rbauer/karte14.jpg",
+            src: "https://fabio-tosques.de/images/rbauer/karte14.jpg",
             title: "Karte 14",
             description: "Ähnlichkeitskarte zum Zentraltrentinischen (Val Rendena)"
         },
         {
-            src: "https://festschrift-kattenbusch.de/images/rbauer/karte15.jpg",
+            src: "https://fabio-tosques.de/images/rbauer/karte15.jpg",
             title: "Karte 15",
             description: "Ähnlichkeitskarte zum Zentraltrentinischen (Val di Fassa)"
         },
         {
-            src: "https://festschrift-kattenbusch.de/images/rbauer/karte16.jpg",
+            src: "https://fabio-tosques.de/images/rbauer/karte16.jpg",
             title: "Karte 16",
             description: "Ähnlichkeitskarte zum Zentraltrentinischen (Val di Fiemme)"
         },

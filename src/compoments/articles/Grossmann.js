@@ -16,27 +16,27 @@ import Paintshop1Small from "../../images/dgrossmann/paintshop-1_small.png";
 
 const images = [
     {
-        src: "https://festschrift-kattenbusch.de/images/dgrossmann/vivtka-1.png",
+        src: "https://fabio-tosques.de/images/dgrossmann/vivtka-1.png",
         title: "Abb. 1",
         description: "Excel-Tabelle mit Transkriptionen",
     },
     {
-        src: "https://festschrift-kattenbusch.de/images/dgrossmann/vivtka-2.png",
+        src: "https://fabio-tosques.de/images/dgrossmann/vivtka-2.png",
         title: "Abb. 2",
         description: "Excel-Tabelle mit Ortsinformationen",
     },
     {
-        src: "https://festschrift-kattenbusch.de/images/dgrossmann/vivtka-3.png",
+        src: "https://fabio-tosques.de/images/dgrossmann/vivtka-3.png",
         title: "Abb. 3",
         description: "Kontrolle mit GoldWave",
     },
     {
-        src: "https://festschrift-kattenbusch.de/images/dgrossmann/goldwave-1.png",
+        src: "https://fabio-tosques.de/images/dgrossmann/goldwave-1.png",
         title: "Abb. 4",
         description: "Konvertieren der Tondateien",
     },
     {
-        src: "https://festschrift-kattenbusch.de/images/dgrossmann/paintshop-1.png",
+        src: "https://fabio-tosques.de/images/dgrossmann/paintshop-1.png",
         title: "Abb. 5",
         description: "Kartenerstellung mit PaintShop Pro",
     },

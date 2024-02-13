@@ -21,32 +21,32 @@ function Schmidt(props) {
 
     const images = [
         {
-            src: 'https://festschrift-kattenbusch.de/images/jschmidt/berge.jpg',
+            src: 'https://fabio-tosques.de/images/jschmidt/berge.jpg',
             title: "Abb. 1",
             description: 'Berge in Ladinien'
         },
         {
-            src: 'https://festschrift-kattenbusch.de/images/jschmidt/bogen.jpg',
+            src: 'https://fabio-tosques.de/images/jschmidt/bogen.jpg',
             title: "Abb. 2",
             description: 'Triumphbogen auf der Piazza della Vittoria, Bozen'
         },
         {
-            src: 'https://festschrift-kattenbusch.de/images/jschmidt/heu.jpg',
+            src: 'https://fabio-tosques.de/images/jschmidt/heu.jpg',
             title: "Abb. 3",
             description: 'Heuträger'
         },
         {
-            src: 'https://festschrift-kattenbusch.de/images/jschmidt/prozession.jpg',
+            src: 'https://fabio-tosques.de/images/jschmidt/prozession.jpg',
             title: "Abb. 4",
             description: 'Prozession'
         },
         {
-            src: 'https://festschrift-kattenbusch.de/images/jschmidt/maedchen.jpg',
+            src: 'https://fabio-tosques.de/images/jschmidt/maedchen.jpg',
             title: "Abb. 5",
             description: 'Mädchen im weißen Kleid'
         },
         {
-            src: 'https://festschrift-kattenbusch.de/images/jschmidt/schmidt_dk_wanderung.jpg',
+            src: 'https://fabio-tosques.de/images/jschmidt/schmidt_dk_wanderung.jpg',
             title: "Abb. 6",
             description: 'Auf Wanderschaft'
         }

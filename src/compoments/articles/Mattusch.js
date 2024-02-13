@@ -13,12 +13,12 @@ import InizioCommediaSmall2 from "../../images/mmattusch/inizio-commedia-2_small
 
 const images = [
     {
-        src: "https://festschrift-kattenbusch.de/images/mmattusch/inizio-commedia-1.jpg",
+        src: "https://fabio-tosques.de/images/mmattusch/inizio-commedia-1.jpg",
         title: "Abb. 1",
         description: "Beginn der 'Commedia' im Codex 1080, Biblioteca Trivulziana, Mailand (Quelle: http://www.hs-augsburg.de/~harsch/italica/Cronologia/secolo14/Dante/dan_d000.html)",
     },
     {
-        src: "https://festschrift-kattenbusch.de/images/mmattusch/inizio-commedia-2.jpg",
+        src: "https://fabio-tosques.de/images/mmattusch/inizio-commedia-2.jpg",
         title: "Abb. 2",
         description: "Beginn der <i>Commedia</i> im Codex 1080 (Detail), Biblioteca Trivulziana, Mailand (http://www.hs-augsburg.de/~harsch/italica/Cronologia/secolo14/Dante/dan_d000.html)",
     },

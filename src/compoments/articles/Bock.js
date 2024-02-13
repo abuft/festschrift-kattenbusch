@@ -20,47 +20,47 @@ import BockBodenseeTriathlonSmall from "../../images/gbock/bock_uli_dieter_boden
 
 const images = [
     {
-        src: "https://festschrift-kattenbusch.de/images/gbock/bock_marathon_muenchen_1987.jpg",
+        src: "https://fabio-tosques.de/images/gbock/bock_marathon_muenchen_1987.jpg",
         title: "Abb. 1",
         description: "Marathon in München 1987"
     },
     {
-        src: "https://festschrift-kattenbusch.de/images/gbock/bock_erster_gesamtdeutscher_marathon_berlin_1988.jpg",
+        src: "https://fabio-tosques.de/images/gbock/bock_erster_gesamtdeutscher_marathon_berlin_1988.jpg",
         title: "Abb. 2",
         description: "Marathon in Berlin 1988"
     },
     {
-        src: "https://festschrift-kattenbusch.de/images/gbock/bock_alpenpaessetour_anton_dieter_beim_fruehstueck_1989.jpg",
+        src: "https://fabio-tosques.de/images/gbock/bock_alpenpaessetour_anton_dieter_beim_fruehstueck_1989.jpg",
         title: "Abb. 3",
         description: "Alpenpässetour 1988: Dieter und Anton beim Frühstück"
     },
     {
-        src: "https://festschrift-kattenbusch.de/images/gbock/bock_alpenpaessetour_gb_mit_dem_leihrennrad_1989.jpg",
+        src: "https://fabio-tosques.de/images/gbock/bock_alpenpaessetour_gb_mit_dem_leihrennrad_1989.jpg",
         title: "Abb. 4",
         description: "Alpenpässetour 1989: Günter Bock mit Leihrennrad"
     },
     {
-        src: "https://festschrift-kattenbusch.de/images/gbock/bock_start_Swiss-Triathlon_im_kalten_bergsee_1987.jpg",
+        src: "https://fabio-tosques.de/images/gbock/bock_start_Swiss-Triathlon_im_kalten_bergsee_1987.jpg",
         title: "Abb. 5",
         description: "Start Swiss-Triathlon im kalten Bergsee"
     },
     {
-        src: "https://festschrift-kattenbusch.de/images/gbock/bock_Swiss-Triathlon_1987.jpg",
+        src: "https://fabio-tosques.de/images/gbock/bock_Swiss-Triathlon_1987.jpg",
         title: "Abb. 6",
         description: "Im Ziel: Swiss-Triathlon 1987"
     },
     {
-        src: "https://festschrift-kattenbusch.de/images/gbock/bock_nach_dem_Swiss-Triathlon_1987.jpg",
+        src: "https://fabio-tosques.de/images/gbock/bock_nach_dem_Swiss-Triathlon_1987.jpg",
         title: "Abb. 7",
         description: "Im Ziel: Swiss-Triathlon 1987"
     },
     {
-        src: "https://festschrift-kattenbusch.de/images/gbock/bock_pentathlon_zieleinlauf_zell_am_see_1987.jpg",
+        src: "https://fabio-tosques.de/images/gbock/bock_pentathlon_zieleinlauf_zell_am_see_1987.jpg",
         title: "Abb. 8",
         description: "Pentathlon: Zieleinlauf Zell am See 1987"
     },
     {
-        src: "https://festschrift-kattenbusch.de/images/gbock/bock_uli_dieter_bodensee-triathlon_1990.jpg",
+        src: "https://fabio-tosques.de/images/gbock/bock_uli_dieter_bodensee-triathlon_1990.jpg",
         title: "Abb. 9",
         description: "Das Trio: Uli, Dieter und ich beim Bodensee-Triathlon 1990"
     },

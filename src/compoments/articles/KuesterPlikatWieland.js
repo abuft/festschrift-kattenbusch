@@ -16,17 +16,17 @@ import Abb3Small from "../../images/kwpteam/abb_3_small.png";
 
 const images = [
     {
-        src: "https://festschrift-kattenbusch.de/images/kwpteam/abb_1.png",
+        src: "https://fabio-tosques.de/images/kwpteam/abb_1.png",
         title: "Abb. 1",
         description: "Abb. 1: VIVALDI: Einzelauswahl der Stimuli"
     },
     {
-        src: "https://festschrift-kattenbusch.de/images/kwpteam/abb_2.png",
+        src: "https://fabio-tosques.de/images/kwpteam/abb_2.png",
         title: "Abb. 2",
         description: "Abb. 2: VIVALDI: Region Friaul"
     },
     {
-        src: "https://festschrift-kattenbusch.de/images/kwpteam/abb_3.png",
+        src: "https://fabio-tosques.de/images/kwpteam/abb_3.png",
         title: "Abb. 3",
         description: "Abb. 3: VIVALDI Maps"
     },

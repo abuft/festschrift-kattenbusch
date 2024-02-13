@@ -23,67 +23,67 @@ import CaffeFruttaSmall from "../../images/rubbidiente/caffe-frutta_small.jpg";
 
 const images = [
     {
-        src: "https://festschrift-kattenbusch.de/images/rubbidiente/guarana.jpg",
+        src: "https://fabio-tosques.de/images/rubbidiente/guarana.jpg",
         title: "Fig. 1",
         description: "Guarana"
     },
     {
-        src: "https://festschrift-kattenbusch.de/images/rubbidiente/pianta.jpg",
+        src: "https://fabio-tosques.de/images/rubbidiente/pianta.jpg",
         title: "Fig. 2",
         description: "Pianta di caffè"
     },
     {
-        src: "https://festschrift-kattenbusch.de/images/rubbidiente/noteamare.jpg",
+        src: "https://fabio-tosques.de/images/rubbidiente/noteamare.jpg",
         title: "Fig. 3",
         description: "Enjoying Coffee"
     },
     {
-        src: "https://festschrift-kattenbusch.de/images/rubbidiente/kulczycki.jpg",
+        src: "https://fabio-tosques.de/images/rubbidiente/kulczycki.jpg",
         title: "Fig. 4",
         description: "Franz Koltschitzky"
     },
     {
-        src: "https://festschrift-kattenbusch.de/images/rubbidiente/bottega.jpg",
+        src: "https://fabio-tosques.de/images/rubbidiente/bottega.jpg",
         title: "Fig. 5",
         description: "Bottega del caffè di Franz Koltschitzky"
     },
     {
-        src: "https://festschrift-kattenbusch.de/images/rubbidiente/canale-grande.jpg",
+        src: "https://fabio-tosques.de/images/rubbidiente/canale-grande.jpg",
         title: "Fig. 6",
         description: "Il ritorno del Bucintoro"
     },
     {
-        src: "https://festschrift-kattenbusch.de/images/rubbidiente/caffe-greco.jpg",
+        src: "https://fabio-tosques.de/images/rubbidiente/caffe-greco.jpg",
         title: "Fig. 7",
         description: "Caffè Greco: Saletta"
     },
     {
-        src: "https://festschrift-kattenbusch.de/images/rubbidiente/antico-caffe-greco.jpg",
+        src: "https://fabio-tosques.de/images/rubbidiente/antico-caffe-greco.jpg",
         title: "Fig. 8",
         description: "Caffè Greco: Saletta"
     },
     {
-        src: "https://festschrift-kattenbusch.de/images/rubbidiente/vesuvio.jpg",
+        src: "https://fabio-tosques.de/images/rubbidiente/vesuvio.jpg",
         title: "Fig. 9",
         description: "Napoli e il Golfo visti da Mergellina"
     },
     {
-        src: "https://festschrift-kattenbusch.de/images/rubbidiente/caffettiera-1.jpg",
+        src: "https://fabio-tosques.de/images/rubbidiente/caffettiera-1.jpg",
         title: "Fig. 10",
         description: "Diversi tipi di “napoletana”, dalla classica alla più moderna"
     },
     {
-        src: "https://festschrift-kattenbusch.de/images/rubbidiente/caffettiera-2.jpg",
+        src: "https://fabio-tosques.de/images/rubbidiente/caffettiera-2.jpg",
         title: "Fig. 11",
         description: "La Moka Express inventata da Alfonso Bialetti nel 1933"
     },
     {
-        src: "https://festschrift-kattenbusch.de/images/rubbidiente/pianta.jpg",
+        src: "https://fabio-tosques.de/images/rubbidiente/pianta.jpg",
         title: "Fig. 12",
         description: "Pianta di caffè"
     },
     {
-        src: "https://festschrift-kattenbusch.de/images/rubbidiente/caffe-frutta.jpg",
+        src: "https://fabio-tosques.de/images/rubbidiente/caffe-frutta.jpg",
         title: "Fig. 13",
         description: "Chicchi di caffè"
     }

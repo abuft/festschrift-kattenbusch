@@ -14,17 +14,17 @@ import SardinienVivaldiSmall from "../../images/gmensching/sardinien-vivaldi_sma
 
 const images = [
     {
-        src: "https://festschrift-kattenbusch.de/images/gmensching/sardinien-syntax-orte.jpg",
+        src: "https://fabio-tosques.de/images/gmensching/sardinien-syntax-orte.jpg",
         title: "Karte 1",
         description: "In diversen Studien und Projekten zur sardischen Syntax berücksichtigte Orte"
     },
     {
-        src: "https://festschrift-kattenbusch.de/images/gmensching/sardinien-kampmann.jpg",
+        src: "https://fabio-tosques.de/images/gmensching/sardinien-kampmann.jpg",
         title: "Karte 2",
         description: "Orte aus Kampmann (2010)"
     },
     {
-        src: "https://festschrift-kattenbusch.de/images/gmensching/sardinien-vivaldi.jpg",
+        src: "https://fabio-tosques.de/images/gmensching/sardinien-vivaldi.jpg",
         title: "Karte 3",
         description: "VIVALDI-Aufnahmepunkte auf Sardinien"
     }

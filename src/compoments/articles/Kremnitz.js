@@ -13,12 +13,12 @@ import SeiteSmall from "../../images/gkremnitz/seite_small.jpg";
 
 const images = [
     {
-        src: "https://festschrift-kattenbusch.de/images/gkremnitz/titel.jpg",
+        src: "https://fabio-tosques.de/images/gkremnitz/titel.jpg",
         title: "Abb. 1",
         description: "Titelblatt des Exkursionsberichts"
     },
     {
-        src: "https://festschrift-kattenbusch.de/images/gkremnitz/seite.jpg",
+        src: "https://fabio-tosques.de/images/gkremnitz/seite.jpg",
         title: "Abb. 2",
         description: "Die Abhandlung Dieter Kattenbuschs über die Albigenserkriege (Ausschnitt)"
     },

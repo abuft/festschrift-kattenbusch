@@ -22,52 +22,52 @@ import LissabonSmall from "../../images/hgoebl/09_Lissabon_small.jpg";
 
 const images = [
     {
-        src: "https://festschrift-kattenbusch.de/images/hgoebl/00_loculi_ald.jpg",
+        src: "https://fabio-tosques.de/images/hgoebl/00_loculi_ald.jpg",
         title: "Abb. 1",
         description: "Zusammentreffen zweier Begräbnisformen im Einzugsgebiet des Sprachatlasses ALD. Nach Ermittlungen aus den Jahren 1985–1992 sowie 2000–2010."
     },
     {
-        src: "https://festschrift-kattenbusch.de/images/hgoebl/01_Bozen.jpg",
+        src: "https://fabio-tosques.de/images/hgoebl/01_Bozen.jpg",
         title: "Abb. 2",
         description: "Bozen, Kommunalfriedhof. Man beachte die im Hintergrund liegenden, mit Bögen versehenen Konstruktionen, worin sich 'loculi' befinden."
     },
     {
-        src: "https://festschrift-kattenbusch.de/images/hgoebl/02_Riva.jpg",
+        src: "https://fabio-tosques.de/images/hgoebl/02_Riva.jpg",
         title: "Abb. 3",
         description: "Riva di Garda (Trentino) Man beachte die im Vordergrund liegende, mit beachtlichem architektonischem Einsatz errichtete Konstruktion mit einer Vielzahl von 'loculi'."
     },
     {
-        src: "https://festschrift-kattenbusch.de/images/hgoebl/03_Brescia.jpg",
+        src: "https://fabio-tosques.de/images/hgoebl/03_Brescia.jpg",
         title: "Abb. 4",
         description: "Brescia, Cimitero comunale. Der Ausschnitt zeigt jenen Teil des Friedhofs ('campo per inconsunti'), wo die aus ihren ursprünglichen 'loculi' extumulierten Leichname zur Nachverwesung beigesetzt worden sind. Man beachte ferner den kollektiven Charakter dieses Vorgangs."
     },
     {
-        src: "https://festschrift-kattenbusch.de/images/hgoebl/04_Malcesine.jpg",
+        src: "https://fabio-tosques.de/images/hgoebl/04_Malcesine.jpg",
         title: "Abb. 5",
         description: "Malcésine (Veneto), Cimitero comunale. Man beachte die Koexistenz von Nischen- und Erdbegräbnis."
     },
     {
-        src: "https://festschrift-kattenbusch.de/images/hgoebl/05_Valencia_Cementerio.jpg",
+        src: "https://fabio-tosques.de/images/hgoebl/05_Valencia_Cementerio.jpg",
         title: "Abb. 6",
         description: "València (Spanien), Cementiri general. Man beachte den hausartigen Charakter der die nichos in fünf Stockwerken enthaltenden Bauten."
     },
     {
-        src: "https://festschrift-kattenbusch.de/images/hgoebl/06_Valencia_Benimaclet.jpg",
+        src: "https://fabio-tosques.de/images/hgoebl/06_Valencia_Benimaclet.jpg",
         title: "Abb. 7",
         description: "València (Spanien), Cementiri de Benimaclet. Der überreiche Blumenschmuck besteht aus Naturblumen."
     },
     {
-        src: "https://festschrift-kattenbusch.de/images/hgoebl/07_Oviedo.jpg",
+        src: "https://fabio-tosques.de/images/hgoebl/07_Oviedo.jpg",
         title: "Abb. 8",
         description: "Oviedo (Spanien), Cementerio San Salvador. Im Vordergrund befinden sich Erdgräber, im Hintergrund Nischengräber."
     },
     {
-        src: "https://festschrift-kattenbusch.de/images/hgoebl/08_Montreal.jpg",
+        src: "https://fabio-tosques.de/images/hgoebl/08_Montreal.jpg",
         title: "Abb. 9",
         description: "Montréal (Kanada), Cimetière Notre-Dame-des-Neiges. Rechts eines der zahlreichen, seit 1978 errichteten Mausoleen."
     },
     {
-        src: "https://festschrift-kattenbusch.de/images/hgoebl/09_Lissabon.jpg",
+        src: "https://fabio-tosques.de/images/hgoebl/09_Lissabon.jpg",
         title: "Abb. 10",
         description: "Lissabon, Cemitério dos Prazeres. Die meisten der hier deutlich sichtbaren Begräbnis-Häuschen ('jazigos') bieten für sechs innen mit Zink ausgekleidete Särge Platz."
     },
