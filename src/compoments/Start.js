@@ -3,6 +3,7 @@ import titlePic from "../images/titel/titelbild.jpg";
 import titleAudio from "../videos/titel/titelfilm_silent.mp4"
 import Footer from "./Footer";
 import classes from "./Rubrik.module.css";
+import FestschriftPdf from "../pdf/(Das)_diskrete_Tatenbuch_-_Festschrift_Dieter_Kattenbusch.pdf";
 
 function Start() {
 
@@ -50,11 +51,16 @@ function Start() {
                                     <li><a href="/inhalt#kat10">Varia</a></li>
                                 </ul>
                             )}
-                            <h2 className="header"><a href="/impressum">Impressum</a></h2>
-                            <h2 className="header"><a href={titleAudio}>Warum</a>
-                                (Das) diskrete Tatenbuch?</h2>
-                            <h2 className="header">Das Buch als <a
-                                href="pdf/(Das)_diskrete_Tatenbuch_-_Festschrift_Dieter_Kattenbusch.pdf">PDF zum download</a></h2>
+                            <h2 className="header">
+                                <a href="/impressum">Impressum</a>
+                            </h2>
+                            <h2 className="header">
+                                <a href={titleAudio}>Warum</a>
+                                (Das) diskrete Tatenbuch?
+                            </h2>
+                            <h2 className="header">
+                                Das Buch als <a href={FestschriftPdf}>PDF zum download</a>
+                            </h2>
                         </nav>
                     </div>
                 </div>

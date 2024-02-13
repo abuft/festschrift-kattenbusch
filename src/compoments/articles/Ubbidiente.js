@@ -19,6 +19,7 @@ import AnticoCaffeGrecoSmall from "../../images/rubbidiente/antico-caffe-greco_s
 import VesuvioSmall from "../../images/rubbidiente/vesuvio_small.jpg";
 import Caffettiera1Small from "../../images/rubbidiente/caffettiera-1_small.jpg";
 import Caffettiera2Small from "../../images/rubbidiente/caffettiera-2_small.jpg";
+import CaffeFruttaSmall from "../../images/rubbidiente/caffe-frutta_small.jpg";
 
 const images = [
     {
@@ -76,6 +77,16 @@ const images = [
         title: "Fig. 11",
         description: "La Moka Express inventata da Alfonso Bialetti nel 1933"
     },
+    {
+        src: "https://festschrift-kattenbusch.de/images/rubbidiente/pianta.jpg",
+        title: "Fig. 12",
+        description: "Pianta di caffè"
+    },
+    {
+        src: "https://festschrift-kattenbusch.de/images/rubbidiente/caffe-frutta.jpg",
+        title: "Fig. 13",
+        description: "Chicchi di caffè"
+    }
 ];
 
 function Ubbidiente(props) {
@@ -1454,13 +1465,10 @@ function Ubbidiente(props) {
                             <figure className="imageright">
                                 <p style={{ width: "225px" }}>Fig. 12: Pianta di caffè
                                 </p>
-                                <a href="images/rubbidiente/pianta.jpg" rel="lightbox"
-                                    title='Fig. 12: Pianta di caffè
-                   (<a href="http://www.caffevesuvio.it/la_pianta.html"
-                       target="_blank" rel="noreferrer">http://www.caffevesuvio.it/la_pianta.html</a>)'>
-                                    <img src="images/rubbidiente/pianta_small.jpg" width="225"
+                                <button type="button" onClick={() => { setOpen(true); setIndex(11); }}>
+                                    <img src={PiantaSmall} width="225"
                                         height="311" alt="Pianta di caffè" />
-                                </a>
+                                </button>
                             </figure>
 
                             <p>
@@ -1496,13 +1504,10 @@ function Ubbidiente(props) {
                             <figure className="imageleft">
                                 <p style={{ width: "250px" }}>Fig. 13: Chicchi di caffè
                                 </p>
-                                <a href="images/rubbidiente/caffe-frutta.jpg" rel="lightbox"
-                                    title='Fig. 13: Chicchi di caffè
-                   (<a href="http://www.creafarma.ch"
-                       target="_blank" rel="noreferrer">http://www.creafarma.ch</a>)'>
-                                    <img src="images/rubbidiente/caffe-frutta.jpg" width="150"
+                                <button type="button" onClick={() => { setOpen(true); setIndex(12); }}>
+                                    <img src={CaffeFruttaSmall} width="150"
                                         height="200" alt="Chicchi di caffè" />
-                                </a>
+                                </button>
                             </figure>
 
                             <p>
@@ -1804,8 +1809,6 @@ function Ubbidiente(props) {
                                 cit., 14–17.
                             </p>
 
-
-
                             <h1>Bibliografia</h1>
                             <p className="bibl">
                                 Adami, Giuseppe (1905): Il Caffè Pedrocchi nella sua vita e nella sua
@@ -2020,8 +2023,6 @@ function Ubbidiente(props) {
                                 <i>International Coffee Organization</i>
                                 <a href="http://www.ico.org/" target="_blank" rel="noreferrer">http://www.ico.org/</a>
                             </p>
-
-
                         </article>
                     </section>
                 </div>

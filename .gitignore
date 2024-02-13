@@ -27,3 +27,5 @@ scratch
 *.bak
 *.old
 tmp
+*.xz
+.env
