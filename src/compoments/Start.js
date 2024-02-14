@@ -54,8 +54,7 @@ function Start() {
                             <a href="/impressum">Impressum</a>
                         </h2>
                         <h2 className="header">
-                            <a href={titleAudio}>Warum</a>
-                            (Das) diskrete Tatenbuch?
+                            <a href={titleAudio}>Warum</a> (Das) diskrete Tatenbuch?
                         </h2>
                         <h2 className="header">
                             Das Buch als <a href={FestschriftPdf}>PDF zum download</a>
