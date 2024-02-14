@@ -1280,7 +1280,7 @@ function Ubbidiente(props) {
                             </p>
 
                             <iframe width="420" height="315"
-                                src="http://www.youtube.com/embed/5sntWSChia0" frameborder="0"
+                                src="https://www.youtube.com/embed/5sntWSChia0" frameborder="0"
                                 allowfullscreen title="YouTube Video">
                             </iframe>
 
@@ -1304,7 +1304,7 @@ function Ubbidiente(props) {
                             </p>
 
                             <iframe width="420" height="315"
-                                src="http://www.youtube.com/embed/zMkLTTR1a9E" frameborder="0"
+                                src="https://www.youtube.com/embed/zMkLTTR1a9E" frameborder="0"
                                 allowfullscreen title="Youtube Video">
                             </iframe>
 
@@ -1316,7 +1316,7 @@ function Ubbidiente(props) {
                             </p>
 
                             <iframe width="560" height="315"
-                                src="http://www.youtube.com/embed/7kYX0vyCTpM" frameborder="0"
+                                src="https://www.youtube.com/embed/7kYX0vyCTpM" frameborder="0"
                                 allowfullscreen title="Youtube Video">
                             </iframe>
 
@@ -1329,7 +1329,7 @@ function Ubbidiente(props) {
                             </p>
 
                             <iframe width="420" height="315"
-                                src="http://www.youtube.com/embed/vCHeHFHPCg8" frameborder="0"
+                                src="https://www.youtube.com/embed/vCHeHFHPCg8" frameborder="0"
                                 allowfullscreen title="Youtube Video">
                             </iframe>
 
@@ -1346,7 +1346,7 @@ function Ubbidiente(props) {
                             </p>
 
                             <iframe width="420" height="315"
-                                src="http://www.youtube.com/embed/zD9RExCCh1w" frameborder="0"
+                                src="https://www.youtube.com/embed/zD9RExCCh1w" frameborder="0"
                                 allowfullscreen title="Youtube Video">
                             </iframe>
 
@@ -1374,7 +1374,7 @@ function Ubbidiente(props) {
                             </p>
 
                             <iframe width="420" height="315"
-                                src="http://www.youtube.com/embed/YllQLj0h6mo" frameborder="0"
+                                src="https://www.youtube.com/embed/YllQLj0h6mo" frameborder="0"
                                 allowfullscreen title="Youtube Video">
                             </iframe>
 
@@ -1929,95 +1929,95 @@ function Ubbidiente(props) {
 
                             <p className="bibl">
                                 Roberto Murolo: <i>’A tazz ‚’e cafè</i>:
-                                <a href="http://www.youtube.com/watch?v=zRV7RAg5iyA"
-                                    target="_blank" rel="noreferrer">http://www.youtube.com/watch?v=zRV7RAg5iyA</a>
+                                <a href="https://www.youtube.com/watch?v=zRV7RAg5iyA"
+                                    target="_blank" rel="noreferrer">https://www.youtube.com/watch?v=zRV7RAg5iyA</a>
                             </p>
 
                             <p className="bibl">
                                 Fabrizio De Andrè: <i>Don Raffaè</i>:
-                                <a href="http://www.youtube.com/watch?v=yp_CvmOvLoQ"
-                                    target="_blank" rel="noreferrer">http://www.youtube.com/watch?v=yp_CvmOvLoQ</a>
+                                <a href="https://www.youtube.com/watch?v=yp_CvmOvLoQ"
+                                    target="_blank" rel="noreferrer">https://www.youtube.com/watch?v=yp_CvmOvLoQ</a>
                             </p>
 
                             <p className="bibl">
                                 Fiorella Mannoia: <i>Caffè nero bollente</i>:
-                                <a href="http://www.youtube.com/watch?v=VAj21CIrHQ4"
-                                    target="_blank" rel="noreferrer">http://www.youtube.com/watch?v=VAj21CIrHQ4</a>
+                                <a href="https://www.youtube.com/watch?v=VAj21CIrHQ4"
+                                    target="_blank" rel="noreferrer">https://www.youtube.com/watch?v=VAj21CIrHQ4</a>
                             </p>
 
                             <p className="bibl">
                                 Pino Daniele: <i>Na tazzulell ’e cafè</i>:
-                                <a href="http://www.youtube.com/watch?v=Dqo730l_eCs"
-                                    target="_blank" rel="noreferrer">http://www.youtube.com/watch?v=Dqo730l_eCs</a>
+                                <a href="https://www.youtube.com/watch?v=Dqo730l_eCs"
+                                    target="_blank" rel="noreferrer">https://www.youtube.com/watch?v=Dqo730l_eCs</a>
                             </p>
 
                             <h2>Teatro:</h2>
 
                             <p className="bibl">
                                 Carlo Goldoni: <i>La bottega del caffè</i> (scena):
-                                <a href="http://www.youtube.com/watch?v=Qbst9hi4Jao"
-                                    target="_blank" rel="noreferrer">http://www.youtube.com/watch?v=Qbst9hi4Jao</a>
+                                <a href="https://www.youtube.com/watch?v=Qbst9hi4Jao"
+                                    target="_blank" rel="noreferrer">https://www.youtube.com/watch?v=Qbst9hi4Jao</a>
                             </p>
 
                             <p className="bibl">
                                 Eduardo De Filippo: <i>Questi fantasmi</i>, Atto II, sc. 1:
-                                <a href="http://www.youtube.com/watch?v=YllQLj0h6mo"
+                                <a href="https://www.youtube.com/watch?v=YllQLj0h6mo"
                                     target="_blank" rel="noreferrer">
-                                    http://www.youtube.com/watch?v=YllQLj0h6mo</a>
+                                    https://www.youtube.com/watch?v=YllQLj0h6mo</a>
                             </p>
 
                             <p className="bibl">
                                 Eduardo De Filippo: <i>Considerazioni sul caffè</i>
-                                <a href="http://www.youtube.com/watch?v=-rcI7sQwRe8"
-                                    target="_blank" rel="noreferrer">http://www.youtube.com/watch?v=-rcI7sQwRe8</a>
+                                <a href="https://www.youtube.com/watch?v=-rcI7sQwRe8"
+                                    target="_blank" rel="noreferrer">https://www.youtube.com/watch?v=-rcI7sQwRe8</a>
                             </p>
 
                             <h2>Televisione:</h2>
 
                             <p className="bibl">
                                 Nanni Loy: <i>La zuppetta</i> (da: Specchio segreto):
-                                <a href="http://www.youtube.com/watch?v=pbjtWRquNXA"
-                                    target="_blank" rel="noreferrer">http://www.youtube.com/watch?v=pbjtWRquNXA</a>
+                                <a href="https://www.youtube.com/watch?v=pbjtWRquNXA"
+                                    target="_blank" rel="noreferrer">https://www.youtube.com/watch?v=pbjtWRquNXA</a>
                             </p>
 
                             <h2>Pubblicità:</h2>
 
                             <p className="bibl">
                                 <i>Carmensita paulista</i>:
-                                <a href="http://www.youtube.com/watch?v=_elqPaI-XHQ"
-                                    target="_blank" rel="noreferrer">http://www.youtube.com/watch?v=_elqPaI-XHQ</a>
+                                <a href="https://www.youtube.com/watch?v=_elqPaI-XHQ"
+                                    target="_blank" rel="noreferrer">https://www.youtube.com/watch?v=_elqPaI-XHQ</a>
                             </p>
 
                             <p className="bibl">
                                 <i>“Caballero” paulista</i>:
-                                <a href="http://www.youtube.com/watch?v=wgbUR_WkY00&feature=watch_response"
-                                    target="_blank" rel="noreferrer">http://www.youtube.com/watch?v=wgbUR_WkY00&feature=watch_response</a>
+                                <a href="https://www.youtube.com/watch?v=wgbUR_WkY00&feature=watch_response"
+                                    target="_blank" rel="noreferrer">https://www.youtube.com/watch?v=wgbUR_WkY00&feature=watch_response</a>
                             </p>
 
                             <p className="bibl">
                                 <i>Bialetti 1</i>:
-                                <a href="http://www.youtube.com/watch?v=uNbXtCqDIQE"
-                                    target="_blank" rel="noreferrer"> http://www.youtube.com/watch?v=uNbXtCqDIQE</a>
+                                <a href="https://www.youtube.com/watch?v=uNbXtCqDIQE"
+                                    target="_blank" rel="noreferrer"> https://www.youtube.com/watch?v=uNbXtCqDIQE</a>
                             </p>
 
                             <p className="bibl">
                                 <i>Bialetti 2</i>:
-                                <a href="http://www.youtube.com/watch?v=D5A-4ZOX468"
-                                    target="_blank" rel="noreferrer"> http://www.youtube.com/watch?v=D5A-4ZOX468</a>
+                                <a href="https://www.youtube.com/watch?v=D5A-4ZOX468"
+                                    target="_blank" rel="noreferrer"> https://www.youtube.com/watch?v=D5A-4ZOX468</a>
                             </p>
 
                             <h2>Dalla rete:</h2>
 
                             <p className="bibl">
                                 <i>How to make an italian coffee</i>:
-                                <a href="http://www.youtube.com/watch?v=huC3E1c4SBs"
-                                    target="_blank" rel="noreferrer"> http://www.youtube.com/watch?v=huC3E1c4SBs</a>
+                                <a href="https://www.youtube.com/watch?v=huC3E1c4SBs"
+                                    target="_blank" rel="noreferrer"> https://www.youtube.com/watch?v=huC3E1c4SBs</a>
                             </p>
 
                             <p className="bibl">
                                 <i>Cappuccino art</i>:
-                                <a href="http://www.youtube.com/watch?v=UX8LXPm-Qb0"
-                                    target="_blank" rel="noreferrer">http://www.youtube.com/watch?v=UX8LXPm-Qb0</a>
+                                <a href="https://www.youtube.com/watch?v=UX8LXPm-Qb0"
+                                    target="_blank" rel="noreferrer">https://www.youtube.com/watch?v=UX8LXPm-Qb0</a>
                             </p>
                             <p className="bibl">
                                 <i>International Coffee Organization</i>
